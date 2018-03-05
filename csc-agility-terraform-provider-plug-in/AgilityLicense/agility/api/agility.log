@@ -1,0 +1,10 @@
+2018/03/01 07:06:01 URL:> https://34.207.253.49/agility/api/license
+2018/03/01 07:06:02 response Status: 202 Accepted
+2018/03/01 07:06:02 response Headers: map[Connection:[keep-alive] Expires:[Thu, 01 Jan 1970 00:00:00 GMT] Set-Cookie:[JSESSIONID=11cjgo3hmssma1f4832yilb3ic; Path=/agility; Secure] Server:[nginx/1.9.1] Date:[Thu, 01 Mar 2018 07:06:02 GMT] Content-Type:[text/plain] Content-Length:[0]]
+2018/03/01 07:06:02 response Body: {}
+2018/03/01 07:06:02 Deploy response is :  &{ 0 -1}
+2018/03/01 07:06:40 URL:> https://34.207.253.49/agility/api/license
+2018/03/01 07:06:41 response Status: 202 Accepted
+2018/03/01 07:06:41 response Headers: map[Set-Cookie:[JSESSIONID=118p2apsacuo8w93uhtx5yu0b; Path=/agility; Secure] Server:[nginx/1.9.1] Date:[Thu, 01 Mar 2018 07:06:41 GMT] Content-Type:[text/plain] Content-Length:[0] Connection:[keep-alive] Expires:[Thu, 01 Jan 1970 00:00:00 GMT]]
+2018/03/01 07:06:41 response Body: {}
+2018/03/01 07:06:41 Deploy response is :  &{ 0 -1}

@@ -1,0 +1,32 @@
+[0m[1magility_firewall.terraformfirewall: Creating...[0m
+  direction:        "" => "Input"
+  firewalldesc:     "" => "Firewall"
+  firewallname:     "" => "CollectorFirewall"
+  firewalltype:     "" => "Firewall"
+  projectid:        "" => "<computed>"
+  projectname:      "" => "Agility Factory"
+  protocol1:        "" => "tcp"
+  protocol2:        "" => "tcp"
+  protocol3:        "" => "tcp"
+  protocol4:        "" => "udp"
+  protocolallowed:  "" => "true"
+  protocoldesc1:    "" => "HTTPS"
+  protocoldesc2:    "" => "RealTimeMonitoring"
+  protocoldesc3:    "" => "AgilityMonitorTcp"
+  protocoldesc4:    "" => "AgilityMonitorUdp"
+  protocolmaxport1: "" => "8443"
+  protocolmaxport2: "" => "2187"
+  protocolmaxport3: "" => "8649"
+  protocolmaxport4: "" => "8649"
+  protocolminport1: "" => "8443"
+  protocolminport2: "" => "2187"
+  protocolminport3: "" => "8649"
+  protocolminport4: "" => "8649"
+  protocolname1:    "" => "HTTPS"
+  protocolname2:    "" => "AgilityRealTime"
+  protocolname3:    "" => "Agility"
+  protocolname4:    "" => "Monitor"
+  protocolprefix:   "" => "0.0.0.0/0"[0m
+[0m[1magility_firewall.terraformfirewall: Creation complete after 3s[0m[0m
+[0m[1m[32m
+Apply complete! Resources: 1 added, 0 changed, 0 destroyed.[0m

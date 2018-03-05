@@ -1,0 +1,713 @@
+2018/03/05 05:31:45 the Project name is:  Agility Factory
+2018/03/05 05:31:45 projectName is:  Agility Factory
+2018/03/05 05:31:45 URL:> https://13.59.206.52/agility/api/current/project
+2018/03/05 05:31:47 response Status: 200 OK
+2018/03/05 05:31:47 response Headers: map[Server:[nginx/1.9.1] Date:[Mon, 05 Mar 2018 05:31:48 GMT] Content-Type:[application/xml] Connection:[keep-alive] Content-Length:[1783] Set-Cookie:[route=9d0a0394aff03a16cf17939d8cc315f5; Path=/; Secure JSESSIONID=lksqzwzwi0wlmjz4w78x1yfn; Path=/agility; Secure] Expires:[Thu, 01 Jan 1970 00:00:00 GMT]]
+2018/03/05 05:31:47 response Body: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns1:Linklist xmlns:ns1="http://servicemesh.com/agility/api"><ns1:link><ns1:name>Agility Factory</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/project/2</ns1:href><ns1:id>2</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Project+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>Agility Platform</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/project/3</ns1:href><ns1:id>3</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Project+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>Store Items Factory</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/project/36</ns1:href><ns1:id>36</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Project+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>Project Freebird</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/project/134</ns1:href><ns1:id>134</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Project+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>Project Hawkwood</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/project/106</ns1:href><ns1:id>106</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Project+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>CSC Agility Store Demo</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/project/78</ns1:href><ns1:id>78</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Project+xml</ns1:type><ns1:position>0</ns1:position></ns1:link></ns1:Linklist>
+2018/03/05 05:31:47 Element name is :  Linklist
+2018/03/05 05:31:47 Element name is :  link
+2018/03/05 05:31:47 Element value is : Agility Factory
+2018/03/05 05:31:47 Found the Project :  Agility Factory
+2018/03/05 05:31:47 the projectid is:  2
+2018/03/05 05:31:47 <=====Hi, I went inside this loop=====>
+2018/03/05 05:31:47 Not taking the project parameter in the configuration URL
+2018/03/05 05:31:47 URL:> https://13.59.206.52/agility/api/current/package
+2018/03/05 05:31:49 response Status: 200 OK
+2018/03/05 05:31:49 response Headers: map[Date:[Mon, 05 Mar 2018 05:31:49 GMT] Set-Cookie:[route=46912ea4a3db13084aa118a713e143d2; Path=/; Secure JSESSIONID=cazoeob4q4qbj4xtug2z2871; Path=/agility; Secure] Server:[nginx/1.9.1] Content-Type:[application/xml] Content-Length:[9928] Connection:[keep-alive] Expires:[Thu, 01 Jan 1970 00:00:00 GMT]]
+2018/03/05 05:31:49 response Body: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns1:Linklist xmlns:ns1="http://servicemesh.com/agility/api"><ns1:link><ns1:name>Agility Collector Role</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/package/64</ns1:href><ns1:id>64</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Package+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>Symantec Backup Exec</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/package/197</ns1:href><ns1:id>197</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Package+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>MySQL 5.7 x86_64</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/package/6</ns1:href><ns1:id>6</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Package+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>IBM IEM Client</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/package/134</ns1:href><ns1:id>134</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Package+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>Tomcat Configuration</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/package/71</ns1:href><ns1:id>71</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Package+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>Symantec Backup Exec</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/package/204</ns1:href><ns1:id>204</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Package+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>IBM IEM Client</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/package/141</ns1:href><ns1:id>141</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Package+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>VM Monitoring - Linux</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/package/78</ns1:href><ns1:id>78</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Package+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>MySQL 5.7 i386</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/package/15</ns1:href><ns1:id>15</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Package+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>Symantec Backup Exec</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/package/211</ns1:href><ns1:id>211</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Package+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>Trend Micro Deep Security - Agent</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/package/148</ns1:href><ns1:id>148</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Package+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>VM Monitoring - Windows</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/package/85</ns1:href><ns1:id>85</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Package+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>MySQL 5.7 x86_64</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/package/22</ns1:href><ns1:id>22</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Package+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>Trend Micro Deep Security - Agent</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/package/218</ns1:href><ns1:id>218</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Package+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>AgilityMonitorLinux</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/package/282</ns1:href><ns1:id>282</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Package+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>Trend Micro Deep Security - Agent</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/package/155</ns1:href><ns1:id>155</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Package+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>VM Monitoring - Linux</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/package/92</ns1:href><ns1:id>92</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Package+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>MySQL 5.7 i386</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/package/29</ns1:href><ns1:id>29</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Package+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>Trend Micro Deep Security - Agent</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/package/225</ns1:href><ns1:id>225</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Package+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>mcafee package</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/package/162</ns1:href><ns1:id>162</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Package+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>VM Monitoring - Windows</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/package/99</ns1:href><ns1:id>99</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Package+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>Agility Service Manager</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/package/36</ns1:href><ns1:id>36</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Package+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>AgilityMonitorLinux</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/package/232</ns1:href><ns1:id>232</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Package+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>mcafee package</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/package/169</ns1:href><ns1:id>169</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Package+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>Agility Remote Collector Migration</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/package/106</ns1:href><ns1:id>106</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Package+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>Agility Service Manager</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/package/43</ns1:href><ns1:id>43</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Package+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>AgilityMonitorLinux</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/package/239</ns1:href><ns1:id>239</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Package+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>IBM IEM Client</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/package/176</ns1:href><ns1:id>176</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Package+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>Agility Remote Collector Migration</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/package/113</ns1:href><ns1:id>113</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Package+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>Agility Collector Role</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/package/50</ns1:href><ns1:id>50</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Package+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>IBM IEM Client</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/package/183</ns1:href><ns1:id>183</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Package+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>mcafee package</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/package/120</ns1:href><ns1:id>120</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Package+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>Tomcat Configuration</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/package/57</ns1:href><ns1:id>57</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Package+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>Symantec Backup Exec</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/package/190</ns1:href><ns1:id>190</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Package+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>mcafee package</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/package/127</ns1:href><ns1:id>127</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Package+xml</ns1:type><ns1:position>0</ns1:position></ns1:link></ns1:Linklist>
+2018/03/05 05:31:49 Element name is :  Linklist
+2018/03/05 05:31:49 Element name is :  link
+2018/03/05 05:31:49 Element value is : Agility Collector Role
+2018/03/05 05:31:49 Unknown Element name is :  link
+2018/03/05 05:31:49 Element name is :  link
+2018/03/05 05:31:49 Element value is : Symantec Backup Exec
+2018/03/05 05:31:49 Unknown Element name is :  link
+2018/03/05 05:31:49 Element name is :  link
+2018/03/05 05:31:49 Element value is : MySQL 5.7 x86_64
+2018/03/05 05:31:49 Unknown Element name is :  link
+2018/03/05 05:31:49 Element name is :  link
+2018/03/05 05:31:49 Element value is : IBM IEM Client
+2018/03/05 05:31:49 Unknown Element name is :  link
+2018/03/05 05:31:49 Element name is :  link
+2018/03/05 05:31:49 Element value is : Tomcat Configuration
+2018/03/05 05:31:49 Unknown Element name is :  link
+2018/03/05 05:31:49 Element name is :  link
+2018/03/05 05:31:49 Element value is : Symantec Backup Exec
+2018/03/05 05:31:49 Unknown Element name is :  link
+2018/03/05 05:31:49 Element name is :  link
+2018/03/05 05:31:49 Element value is : IBM IEM Client
+2018/03/05 05:31:49 Unknown Element name is :  link
+2018/03/05 05:31:49 Element name is :  link
+2018/03/05 05:31:49 Element value is : VM Monitoring - Linux
+2018/03/05 05:31:49 Unknown Element name is :  link
+2018/03/05 05:31:49 Element name is :  link
+2018/03/05 05:31:49 Element value is : MySQL 5.7 i386
+2018/03/05 05:31:49 Unknown Element name is :  link
+2018/03/05 05:31:49 Element name is :  link
+2018/03/05 05:31:49 Element value is : Symantec Backup Exec
+2018/03/05 05:31:49 Unknown Element name is :  link
+2018/03/05 05:31:49 Element name is :  link
+2018/03/05 05:31:49 Element value is : Trend Micro Deep Security - Agent
+2018/03/05 05:31:49 Unknown Element name is :  link
+2018/03/05 05:31:49 Element name is :  link
+2018/03/05 05:31:49 Element value is : VM Monitoring - Windows
+2018/03/05 05:31:49 Unknown Element name is :  link
+2018/03/05 05:31:49 Element name is :  link
+2018/03/05 05:31:49 Element value is : MySQL 5.7 x86_64
+2018/03/05 05:31:49 Unknown Element name is :  link
+2018/03/05 05:31:49 Element name is :  link
+2018/03/05 05:31:49 Element value is : Trend Micro Deep Security - Agent
+2018/03/05 05:31:49 Unknown Element name is :  link
+2018/03/05 05:31:49 Element name is :  link
+2018/03/05 05:31:49 Element value is : AgilityMonitorLinux
+2018/03/05 05:31:49 Found the package :  AgilityMonitorLinux
+2018/03/05 05:31:49 package id  282
+2018/03/05 05:31:49 containerName is:  Root
+2018/03/05 05:31:49 URL:> https://13.59.206.52/agility/api/current/container
+2018/03/05 05:31:50 response Status: 200 OK
+2018/03/05 05:31:50 response Headers: map[Server:[nginx/1.9.1] Date:[Mon, 05 Mar 2018 05:31:50 GMT] Set-Cookie:[route=9d0a0394aff03a16cf17939d8cc315f5; Path=/; Secure JSESSIONID=p2ffnbqfvrea1tei712jiosxd; Path=/agility; Secure] Expires:[Thu, 01 Jan 1970 00:00:00 GMT] Content-Type:[application/xml] Content-Length:[2039] Connection:[keep-alive]]
+2018/03/05 05:31:50 response Body: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns1:Linklist xmlns:ns1="http://servicemesh.com/agility/api"><ns1:link><ns1:name>BU1</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/container/64</ns1:href><ns1:id>64</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Container+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>Root</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/container/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Container+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>Store Catalogs</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/container/6</ns1:href><ns1:id>6</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Container+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>Group1A</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/container/71</ns1:href><ns1:id>71</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Container+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>Customer</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/container/13</ns1:href><ns1:id>13</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Container+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>Information Technology</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/container/20</ns1:href><ns1:id>20</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Container+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>Platform Engineering</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/container/29</ns1:href><ns1:id>29</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Container+xml</ns1:type><ns1:position>0</ns1:position></ns1:link></ns1:Linklist>
+2018/03/05 05:31:50 Element name is :  Linklist
+2018/03/05 05:31:50 Element name is :  link
+2018/03/05 05:31:50 Element value is : BU1
+2018/03/05 05:31:50 Unknown Element name is :  link
+2018/03/05 05:31:50 Element name is :  link
+2018/03/05 05:31:50 Element value is : Root
+2018/03/05 05:31:50 Found the Container :  Root
+2018/03/05 05:31:50 URL:> https://13.59.206.52/agility/api/current/package/282/checkout
+2018/03/05 05:31:50 payload====> <ns1:Container xmlns:ns1="http://servicemesh.com/agility/api"><ns1:name>Agility Factory</ns1:name><ns1:id>2</ns1:id><ns1:parent><ns1:name>Root</ns1:name><ns1:id>1</ns1:id></ns1:parent></ns1:Container>
+2018/03/05 05:31:53 response Status: 200 OK
+2018/03/05 05:31:53 response Headers: map[Content-Length:[3963] Set-Cookie:[route=46912ea4a3db13084aa118a713e143d2; Path=/; Secure JSESSIONID=yjfxeq1c29i71fabnduxa722s; Path=/agility; Secure] Expires:[Thu, 01 Jan 1970 00:00:00 GMT] Server:[nginx/1.9.1] Content-Type:[application/xml] Connection:[keep-alive] Date:[Mon, 05 Mar 2018 05:31:53 GMT]]
+2018/03/05 05:31:53 response Body: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns1:Package xmlns:ns1="http://servicemesh.com/agility/api"><ns1:name>AgilityMonitorLinux</ns1:name><ns1:id>313</ns1:id><ns1:description></ns1:description><ns1:uuid>f24fbe45-abe3-4cbe-9e9f-1e9d627f880a</ns1:uuid><ns1:assetType><ns1:name>package</ns1:name><ns1:href>assettype/36</ns1:href><ns1:id>36</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.AssetType+xml</ns1:type><ns1:position>0</ns1:position></ns1:assetType><ns1:top>false</ns1:top><ns1:assetPath>/Root/Agility Factory</ns1:assetPath><ns1:detailedAssetPath>/Root:#ID#1:#TYPE#VMContainer/Agility Factory:#ID#2:#TYPE#VMProject</ns1:detailedAssetPath><ns1:lifecycleVersion>-1</ns1:lifecycleVersion><ns1:removable>true</ns1:removable><ns1:domain><ns1:name>domain1</ns1:name><ns1:href>domain/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Domain+xml</ns1:type><ns1:position>0</ns1:position></ns1:domain><ns1:creator><ns1:name>admin</ns1:name><ns1:href>user/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.User+xml</ns1:type><ns1:position>0</ns1:position></ns1:creator><ns1:created>2018-03-04T23:31:51.839-06:00</ns1:created><ns1:lockType>0</ns1:lockType><ns1:lastModified>2018-03-04T23:31:51.839-06:00</ns1:lastModified><ns1:parent><ns1:name>Agility Factory</ns1:name><ns1:href>project/2</ns1:href><ns1:id>2</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Project+xml</ns1:type><ns1:position>0</ns1:position></ns1:parent><ns1:slot>f2f8d9d7-290e-4e9b-84e6-bc686d04a557</ns1:slot><ns1:version>-1</ns1:version><ns1:latest>false</ns1:latest><ns1:slotId>1401</ns1:slotId><ns1:versionStatus>inprogress</ns1:versionStatus><ns1:checkoutAllowed>false</ns1:checkoutAllowed><ns1:headAllowed>false</ns1:headAllowed><ns1:operatingSystem>Linux</ns1:operatingSystem><ns1:install><ns1:name>AgilityMonitorInstallLinux</ns1:name><ns1:href>script/1457</ns1:href><ns1:id>1457</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Script+xml</ns1:type><ns1:position>0</ns1:position></ns1:install><ns1:install><ns1:name>StartDetectionInstallLinux</ns1:name><ns1:href>script/1549</ns1:href><ns1:id>1549</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Script+xml</ns1:type><ns1:position>0</ns1:position></ns1:install><ns1:startup><ns1:name>AgilityMonitorConfigLinux</ns1:name><ns1:href>script/1464</ns1:href><ns1:id>1464</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Script+xml</ns1:type><ns1:position>0</ns1:position></ns1:startup><ns1:startup><ns1:name>StartDetectionConfigLinux</ns1:name><ns1:href>script/1598</ns1:href><ns1:id>1598</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Script+xml</ns1:type><ns1:position>0</ns1:position></ns1:startup><ns1:operational><ns1:name>AgilityMonitorInstallLinux</ns1:name><ns1:href>script/1457</ns1:href><ns1:id>1457</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Script+xml</ns1:type><ns1:position>0</ns1:position></ns1:operational><ns1:operational><ns1:name>AgilityMonitorConfigLinux</ns1:name><ns1:href>script/1464</ns1:href><ns1:id>1464</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Script+xml</ns1:type><ns1:position>0</ns1:position></ns1:operational><ns1:operational><ns1:name>StartDetectionConfigLinux</ns1:name><ns1:href>script/1598</ns1:href><ns1:id>1598</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Script+xml</ns1:type><ns1:position>0</ns1:position></ns1:operational><ns1:operational><ns1:name>StartDetectionInstallLinux</ns1:name><ns1:href>script/1549</ns1:href><ns1:id>1549</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Script+xml</ns1:type><ns1:position>0</ns1:position></ns1:operational></ns1:Package>
+2018/03/05 05:31:53 the Project name is:  Agility Factory
+2018/03/05 05:31:53 projectName is:  Agility Factory
+2018/03/05 05:31:53 URL:> https://13.59.206.52/agility/api/current/project
+2018/03/05 05:31:53 response Status: 200 OK
+2018/03/05 05:31:53 response Headers: map[Server:[nginx/1.9.1] Date:[Mon, 05 Mar 2018 05:31:54 GMT] Content-Type:[application/xml] Content-Length:[1783] Set-Cookie:[route=9d0a0394aff03a16cf17939d8cc315f5; Path=/; Secure JSESSIONID=141r05h87k3gx12k9d5je0nh8o; Path=/agility; Secure] Connection:[keep-alive] Expires:[Thu, 01 Jan 1970 00:00:00 GMT]]
+2018/03/05 05:31:53 response Body: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns1:Linklist xmlns:ns1="http://servicemesh.com/agility/api"><ns1:link><ns1:name>Agility Factory</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/project/2</ns1:href><ns1:id>2</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Project+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>Agility Platform</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/project/3</ns1:href><ns1:id>3</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Project+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>Store Items Factory</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/project/36</ns1:href><ns1:id>36</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Project+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>Project Freebird</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/project/134</ns1:href><ns1:id>134</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Project+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>Project Hawkwood</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/project/106</ns1:href><ns1:id>106</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Project+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>CSC Agility Store Demo</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/project/78</ns1:href><ns1:id>78</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Project+xml</ns1:type><ns1:position>0</ns1:position></ns1:link></ns1:Linklist>
+2018/03/05 05:31:53 Element name is :  Linklist
+2018/03/05 05:31:53 Element name is :  link
+2018/03/05 05:31:53 Element value is : Agility Factory
+2018/03/05 05:31:53 Found the Project :  Agility Factory
+2018/03/05 05:31:53 the projectid is:  2
+2018/03/05 05:31:53 project id  2
+2018/03/05 05:31:53 policy assignment name CollectorFirewall
+2018/03/05 05:31:53 inside policy assignment id
+2018/03/05 05:31:53 URL:> https://13.59.206.52/agility/api/current/project/2/policyassignment/search
+2018/03/05 05:31:55 response Status: 200 OK
+2018/03/05 05:31:55 response Headers: map[Connection:[keep-alive] Expires:[Thu, 01 Jan 1970 00:00:00 GMT] Server:[nginx/1.9.1] Date:[Mon, 05 Mar 2018 05:31:55 GMT] Set-Cookie:[route=46912ea4a3db13084aa118a713e143d2; Path=/; Secure JSESSIONID=1jd5ow41o0f1io1ar9mcvxt95; Path=/agility; Secure] Content-Type:[application/xml] Content-Length:[24246]]
+2018/03/05 05:31:55 response Body: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns1:Assetlist xmlns:ns1="http://servicemesh.com/agility/api" ns1:offset="0" ns1:limit="18" ns1:totalCount="32"><ns1:Asset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns1:PolicyAssignment"><ns1:name>Blueprint Checkin</ns1:name><ns1:id>5</ns1:id><ns1:uuid>b0802c9c-af15-11e7-83b2-02420a00010f</ns1:uuid><ns1:top>false</ns1:top><ns1:assetPath>/Root</ns1:assetPath><ns1:detailedAssetPath></ns1:detailedAssetPath><ns1:lifecycleVersion>-1</ns1:lifecycleVersion><ns1:removable>true</ns1:removable><ns1:applyToSelf>false</ns1:applyToSelf><ns1:applyChildrenDepth>0</ns1:applyChildrenDepth><ns1:allowChildrenOverride>false</ns1:allowChildrenOverride><ns1:policy xsi:type="ns1:VersionedItemLink"><ns1:name>Blueprint Checkin</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/policy/407</ns1:href><ns1:id>407</ns1:id><ns1:rel>down</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Policy+xml</ns1:type><ns1:position>0</ns1:position><ns1:slot>#BLUEPRINT-PUBLISH#</ns1:slot><ns1:version>1</ns1:version><ns1:latest>true</ns1:latest><ns1:slotId>673</ns1:slotId><ns1:versionStatus>active</ns1:versionStatus><ns1:lockType>0</ns1:lockType></ns1:policy><ns1:policyTypeName>Workflow</ns1:policyTypeName><ns1:itemClass>VMContainer</ns1:itemClass><ns1:itemId>1</ns1:itemId><ns1:itemName>Root</ns1:itemName><ns1:filterMatch>true</ns1:filterMatch><ns1:permissioned>true</ns1:permissioned><ns1:inherited>true</ns1:inherited></ns1:Asset><ns1:Asset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns1:PolicyAssignment"><ns1:name>CollectorFirewall</ns1:name><ns1:id>511</ns1:id><ns1:uuid>6c6506e1-08e1-4cef-8c46-933500a1bea1</ns1:uuid><ns1:top>false</ns1:top><ns1:assetPath>/Root/Agility Factory</ns1:assetPath><ns1:detailedAssetPath></ns1:detailedAssetPath><ns1:lifecycleVersion>0</ns1:lifecycleVersion><ns1:removable>true</ns1:removable><ns1:applyToSelf>true</ns1:applyToSelf><ns1:applyChildrenDepth>0</ns1:applyChildrenDepth><ns1:allowChildrenOverride>true</ns1:allowChildrenOverride><ns1:policy xsi:type="ns1:VersionedItemLink"><ns1:name>CollectorFirewall</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/policy/1120</ns1:href><ns1:id>1120</ns1:id><ns1:rel>down</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Policy+xml</ns1:type><ns1:position>0</ns1:position><ns1:slot>76009098-4bba-4e65-a6ba-1536f3a7dfca</ns1:slot><ns1:version>1</ns1:version><ns1:latest>true</ns1:latest><ns1:slotId>1449</ns1:slotId><ns1:versionStatus>active</ns1:versionStatus><ns1:lockType>0</ns1:lockType></ns1:policy><ns1:policyTypeName>Firewall</ns1:policyTypeName><ns1:itemClass>VMProject</ns1:itemClass><ns1:itemId>2</ns1:itemId><ns1:itemName>Agility Factory</ns1:itemName><ns1:filterMatch>true</ns1:filterMatch><ns1:permissioned>true</ns1:permissioned><ns1:inherited>false</ns1:inherited></ns1:Asset><ns1:Asset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns1:PolicyAssignment"><ns1:name>Configuration Artifact Change</ns1:name><ns1:id>12</ns1:id><ns1:uuid>b0868815-af15-11e7-83b2-02420a00010f</ns1:uuid><ns1:top>false</ns1:top><ns1:assetPath>/Root</ns1:assetPath><ns1:detailedAssetPath></ns1:detailedAssetPath><ns1:lifecycleVersion>-1</ns1:lifecycleVersion><ns1:removable>true</ns1:removable><ns1:applyToSelf>false</ns1:applyToSelf><ns1:applyChildrenDepth>0</ns1:applyChildrenDepth><ns1:allowChildrenOverride>false</ns1:allowChildrenOverride><ns1:policy xsi:type="ns1:VersionedItemLink"><ns1:name>Configuration Artifact Change</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/policy/470</ns1:href><ns1:id>470</ns1:id><ns1:rel>down</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Policy+xml</ns1:type><ns1:position>0</ns1:position><ns1:slot>#ARTIFACT-SYNC#</ns1:slot><ns1:version>1</ns1:version><ns1:latest>true</ns1:latest><ns1:slotId>736</ns1:slotId><ns1:versionStatus>active</ns1:versionStatus><ns1:lockType>0</ns1:lockType></ns1:policy><ns1:policyTypeName>Workflow</ns1:policyTypeName><ns1:itemClass>VMContainer</ns1:itemClass><ns1:itemId>1</ns1:itemId><ns1:itemName>Root</ns1:itemName><ns1:filterMatch>true</ns1:filterMatch><ns1:permissioned>true</ns1:permissioned><ns1:inherited>true</ns1:inherited></ns1:Asset><ns1:Asset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns1:PolicyAssignment"><ns1:name>Instance Provision</ns1:name><ns1:id>1</ns1:id><ns1:uuid>b07cba7d-af15-11e7-83b2-02420a00010f</ns1:uuid><ns1:top>false</ns1:top><ns1:assetPath>/Root</ns1:assetPath><ns1:detailedAssetPath></ns1:detailedAssetPath><ns1:lifecycleVersion>-1</ns1:lifecycleVersion><ns1:removable>true</ns1:removable><ns1:applyToSelf>false</ns1:applyToSelf><ns1:applyChildrenDepth>0</ns1:applyChildrenDepth><ns1:allowChildrenOverride>false</ns1:allowChildrenOverride><ns1:policy xsi:type="ns1:VersionedItemLink"><ns1:name>Instance Provision</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/policy/323</ns1:href><ns1:id>323</ns1:id><ns1:rel>down</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Policy+xml</ns1:type><ns1:position>0</ns1:position><ns1:slot>#INSTANCE-PROVISION#</ns1:slot><ns1:version>1</ns1:version><ns1:latest>true</ns1:latest><ns1:slotId>589</ns1:slotId><ns1:versionStatus>active</ns1:versionStatus><ns1:lockType>0</ns1:lockType></ns1:policy><ns1:policyTypeName>Workflow</ns1:policyTypeName><ns1:itemClass>VMContainer</ns1:itemClass><ns1:itemId>1</ns1:itemId><ns1:itemName>Root</ns1:itemName><ns1:filterMatch>true</ns1:filterMatch><ns1:permissioned>true</ns1:permissioned><ns1:inherited>true</ns1:inherited></ns1:Asset><ns1:Asset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns1:PolicyAssignment"><ns1:name>Instance Release</ns1:name><ns1:id>13</ns1:id><ns1:uuid>b0875e30-af15-11e7-83b2-02420a00010f</ns1:uuid><ns1:top>false</ns1:top><ns1:assetPath>/Root</ns1:assetPath><ns1:detailedAssetPath></ns1:detailedAssetPath><ns1:lifecycleVersion>-1</ns1:lifecycleVersion><ns1:removable>true</ns1:removable><ns1:applyToSelf>false</ns1:applyToSelf><ns1:applyChildrenDepth>0</ns1:applyChildrenDepth><ns1:allowChildrenOverride>false</ns1:allowChildrenOverride><ns1:policy xsi:type="ns1:VersionedItemLink"><ns1:name>Instance Release</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/policy/344</ns1:href><ns1:id>344</ns1:id><ns1:rel>down</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Policy+xml</ns1:type><ns1:position>0</ns1:position><ns1:slot>#INSTANCE-RELEASE#</ns1:slot><ns1:version>1</ns1:version><ns1:latest>true</ns1:latest><ns1:slotId>610</ns1:slotId><ns1:versionStatus>active</ns1:versionStatus><ns1:lockType>0</ns1:lockType></ns1:policy><ns1:policyTypeName>Workflow</ns1:policyTypeName><ns1:itemClass>VMContainer</ns1:itemClass><ns1:itemId>1</ns1:itemId><ns1:itemName>Root</ns1:itemName><ns1:filterMatch>true</ns1:filterMatch><ns1:permissioned>true</ns1:permissioned><ns1:inherited>true</ns1:inherited></ns1:Asset><ns1:Asset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns1:PolicyAssignment"><ns1:name>Instance Restart</ns1:name><ns1:id>14</ns1:id><ns1:uuid>b0883b0d-af15-11e7-83b2-02420a00010f</ns1:uuid><ns1:top>false</ns1:top><ns1:assetPath>/Root</ns1:assetPath><ns1:detailedAssetPath></ns1:detailedAssetPath><ns1:lifecycleVersion>-1</ns1:lifecycleVersion><ns1:removable>true</ns1:removable><ns1:applyToSelf>false</ns1:applyToSelf><ns1:applyChildrenDepth>0</ns1:applyChildrenDepth><ns1:allowChildrenOverride>false</ns1:allowChildrenOverride><ns1:policy xsi:type="ns1:VersionedItemLink"><ns1:name>Instance Restart</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/policy/351</ns1:href><ns1:id>351</ns1:id><ns1:rel>down</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Policy+xml</ns1:type><ns1:position>0</ns1:position><ns1:slot>#INSTANCE-RESTART#</ns1:slot><ns1:version>1</ns1:version><ns1:latest>true</ns1:latest><ns1:slotId>617</ns1:slotId><ns1:versionStatus>active</ns1:versionStatus><ns1:lockType>0</ns1:lockType></ns1:policy><ns1:policyTypeName>Workflow</ns1:policyTypeName><ns1:itemClass>VMContainer</ns1:itemClass><ns1:itemId>1</ns1:itemId><ns1:itemName>Root</ns1:itemName><ns1:filterMatch>true</ns1:filterMatch><ns1:permissioned>true</ns1:permissioned><ns1:inherited>true</ns1:inherited></ns1:Asset><ns1:Asset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns1:PolicyAssignment"><ns1:name>Instance Start</ns1:name><ns1:id>2</ns1:id><ns1:uuid>b07da1e7-af15-11e7-83b2-02420a00010f</ns1:uuid><ns1:top>false</ns1:top><ns1:assetPath>/Root</ns1:assetPath><ns1:detailedAssetPath></ns1:detailedAssetPath><ns1:lifecycleVersion>-1</ns1:lifecycleVersion><ns1:removable>true</ns1:removable><ns1:applyToSelf>false</ns1:applyToSelf><ns1:applyChildrenDepth>0</ns1:applyChildrenDepth><ns1:allowChildrenOverride>false</ns1:allowChildrenOverride><ns1:policy xsi:type="ns1:VersionedItemLink"><ns1:name>Instance Start</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/policy/330</ns1:href><ns1:id>330</ns1:id><ns1:rel>down</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Policy+xml</ns1:type><ns1:position>0</ns1:position><ns1:slot>#INSTANCE-START#</ns1:slot><ns1:version>1</ns1:version><ns1:latest>true</ns1:latest><ns1:slotId>596</ns1:slotId><ns1:versionStatus>active</ns1:versionStatus><ns1:lockType>0</ns1:lockType></ns1:policy><ns1:policyTypeName>Workflow</ns1:policyTypeName><ns1:itemClass>VMContainer</ns1:itemClass><ns1:itemId>1</ns1:itemId><ns1:itemName>Root</ns1:itemName><ns1:filterMatch>true</ns1:filterMatch><ns1:permissioned>true</ns1:permissioned><ns1:inherited>true</ns1:inherited></ns1:Asset><ns1:Asset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns1:PolicyAssignment"><ns1:name>Instance Stop</ns1:name><ns1:id>3</ns1:id><ns1:uuid>b07e75f7-af15-11e7-83b2-02420a00010f</ns1:uuid><ns1:top>false</ns1:top><ns1:assetPath>/Root</ns1:assetPath><ns1:detailedAssetPath></ns1:detailedAssetPath><ns1:lifecycleVersion>-1</ns1:lifecycleVersion><ns1:removable>true</ns1:removable><ns1:applyToSelf>false</ns1:applyToSelf><ns1:applyChildrenDepth>0</ns1:applyChildrenDepth><ns1:allowChildrenOverride>false</ns1:allowChildrenOverride><ns1:policy xsi:type="ns1:VersionedItemLink"><ns1:name>Instance Stop</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/policy/337</ns1:href><ns1:id>337</ns1:id><ns1:rel>down</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Policy+xml</ns1:type><ns1:position>0</ns1:position><ns1:slot>#INSTANCE-STOP#</ns1:slot><ns1:version>1</ns1:version><ns1:latest>true</ns1:latest><ns1:slotId>603</ns1:slotId><ns1:versionStatus>active</ns1:versionStatus><ns1:lockType>0</ns1:lockType></ns1:policy><ns1:policyTypeName>Workflow</ns1:policyTypeName><ns1:itemClass>VMContainer</ns1:itemClass><ns1:itemId>1</ns1:itemId><ns1:itemName>Root</ns1:itemName><ns1:filterMatch>true</ns1:filterMatch><ns1:permissioned>true</ns1:permissioned><ns1:inherited>true</ns1:inherited></ns1:Asset><ns1:Asset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns1:PolicyAssignment"><ns1:name>Package Checkin</ns1:name><ns1:id>6</ns1:id><ns1:uuid>b0810458-af15-11e7-83b2-02420a00010f</ns1:uuid><ns1:top>false</ns1:top><ns1:assetPath>/Root</ns1:assetPath><ns1:detailedAssetPath></ns1:detailedAssetPath><ns1:lifecycleVersion>-1</ns1:lifecycleVersion><ns1:removable>true</ns1:removable><ns1:applyToSelf>false</ns1:applyToSelf><ns1:applyChildrenDepth>0</ns1:applyChildrenDepth><ns1:allowChildrenOverride>false</ns1:allowChildrenOverride><ns1:policy xsi:type="ns1:VersionedItemLink"><ns1:name>Package Checkin</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/policy/414</ns1:href><ns1:id>414</ns1:id><ns1:rel>down</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Policy+xml</ns1:type><ns1:position>0</ns1:position><ns1:slot>#PACKAGE-PUBLISH#</ns1:slot><ns1:version>1</ns1:version><ns1:latest>true</ns1:latest><ns1:slotId>680</ns1:slotId><ns1:versionStatus>active</ns1:versionStatus><ns1:lockType>0</ns1:lockType></ns1:policy><ns1:policyTypeName>Workflow</ns1:policyTypeName><ns1:itemClass>VMContainer</ns1:itemClass><ns1:itemId>1</ns1:itemId><ns1:itemName>Root</ns1:itemName><ns1:filterMatch>true</ns1:filterMatch><ns1:permissioned>true</ns1:permissioned><ns1:inherited>true</ns1:inherited></ns1:Asset><ns1:Asset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns1:PolicyAssignment"><ns1:name>Policy Execution</ns1:name><ns1:id>31</ns1:id><ns1:uuid>b096c4f4-af15-11e7-83b2-02420a00010f</ns1:uuid><ns1:top>false</ns1:top><ns1:assetPath>/Root</ns1:assetPath><ns1:detailedAssetPath></ns1:detailedAssetPath><ns1:lifecycleVersion>-1</ns1:lifecycleVersion><ns1:removable>true</ns1:removable><ns1:applyToSelf>false</ns1:applyToSelf><ns1:applyChildrenDepth>0</ns1:applyChildrenDepth><ns1:allowChildrenOverride>false</ns1:allowChildrenOverride><ns1:policy xsi:type="ns1:VersionedItemLink"><ns1:name>Policy Execution</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/policy/540</ns1:href><ns1:id>540</ns1:id><ns1:rel>down</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Policy+xml</ns1:type><ns1:position>0</ns1:position><ns1:slot>#POLICY-EXECUTION#</ns1:slot><ns1:version>1</ns1:version><ns1:latest>true</ns1:latest><ns1:slotId>806</ns1:slotId><ns1:versionStatus>active</ns1:versionStatus><ns1:lockType>0</ns1:lockType></ns1:policy><ns1:policyTypeName>Workflow</ns1:policyTypeName><ns1:itemClass>VMContainer</ns1:itemClass><ns1:itemId>1</ns1:itemId><ns1:itemName>Root</ns1:itemName><ns1:filterMatch>true</ns1:filterMatch><ns1:permissioned>true</ns1:permissioned><ns1:inherited>true</ns1:inherited></ns1:Asset><ns1:Asset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns1:PolicyAssignment"><ns1:name>Product Deploy</ns1:name><ns1:id>10</ns1:id><ns1:uuid>b084768f-af15-11e7-83b2-02420a00010f</ns1:uuid><ns1:top>false</ns1:top><ns1:assetPath>/Root</ns1:assetPath><ns1:detailedAssetPath></ns1:detailedAssetPath><ns1:lifecycleVersion>-1</ns1:lifecycleVersion><ns1:removable>true</ns1:removable><ns1:applyToSelf>false</ns1:applyToSelf><ns1:applyChildrenDepth>0</ns1:applyChildrenDepth><ns1:allowChildrenOverride>false</ns1:allowChildrenOverride><ns1:policy xsi:type="ns1:VersionedItemLink"><ns1:name>Product Deploy</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/policy/456</ns1:href><ns1:id>456</ns1:id><ns1:rel>down</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Policy+xml</ns1:type><ns1:position>0</ns1:position><ns1:slot>#PRODUCT-DEPLOY#</ns1:slot><ns1:version>1</ns1:version><ns1:latest>true</ns1:latest><ns1:slotId>722</ns1:slotId><ns1:versionStatus>active</ns1:versionStatus><ns1:lockType>0</ns1:lockType></ns1:policy><ns1:policyTypeName>Workflow</ns1:policyTypeName><ns1:itemClass>VMContainer</ns1:itemClass><ns1:itemId>1</ns1:itemId><ns1:itemName>Root</ns1:itemName><ns1:filterMatch>true</ns1:filterMatch><ns1:permissioned>true</ns1:permissioned><ns1:inherited>true</ns1:inherited></ns1:Asset><ns1:Asset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns1:PolicyAssignment"><ns1:name>Product Order</ns1:name><ns1:id>9</ns1:id><ns1:uuid>b0839083-af15-11e7-83b2-02420a00010f</ns1:uuid><ns1:top>false</ns1:top><ns1:assetPath>/Root</ns1:assetPath><ns1:detailedAssetPath></ns1:detailedAssetPath><ns1:lifecycleVersion>-1</ns1:lifecycleVersion><ns1:removable>true</ns1:removable><ns1:applyToSelf>false</ns1:applyToSelf><ns1:applyChildrenDepth>0</ns1:applyChildrenDepth><ns1:allowChildrenOverride>false</ns1:allowChildrenOverride><ns1:policy xsi:type="ns1:VersionedItemLink"><ns1:name>Product Order</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/policy/449</ns1:href><ns1:id>449</ns1:id><ns1:rel>down</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Policy+xml</ns1:type><ns1:position>0</ns1:position><ns1:slot>#PRODUCT-ORDER#</ns1:slot><ns1:version>1</ns1:version><ns1:latest>true</ns1:latest><ns1:slotId>715</ns1:slotId><ns1:versionStatus>active</ns1:versionStatus><ns1:lockType>0</ns1:lockType></ns1:policy><ns1:policyTypeName>Workflow</ns1:policyTypeName><ns1:itemClass>VMContainer</ns1:itemClass><ns1:itemId>1</ns1:itemId><ns1:itemName>Root</ns1:itemName><ns1:filterMatch>true</ns1:filterMatch><ns1:permissioned>true</ns1:permissioned><ns1:inherited>true</ns1:inherited></ns1:Asset><ns1:Asset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns1:PolicyAssignment"><ns1:name>Script Checkin</ns1:name><ns1:id>7</ns1:id><ns1:uuid>b081db23-af15-11e7-83b2-02420a00010f</ns1:uuid><ns1:top>false</ns1:top><ns1:assetPath>/Root</ns1:assetPath><ns1:detailedAssetPath></ns1:detailedAssetPath><ns1:lifecycleVersion>-1</ns1:lifecycleVersion><ns1:removable>true</ns1:removable><ns1:applyToSelf>false</ns1:applyToSelf><ns1:applyChildrenDepth>0</ns1:applyChildrenDepth><ns1:allowChildrenOverride>false</ns1:allowChildrenOverride><ns1:policy xsi:type="ns1:VersionedItemLink"><ns1:name>Script Checkin</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/policy/421</ns1:href><ns1:id>421</ns1:id><ns1:rel>down</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Policy+xml</ns1:type><ns1:position>0</ns1:position><ns1:slot>#SCRIPT-PUBLISH#</ns1:slot><ns1:version>1</ns1:version><ns1:latest>true</ns1:latest><ns1:slotId>687</ns1:slotId><ns1:versionStatus>active</ns1:versionStatus><ns1:lockType>0</ns1:lockType></ns1:policy><ns1:policyTypeName>Workflow</ns1:policyTypeName><ns1:itemClass>VMContainer</ns1:itemClass><ns1:itemId>1</ns1:itemId><ns1:itemName>Root</ns1:itemName><ns1:filterMatch>true</ns1:filterMatch><ns1:permissioned>true</ns1:permissioned><ns1:inherited>true</ns1:inherited></ns1:Asset><ns1:Asset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns1:PolicyAssignment"><ns1:name>Service Delete</ns1:name><ns1:id>30</ns1:id><ns1:uuid>b095e8d6-af15-11e7-83b2-02420a00010f</ns1:uuid><ns1:top>false</ns1:top><ns1:assetPath>/Root</ns1:assetPath><ns1:detailedAssetPath></ns1:detailedAssetPath><ns1:lifecycleVersion>-1</ns1:lifecycleVersion><ns1:removable>true</ns1:removable><ns1:applyToSelf>false</ns1:applyToSelf><ns1:applyChildrenDepth>0</ns1:applyChildrenDepth><ns1:allowChildrenOverride>false</ns1:allowChildrenOverride><ns1:policy xsi:type="ns1:VersionedItemLink"><ns1:name>Service Delete</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/policy/393</ns1:href><ns1:id>393</ns1:id><ns1:rel>down</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Policy+xml</ns1:type><ns1:position>0</ns1:position><ns1:slot>#SERVICE-DELETE#</ns1:slot><ns1:version>1</ns1:version><ns1:latest>true</ns1:latest><ns1:slotId>659</ns1:slotId><ns1:versionStatus>active</ns1:versionStatus><ns1:lockType>0</ns1:lockType></ns1:policy><ns1:policyTypeName>Workflow</ns1:policyTypeName><ns1:itemClass>VMContainer</ns1:itemClass><ns1:itemId>1</ns1:itemId><ns1:itemName>Root</ns1:itemName><ns1:filterMatch>true</ns1:filterMatch><ns1:permissioned>true</ns1:permissioned><ns1:inherited>true</ns1:inherited></ns1:Asset><ns1:Asset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns1:PolicyAssignment"><ns1:name>Service Provision</ns1:name><ns1:id>25</ns1:id><ns1:uuid>b091a9a7-af15-11e7-83b2-02420a00010f</ns1:uuid><ns1:top>false</ns1:top><ns1:assetPath>/Root</ns1:assetPath><ns1:detailedAssetPath></ns1:detailedAssetPath><ns1:lifecycleVersion>-1</ns1:lifecycleVersion><ns1:removable>true</ns1:removable><ns1:applyToSelf>false</ns1:applyToSelf><ns1:applyChildrenDepth>0</ns1:applyChildrenDepth><ns1:allowChildrenOverride>false</ns1:allowChildrenOverride><ns1:policy xsi:type="ns1:VersionedItemLink"><ns1:name>Service Provision</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/policy/358</ns1:href><ns1:id>358</ns1:id><ns1:rel>down</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Policy+xml</ns1:type><ns1:position>0</ns1:position><ns1:slot>#SERVICE-PROVISION#</ns1:slot><ns1:version>1</ns1:version><ns1:latest>true</ns1:latest><ns1:slotId>624</ns1:slotId><ns1:versionStatus>active</ns1:versionStatus><ns1:lockType>0</ns1:lockType></ns1:policy><ns1:policyTypeName>Workflow</ns1:policyTypeName><ns1:itemClass>VMContainer</ns1:itemClass><ns1:itemId>1</ns1:itemId><ns1:itemName>Root</ns1:itemName><ns1:filterMatch>true</ns1:filterMatch><ns1:permissioned>true</ns1:permissioned><ns1:inherited>true</ns1:inherited></ns1:Asset><ns1:Asset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns1:PolicyAssignment"><ns1:name>Service Release</ns1:name><ns1:id>29</ns1:id><ns1:uuid>b0950dc3-af15-11e7-83b2-02420a00010f</ns1:uuid><ns1:top>false</ns1:top><ns1:assetPath>/Root</ns1:assetPath><ns1:detailedAssetPath></ns1:detailedAssetPath><ns1:lifecycleVersion>-1</ns1:lifecycleVersion><ns1:removable>true</ns1:removable><ns1:applyToSelf>false</ns1:applyToSelf><ns1:applyChildrenDepth>0</ns1:applyChildrenDepth><ns1:allowChildrenOverride>false</ns1:allowChildrenOverride><ns1:policy xsi:type="ns1:VersionedItemLink"><ns1:name>Service Release</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/policy/379</ns1:href><ns1:id>379</ns1:id><ns1:rel>down</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Policy+xml</ns1:type><ns1:position>0</ns1:position><ns1:slot>#SERVICE-RELEASE#</ns1:slot><ns1:version>1</ns1:version><ns1:latest>true</ns1:latest><ns1:slotId>645</ns1:slotId><ns1:versionStatus>active</ns1:versionStatus><ns1:lockType>0</ns1:lockType></ns1:policy><ns1:policyTypeName>Workflow</ns1:policyTypeName><ns1:itemClass>VMContainer</ns1:itemClass><ns1:itemId>1</ns1:itemId><ns1:itemName>Root</ns1:itemName><ns1:filterMatch>true</ns1:filterMatch><ns1:permissioned>true</ns1:permissioned><ns1:inherited>true</ns1:inherited></ns1:Asset><ns1:Asset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns1:PolicyAssignment"><ns1:name>Service Restart</ns1:name><ns1:id>27</ns1:id><ns1:uuid>b0935e79-af15-11e7-83b2-02420a00010f</ns1:uuid><ns1:top>false</ns1:top><ns1:assetPath>/Root</ns1:assetPath><ns1:detailedAssetPath></ns1:detailedAssetPath><ns1:lifecycleVersion>-1</ns1:lifecycleVersion><ns1:removable>true</ns1:removable><ns1:applyToSelf>false</ns1:applyToSelf><ns1:applyChildrenDepth>0</ns1:applyChildrenDepth><ns1:allowChildrenOverride>false</ns1:allowChildrenOverride><ns1:policy xsi:type="ns1:VersionedItemLink"><ns1:name>Service Restart</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/policy/386</ns1:href><ns1:id>386</ns1:id><ns1:rel>down</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Policy+xml</ns1:type><ns1:position>0</ns1:position><ns1:slot>#SERVICE-RESTART#</ns1:slot><ns1:version>1</ns1:version><ns1:latest>true</ns1:latest><ns1:slotId>652</ns1:slotId><ns1:versionStatus>active</ns1:versionStatus><ns1:lockType>0</ns1:lockType></ns1:policy><ns1:policyTypeName>Workflow</ns1:policyTypeName><ns1:itemClass>VMContainer</ns1:itemClass><ns1:itemId>1</ns1:itemId><ns1:itemName>Root</ns1:itemName><ns1:filterMatch>true</ns1:filterMatch><ns1:permissioned>true</ns1:permissioned><ns1:inherited>true</ns1:inherited></ns1:Asset><ns1:Asset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns1:PolicyAssignment"><ns1:name>Service Start</ns1:name><ns1:id>26</ns1:id><ns1:uuid>b09284cb-af15-11e7-83b2-02420a00010f</ns1:uuid><ns1:top>false</ns1:top><ns1:assetPath>/Root</ns1:assetPath><ns1:detailedAssetPath></ns1:detailedAssetPath><ns1:lifecycleVersion>-1</ns1:lifecycleVersion><ns1:removable>true</ns1:removable><ns1:applyToSelf>false</ns1:applyToSelf><ns1:applyChildrenDepth>0</ns1:applyChildrenDepth><ns1:allowChildrenOverride>false</ns1:allowChildrenOverride><ns1:policy xsi:type="ns1:VersionedItemLink"><ns1:name>Service Start</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/policy/365</ns1:href><ns1:id>365</ns1:id><ns1:rel>down</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Policy+xml</ns1:type><ns1:position>0</ns1:position><ns1:slot>#SERVICE-START#</ns1:slot><ns1:version>1</ns1:version><ns1:latest>true</ns1:latest><ns1:slotId>631</ns1:slotId><ns1:versionStatus>active</ns1:versionStatus><ns1:lockType>0</ns1:lockType></ns1:policy><ns1:policyTypeName>Workflow</ns1:policyTypeName><ns1:itemClass>VMContainer</ns1:itemClass><ns1:itemId>1</ns1:itemId><ns1:itemName>Root</ns1:itemName><ns1:filterMatch>true</ns1:filterMatch><ns1:permissioned>true</ns1:permissioned><ns1:inherited>true</ns1:inherited></ns1:Asset></ns1:Assetlist>
+2018/03/05 05:31:55 Unknown Element name is :  Assetlist
+2018/03/05 05:31:55 Unknown Element name is :  Asset
+2018/03/05 05:31:55 Unknown Element name is :  name
+2018/03/05 05:31:55 Unknown Element name is :  id
+2018/03/05 05:31:55 Unknown Element name is :  uuid
+2018/03/05 05:31:55 Unknown Element name is :  top
+2018/03/05 05:31:55 Unknown Element name is :  assetPath
+2018/03/05 05:31:55 Unknown Element name is :  detailedAssetPath
+2018/03/05 05:31:55 Unknown Element name is :  lifecycleVersion
+2018/03/05 05:31:55 Unknown Element name is :  removable
+2018/03/05 05:31:55 Unknown Element name is :  applyToSelf
+2018/03/05 05:31:55 Unknown Element name is :  applyChildrenDepth
+2018/03/05 05:31:55 Unknown Element name is :  allowChildrenOverride
+2018/03/05 05:31:55 Unknown Element name is :  policy
+2018/03/05 05:31:55 Unknown Element name is :  name
+2018/03/05 05:31:55 Unknown Element name is :  href
+2018/03/05 05:31:55 Unknown Element name is :  id
+2018/03/05 05:31:55 Unknown Element name is :  rel
+2018/03/05 05:31:55 Unknown Element name is :  type
+2018/03/05 05:31:55 Unknown Element name is :  position
+2018/03/05 05:31:55 Unknown Element name is :  slot
+2018/03/05 05:31:55 Unknown Element name is :  version
+2018/03/05 05:31:55 Unknown Element name is :  latest
+2018/03/05 05:31:55 Unknown Element name is :  slotId
+2018/03/05 05:31:55 Unknown Element name is :  versionStatus
+2018/03/05 05:31:55 Unknown Element name is :  lockType
+2018/03/05 05:31:55 Unknown Element name is :  policyTypeName
+2018/03/05 05:31:55 Unknown Element name is :  itemClass
+2018/03/05 05:31:55 Unknown Element name is :  itemId
+2018/03/05 05:31:55 Unknown Element name is :  itemName
+2018/03/05 05:31:55 Unknown Element name is :  filterMatch
+2018/03/05 05:31:55 Unknown Element name is :  permissioned
+2018/03/05 05:31:55 Unknown Element name is :  inherited
+2018/03/05 05:31:55 Unknown Element name is :  Asset
+2018/03/05 05:31:55 Unknown Element name is :  name
+2018/03/05 05:31:55 Unknown Element name is :  id
+2018/03/05 05:31:55 Unknown Element name is :  uuid
+2018/03/05 05:31:55 Unknown Element name is :  top
+2018/03/05 05:31:55 Unknown Element name is :  assetPath
+2018/03/05 05:31:55 Unknown Element name is :  detailedAssetPath
+2018/03/05 05:31:55 Unknown Element name is :  lifecycleVersion
+2018/03/05 05:31:55 Unknown Element name is :  removable
+2018/03/05 05:31:55 Unknown Element name is :  applyToSelf
+2018/03/05 05:31:55 Unknown Element name is :  applyChildrenDepth
+2018/03/05 05:31:55 Unknown Element name is :  allowChildrenOverride
+2018/03/05 05:31:55 Unknown Element name is :  policy
+2018/03/05 05:31:55 Unknown Element name is :  name
+2018/03/05 05:31:55 Unknown Element name is :  href
+2018/03/05 05:31:55 Unknown Element name is :  id
+2018/03/05 05:31:55 Unknown Element name is :  rel
+2018/03/05 05:31:55 Unknown Element name is :  type
+2018/03/05 05:31:55 Unknown Element name is :  position
+2018/03/05 05:31:55 Unknown Element name is :  slot
+2018/03/05 05:31:55 Unknown Element name is :  version
+2018/03/05 05:31:55 Unknown Element name is :  latest
+2018/03/05 05:31:55 Unknown Element name is :  slotId
+2018/03/05 05:31:55 Unknown Element name is :  versionStatus
+2018/03/05 05:31:55 Unknown Element name is :  lockType
+2018/03/05 05:31:55 Unknown Element name is :  policyTypeName
+2018/03/05 05:31:55 Unknown Element name is :  itemClass
+2018/03/05 05:31:55 Unknown Element name is :  itemId
+2018/03/05 05:31:55 Unknown Element name is :  itemName
+2018/03/05 05:31:55 Unknown Element name is :  filterMatch
+2018/03/05 05:31:55 Unknown Element name is :  permissioned
+2018/03/05 05:31:55 Unknown Element name is :  inherited
+2018/03/05 05:31:55 Unknown Element name is :  Asset
+2018/03/05 05:31:55 Unknown Element name is :  name
+2018/03/05 05:31:55 Unknown Element name is :  id
+2018/03/05 05:31:55 Unknown Element name is :  uuid
+2018/03/05 05:31:55 Unknown Element name is :  top
+2018/03/05 05:31:55 Unknown Element name is :  assetPath
+2018/03/05 05:31:55 Unknown Element name is :  detailedAssetPath
+2018/03/05 05:31:55 Unknown Element name is :  lifecycleVersion
+2018/03/05 05:31:55 Unknown Element name is :  removable
+2018/03/05 05:31:55 Unknown Element name is :  applyToSelf
+2018/03/05 05:31:55 Unknown Element name is :  applyChildrenDepth
+2018/03/05 05:31:55 Unknown Element name is :  allowChildrenOverride
+2018/03/05 05:31:55 Unknown Element name is :  policy
+2018/03/05 05:31:55 Unknown Element name is :  name
+2018/03/05 05:31:55 Unknown Element name is :  href
+2018/03/05 05:31:55 Unknown Element name is :  id
+2018/03/05 05:31:55 Unknown Element name is :  rel
+2018/03/05 05:31:55 Unknown Element name is :  type
+2018/03/05 05:31:55 Unknown Element name is :  position
+2018/03/05 05:31:55 Unknown Element name is :  slot
+2018/03/05 05:31:55 Unknown Element name is :  version
+2018/03/05 05:31:55 Unknown Element name is :  latest
+2018/03/05 05:31:55 Unknown Element name is :  slotId
+2018/03/05 05:31:55 Unknown Element name is :  versionStatus
+2018/03/05 05:31:55 Unknown Element name is :  lockType
+2018/03/05 05:31:55 Unknown Element name is :  policyTypeName
+2018/03/05 05:31:55 Unknown Element name is :  itemClass
+2018/03/05 05:31:55 Unknown Element name is :  itemId
+2018/03/05 05:31:55 Unknown Element name is :  itemName
+2018/03/05 05:31:55 Unknown Element name is :  filterMatch
+2018/03/05 05:31:55 Unknown Element name is :  permissioned
+2018/03/05 05:31:55 Unknown Element name is :  inherited
+2018/03/05 05:31:55 Unknown Element name is :  Asset
+2018/03/05 05:31:55 Unknown Element name is :  name
+2018/03/05 05:31:55 Unknown Element name is :  id
+2018/03/05 05:31:55 Unknown Element name is :  uuid
+2018/03/05 05:31:55 Unknown Element name is :  top
+2018/03/05 05:31:55 Unknown Element name is :  assetPath
+2018/03/05 05:31:55 Unknown Element name is :  detailedAssetPath
+2018/03/05 05:31:55 Unknown Element name is :  lifecycleVersion
+2018/03/05 05:31:55 Unknown Element name is :  removable
+2018/03/05 05:31:55 Unknown Element name is :  applyToSelf
+2018/03/05 05:31:55 Unknown Element name is :  applyChildrenDepth
+2018/03/05 05:31:55 Unknown Element name is :  allowChildrenOverride
+2018/03/05 05:31:55 Unknown Element name is :  policy
+2018/03/05 05:31:55 Unknown Element name is :  name
+2018/03/05 05:31:55 Unknown Element name is :  href
+2018/03/05 05:31:55 Unknown Element name is :  id
+2018/03/05 05:31:55 Unknown Element name is :  rel
+2018/03/05 05:31:55 Unknown Element name is :  type
+2018/03/05 05:31:55 Unknown Element name is :  position
+2018/03/05 05:31:55 Unknown Element name is :  slot
+2018/03/05 05:31:55 Unknown Element name is :  version
+2018/03/05 05:31:55 Unknown Element name is :  latest
+2018/03/05 05:31:55 Unknown Element name is :  slotId
+2018/03/05 05:31:55 Unknown Element name is :  versionStatus
+2018/03/05 05:31:55 Unknown Element name is :  lockType
+2018/03/05 05:31:55 Unknown Element name is :  policyTypeName
+2018/03/05 05:31:55 Unknown Element name is :  itemClass
+2018/03/05 05:31:55 Unknown Element name is :  itemId
+2018/03/05 05:31:55 Unknown Element name is :  itemName
+2018/03/05 05:31:55 Unknown Element name is :  filterMatch
+2018/03/05 05:31:55 Unknown Element name is :  permissioned
+2018/03/05 05:31:55 Unknown Element name is :  inherited
+2018/03/05 05:31:55 Unknown Element name is :  Asset
+2018/03/05 05:31:55 Unknown Element name is :  name
+2018/03/05 05:31:55 Unknown Element name is :  id
+2018/03/05 05:31:55 Unknown Element name is :  uuid
+2018/03/05 05:31:55 Unknown Element name is :  top
+2018/03/05 05:31:55 Unknown Element name is :  assetPath
+2018/03/05 05:31:55 Unknown Element name is :  detailedAssetPath
+2018/03/05 05:31:55 Unknown Element name is :  lifecycleVersion
+2018/03/05 05:31:55 Unknown Element name is :  removable
+2018/03/05 05:31:55 Unknown Element name is :  applyToSelf
+2018/03/05 05:31:55 Unknown Element name is :  applyChildrenDepth
+2018/03/05 05:31:55 Unknown Element name is :  allowChildrenOverride
+2018/03/05 05:31:55 Unknown Element name is :  policy
+2018/03/05 05:31:55 Unknown Element name is :  name
+2018/03/05 05:31:55 Unknown Element name is :  href
+2018/03/05 05:31:55 Unknown Element name is :  id
+2018/03/05 05:31:55 Unknown Element name is :  rel
+2018/03/05 05:31:55 Unknown Element name is :  type
+2018/03/05 05:31:55 Unknown Element name is :  position
+2018/03/05 05:31:55 Unknown Element name is :  slot
+2018/03/05 05:31:55 Unknown Element name is :  version
+2018/03/05 05:31:55 Unknown Element name is :  latest
+2018/03/05 05:31:55 Unknown Element name is :  slotId
+2018/03/05 05:31:55 Unknown Element name is :  versionStatus
+2018/03/05 05:31:55 Unknown Element name is :  lockType
+2018/03/05 05:31:55 Unknown Element name is :  policyTypeName
+2018/03/05 05:31:55 Unknown Element name is :  itemClass
+2018/03/05 05:31:55 Unknown Element name is :  itemId
+2018/03/05 05:31:55 Unknown Element name is :  itemName
+2018/03/05 05:31:55 Unknown Element name is :  filterMatch
+2018/03/05 05:31:55 Unknown Element name is :  permissioned
+2018/03/05 05:31:55 Unknown Element name is :  inherited
+2018/03/05 05:31:55 Unknown Element name is :  Asset
+2018/03/05 05:31:55 Unknown Element name is :  name
+2018/03/05 05:31:55 Unknown Element name is :  id
+2018/03/05 05:31:55 Unknown Element name is :  uuid
+2018/03/05 05:31:55 Unknown Element name is :  top
+2018/03/05 05:31:55 Unknown Element name is :  assetPath
+2018/03/05 05:31:55 Unknown Element name is :  detailedAssetPath
+2018/03/05 05:31:55 Unknown Element name is :  lifecycleVersion
+2018/03/05 05:31:55 Unknown Element name is :  removable
+2018/03/05 05:31:55 Unknown Element name is :  applyToSelf
+2018/03/05 05:31:55 Unknown Element name is :  applyChildrenDepth
+2018/03/05 05:31:55 Unknown Element name is :  allowChildrenOverride
+2018/03/05 05:31:55 Unknown Element name is :  policy
+2018/03/05 05:31:55 Unknown Element name is :  name
+2018/03/05 05:31:55 Unknown Element name is :  href
+2018/03/05 05:31:55 Unknown Element name is :  id
+2018/03/05 05:31:55 Unknown Element name is :  rel
+2018/03/05 05:31:55 Unknown Element name is :  type
+2018/03/05 05:31:55 Unknown Element name is :  position
+2018/03/05 05:31:55 Unknown Element name is :  slot
+2018/03/05 05:31:55 Unknown Element name is :  version
+2018/03/05 05:31:55 Unknown Element name is :  latest
+2018/03/05 05:31:55 Unknown Element name is :  slotId
+2018/03/05 05:31:55 Unknown Element name is :  versionStatus
+2018/03/05 05:31:55 Unknown Element name is :  lockType
+2018/03/05 05:31:55 Unknown Element name is :  policyTypeName
+2018/03/05 05:31:55 Unknown Element name is :  itemClass
+2018/03/05 05:31:55 Unknown Element name is :  itemId
+2018/03/05 05:31:55 Unknown Element name is :  itemName
+2018/03/05 05:31:55 Unknown Element name is :  filterMatch
+2018/03/05 05:31:55 Unknown Element name is :  permissioned
+2018/03/05 05:31:55 Unknown Element name is :  inherited
+2018/03/05 05:31:55 Unknown Element name is :  Asset
+2018/03/05 05:31:55 Unknown Element name is :  name
+2018/03/05 05:31:55 Unknown Element name is :  id
+2018/03/05 05:31:55 Unknown Element name is :  uuid
+2018/03/05 05:31:55 Unknown Element name is :  top
+2018/03/05 05:31:55 Unknown Element name is :  assetPath
+2018/03/05 05:31:55 Unknown Element name is :  detailedAssetPath
+2018/03/05 05:31:55 Unknown Element name is :  lifecycleVersion
+2018/03/05 05:31:55 Unknown Element name is :  removable
+2018/03/05 05:31:55 Unknown Element name is :  applyToSelf
+2018/03/05 05:31:55 Unknown Element name is :  applyChildrenDepth
+2018/03/05 05:31:55 Unknown Element name is :  allowChildrenOverride
+2018/03/05 05:31:55 Unknown Element name is :  policy
+2018/03/05 05:31:55 Unknown Element name is :  name
+2018/03/05 05:31:55 Unknown Element name is :  href
+2018/03/05 05:31:55 Unknown Element name is :  id
+2018/03/05 05:31:55 Unknown Element name is :  rel
+2018/03/05 05:31:55 Unknown Element name is :  type
+2018/03/05 05:31:55 Unknown Element name is :  position
+2018/03/05 05:31:55 Unknown Element name is :  slot
+2018/03/05 05:31:55 Unknown Element name is :  version
+2018/03/05 05:31:55 Unknown Element name is :  latest
+2018/03/05 05:31:55 Unknown Element name is :  slotId
+2018/03/05 05:31:55 Unknown Element name is :  versionStatus
+2018/03/05 05:31:55 Unknown Element name is :  lockType
+2018/03/05 05:31:55 Unknown Element name is :  policyTypeName
+2018/03/05 05:31:55 Unknown Element name is :  itemClass
+2018/03/05 05:31:55 Unknown Element name is :  itemId
+2018/03/05 05:31:55 Unknown Element name is :  itemName
+2018/03/05 05:31:55 Unknown Element name is :  filterMatch
+2018/03/05 05:31:55 Unknown Element name is :  permissioned
+2018/03/05 05:31:55 Unknown Element name is :  inherited
+2018/03/05 05:31:55 Unknown Element name is :  Asset
+2018/03/05 05:31:55 Unknown Element name is :  name
+2018/03/05 05:31:55 Unknown Element name is :  id
+2018/03/05 05:31:55 Unknown Element name is :  uuid
+2018/03/05 05:31:55 Unknown Element name is :  top
+2018/03/05 05:31:55 Unknown Element name is :  assetPath
+2018/03/05 05:31:55 Unknown Element name is :  detailedAssetPath
+2018/03/05 05:31:55 Unknown Element name is :  lifecycleVersion
+2018/03/05 05:31:55 Unknown Element name is :  removable
+2018/03/05 05:31:55 Unknown Element name is :  applyToSelf
+2018/03/05 05:31:55 Unknown Element name is :  applyChildrenDepth
+2018/03/05 05:31:55 Unknown Element name is :  allowChildrenOverride
+2018/03/05 05:31:55 Unknown Element name is :  policy
+2018/03/05 05:31:55 Unknown Element name is :  name
+2018/03/05 05:31:55 Unknown Element name is :  href
+2018/03/05 05:31:55 Unknown Element name is :  id
+2018/03/05 05:31:55 Unknown Element name is :  rel
+2018/03/05 05:31:55 Unknown Element name is :  type
+2018/03/05 05:31:55 Unknown Element name is :  position
+2018/03/05 05:31:55 Unknown Element name is :  slot
+2018/03/05 05:31:55 Unknown Element name is :  version
+2018/03/05 05:31:55 Unknown Element name is :  latest
+2018/03/05 05:31:55 Unknown Element name is :  slotId
+2018/03/05 05:31:55 Unknown Element name is :  versionStatus
+2018/03/05 05:31:55 Unknown Element name is :  lockType
+2018/03/05 05:31:55 Unknown Element name is :  policyTypeName
+2018/03/05 05:31:55 Unknown Element name is :  itemClass
+2018/03/05 05:31:55 Unknown Element name is :  itemId
+2018/03/05 05:31:55 Unknown Element name is :  itemName
+2018/03/05 05:31:55 Unknown Element name is :  filterMatch
+2018/03/05 05:31:55 Unknown Element name is :  permissioned
+2018/03/05 05:31:55 Unknown Element name is :  inherited
+2018/03/05 05:31:55 Unknown Element name is :  Asset
+2018/03/05 05:31:55 Unknown Element name is :  name
+2018/03/05 05:31:55 Unknown Element name is :  id
+2018/03/05 05:31:55 Unknown Element name is :  uuid
+2018/03/05 05:31:55 Unknown Element name is :  top
+2018/03/05 05:31:55 Unknown Element name is :  assetPath
+2018/03/05 05:31:55 Unknown Element name is :  detailedAssetPath
+2018/03/05 05:31:55 Unknown Element name is :  lifecycleVersion
+2018/03/05 05:31:55 Unknown Element name is :  removable
+2018/03/05 05:31:55 Unknown Element name is :  applyToSelf
+2018/03/05 05:31:55 Unknown Element name is :  applyChildrenDepth
+2018/03/05 05:31:55 Unknown Element name is :  allowChildrenOverride
+2018/03/05 05:31:55 Unknown Element name is :  policy
+2018/03/05 05:31:55 Unknown Element name is :  name
+2018/03/05 05:31:55 Unknown Element name is :  href
+2018/03/05 05:31:55 Unknown Element name is :  id
+2018/03/05 05:31:55 Unknown Element name is :  rel
+2018/03/05 05:31:55 Unknown Element name is :  type
+2018/03/05 05:31:55 Unknown Element name is :  position
+2018/03/05 05:31:55 Unknown Element name is :  slot
+2018/03/05 05:31:55 Unknown Element name is :  version
+2018/03/05 05:31:55 Unknown Element name is :  latest
+2018/03/05 05:31:55 Unknown Element name is :  slotId
+2018/03/05 05:31:55 Unknown Element name is :  versionStatus
+2018/03/05 05:31:55 Unknown Element name is :  lockType
+2018/03/05 05:31:55 Unknown Element name is :  policyTypeName
+2018/03/05 05:31:55 Unknown Element name is :  itemClass
+2018/03/05 05:31:55 Unknown Element name is :  itemId
+2018/03/05 05:31:55 Unknown Element name is :  itemName
+2018/03/05 05:31:55 Unknown Element name is :  filterMatch
+2018/03/05 05:31:55 Unknown Element name is :  permissioned
+2018/03/05 05:31:55 Unknown Element name is :  inherited
+2018/03/05 05:31:55 Unknown Element name is :  Asset
+2018/03/05 05:31:55 Unknown Element name is :  name
+2018/03/05 05:31:55 Unknown Element name is :  id
+2018/03/05 05:31:55 Unknown Element name is :  uuid
+2018/03/05 05:31:55 Unknown Element name is :  top
+2018/03/05 05:31:55 Unknown Element name is :  assetPath
+2018/03/05 05:31:55 Unknown Element name is :  detailedAssetPath
+2018/03/05 05:31:55 Unknown Element name is :  lifecycleVersion
+2018/03/05 05:31:55 Unknown Element name is :  removable
+2018/03/05 05:31:55 Unknown Element name is :  applyToSelf
+2018/03/05 05:31:55 Unknown Element name is :  applyChildrenDepth
+2018/03/05 05:31:55 Unknown Element name is :  allowChildrenOverride
+2018/03/05 05:31:55 Unknown Element name is :  policy
+2018/03/05 05:31:55 Unknown Element name is :  name
+2018/03/05 05:31:55 Unknown Element name is :  href
+2018/03/05 05:31:55 Unknown Element name is :  id
+2018/03/05 05:31:55 Unknown Element name is :  rel
+2018/03/05 05:31:55 Unknown Element name is :  type
+2018/03/05 05:31:55 Unknown Element name is :  position
+2018/03/05 05:31:55 Unknown Element name is :  slot
+2018/03/05 05:31:55 Unknown Element name is :  version
+2018/03/05 05:31:55 Unknown Element name is :  latest
+2018/03/05 05:31:55 Unknown Element name is :  slotId
+2018/03/05 05:31:55 Unknown Element name is :  versionStatus
+2018/03/05 05:31:55 Unknown Element name is :  lockType
+2018/03/05 05:31:55 Unknown Element name is :  policyTypeName
+2018/03/05 05:31:55 Unknown Element name is :  itemClass
+2018/03/05 05:31:55 Unknown Element name is :  itemId
+2018/03/05 05:31:55 Unknown Element name is :  itemName
+2018/03/05 05:31:55 Unknown Element name is :  filterMatch
+2018/03/05 05:31:55 Unknown Element name is :  permissioned
+2018/03/05 05:31:55 Unknown Element name is :  inherited
+2018/03/05 05:31:55 Unknown Element name is :  Asset
+2018/03/05 05:31:55 Unknown Element name is :  name
+2018/03/05 05:31:55 Unknown Element name is :  id
+2018/03/05 05:31:55 Unknown Element name is :  uuid
+2018/03/05 05:31:55 Unknown Element name is :  top
+2018/03/05 05:31:55 Unknown Element name is :  assetPath
+2018/03/05 05:31:55 Unknown Element name is :  detailedAssetPath
+2018/03/05 05:31:55 Unknown Element name is :  lifecycleVersion
+2018/03/05 05:31:55 Unknown Element name is :  removable
+2018/03/05 05:31:55 Unknown Element name is :  applyToSelf
+2018/03/05 05:31:55 Unknown Element name is :  applyChildrenDepth
+2018/03/05 05:31:55 Unknown Element name is :  allowChildrenOverride
+2018/03/05 05:31:55 Unknown Element name is :  policy
+2018/03/05 05:31:55 Unknown Element name is :  name
+2018/03/05 05:31:55 Unknown Element name is :  href
+2018/03/05 05:31:55 Unknown Element name is :  id
+2018/03/05 05:31:55 Unknown Element name is :  rel
+2018/03/05 05:31:55 Unknown Element name is :  type
+2018/03/05 05:31:55 Unknown Element name is :  position
+2018/03/05 05:31:55 Unknown Element name is :  slot
+2018/03/05 05:31:55 Unknown Element name is :  version
+2018/03/05 05:31:55 Unknown Element name is :  latest
+2018/03/05 05:31:55 Unknown Element name is :  slotId
+2018/03/05 05:31:55 Unknown Element name is :  versionStatus
+2018/03/05 05:31:55 Unknown Element name is :  lockType
+2018/03/05 05:31:55 Unknown Element name is :  policyTypeName
+2018/03/05 05:31:55 Unknown Element name is :  itemClass
+2018/03/05 05:31:55 Unknown Element name is :  itemId
+2018/03/05 05:31:55 Unknown Element name is :  itemName
+2018/03/05 05:31:55 Unknown Element name is :  filterMatch
+2018/03/05 05:31:55 Unknown Element name is :  permissioned
+2018/03/05 05:31:55 Unknown Element name is :  inherited
+2018/03/05 05:31:55 Unknown Element name is :  Asset
+2018/03/05 05:31:55 Unknown Element name is :  name
+2018/03/05 05:31:55 Unknown Element name is :  id
+2018/03/05 05:31:55 Unknown Element name is :  uuid
+2018/03/05 05:31:55 Unknown Element name is :  top
+2018/03/05 05:31:55 Unknown Element name is :  assetPath
+2018/03/05 05:31:55 Unknown Element name is :  detailedAssetPath
+2018/03/05 05:31:55 Unknown Element name is :  lifecycleVersion
+2018/03/05 05:31:55 Unknown Element name is :  removable
+2018/03/05 05:31:55 Unknown Element name is :  applyToSelf
+2018/03/05 05:31:55 Unknown Element name is :  applyChildrenDepth
+2018/03/05 05:31:55 Unknown Element name is :  allowChildrenOverride
+2018/03/05 05:31:55 Unknown Element name is :  policy
+2018/03/05 05:31:55 Unknown Element name is :  name
+2018/03/05 05:31:55 Unknown Element name is :  href
+2018/03/05 05:31:55 Unknown Element name is :  id
+2018/03/05 05:31:55 Unknown Element name is :  rel
+2018/03/05 05:31:55 Unknown Element name is :  type
+2018/03/05 05:31:55 Unknown Element name is :  position
+2018/03/05 05:31:55 Unknown Element name is :  slot
+2018/03/05 05:31:55 Unknown Element name is :  version
+2018/03/05 05:31:55 Unknown Element name is :  latest
+2018/03/05 05:31:55 Unknown Element name is :  slotId
+2018/03/05 05:31:55 Unknown Element name is :  versionStatus
+2018/03/05 05:31:55 Unknown Element name is :  lockType
+2018/03/05 05:31:55 Unknown Element name is :  policyTypeName
+2018/03/05 05:31:55 Unknown Element name is :  itemClass
+2018/03/05 05:31:55 Unknown Element name is :  itemId
+2018/03/05 05:31:55 Unknown Element name is :  itemName
+2018/03/05 05:31:55 Unknown Element name is :  filterMatch
+2018/03/05 05:31:55 Unknown Element name is :  permissioned
+2018/03/05 05:31:55 Unknown Element name is :  inherited
+2018/03/05 05:31:55 Unknown Element name is :  Asset
+2018/03/05 05:31:55 Unknown Element name is :  name
+2018/03/05 05:31:55 Unknown Element name is :  id
+2018/03/05 05:31:55 Unknown Element name is :  uuid
+2018/03/05 05:31:55 Unknown Element name is :  top
+2018/03/05 05:31:55 Unknown Element name is :  assetPath
+2018/03/05 05:31:55 Unknown Element name is :  detailedAssetPath
+2018/03/05 05:31:55 Unknown Element name is :  lifecycleVersion
+2018/03/05 05:31:55 Unknown Element name is :  removable
+2018/03/05 05:31:55 Unknown Element name is :  applyToSelf
+2018/03/05 05:31:55 Unknown Element name is :  applyChildrenDepth
+2018/03/05 05:31:55 Unknown Element name is :  allowChildrenOverride
+2018/03/05 05:31:55 Unknown Element name is :  policy
+2018/03/05 05:31:55 Unknown Element name is :  name
+2018/03/05 05:31:55 Unknown Element name is :  href
+2018/03/05 05:31:55 Unknown Element name is :  id
+2018/03/05 05:31:55 Unknown Element name is :  rel
+2018/03/05 05:31:55 Unknown Element name is :  type
+2018/03/05 05:31:55 Unknown Element name is :  position
+2018/03/05 05:31:55 Unknown Element name is :  slot
+2018/03/05 05:31:55 Unknown Element name is :  version
+2018/03/05 05:31:55 Unknown Element name is :  latest
+2018/03/05 05:31:55 Unknown Element name is :  slotId
+2018/03/05 05:31:55 Unknown Element name is :  versionStatus
+2018/03/05 05:31:55 Unknown Element name is :  lockType
+2018/03/05 05:31:55 Unknown Element name is :  policyTypeName
+2018/03/05 05:31:55 Unknown Element name is :  itemClass
+2018/03/05 05:31:55 Unknown Element name is :  itemId
+2018/03/05 05:31:55 Unknown Element name is :  itemName
+2018/03/05 05:31:55 Unknown Element name is :  filterMatch
+2018/03/05 05:31:55 Unknown Element name is :  permissioned
+2018/03/05 05:31:55 Unknown Element name is :  inherited
+2018/03/05 05:31:55 Unknown Element name is :  Asset
+2018/03/05 05:31:55 Unknown Element name is :  name
+2018/03/05 05:31:55 Unknown Element name is :  id
+2018/03/05 05:31:55 Unknown Element name is :  uuid
+2018/03/05 05:31:55 Unknown Element name is :  top
+2018/03/05 05:31:55 Unknown Element name is :  assetPath
+2018/03/05 05:31:55 Unknown Element name is :  detailedAssetPath
+2018/03/05 05:31:55 Unknown Element name is :  lifecycleVersion
+2018/03/05 05:31:55 Unknown Element name is :  removable
+2018/03/05 05:31:55 Unknown Element name is :  applyToSelf
+2018/03/05 05:31:55 Unknown Element name is :  applyChildrenDepth
+2018/03/05 05:31:55 Unknown Element name is :  allowChildrenOverride
+2018/03/05 05:31:55 Unknown Element name is :  policy
+2018/03/05 05:31:55 Unknown Element name is :  name
+2018/03/05 05:31:55 Unknown Element name is :  href
+2018/03/05 05:31:55 Unknown Element name is :  id
+2018/03/05 05:31:55 Unknown Element name is :  rel
+2018/03/05 05:31:55 Unknown Element name is :  type
+2018/03/05 05:31:55 Unknown Element name is :  position
+2018/03/05 05:31:55 Unknown Element name is :  slot
+2018/03/05 05:31:55 Unknown Element name is :  version
+2018/03/05 05:31:55 Unknown Element name is :  latest
+2018/03/05 05:31:55 Unknown Element name is :  slotId
+2018/03/05 05:31:55 Unknown Element name is :  versionStatus
+2018/03/05 05:31:55 Unknown Element name is :  lockType
+2018/03/05 05:31:55 Unknown Element name is :  policyTypeName
+2018/03/05 05:31:55 Unknown Element name is :  itemClass
+2018/03/05 05:31:55 Unknown Element name is :  itemId
+2018/03/05 05:31:55 Unknown Element name is :  itemName
+2018/03/05 05:31:55 Unknown Element name is :  filterMatch
+2018/03/05 05:31:55 Unknown Element name is :  permissioned
+2018/03/05 05:31:55 Unknown Element name is :  inherited
+2018/03/05 05:31:55 Unknown Element name is :  Asset
+2018/03/05 05:31:55 Unknown Element name is :  name
+2018/03/05 05:31:55 Unknown Element name is :  id
+2018/03/05 05:31:55 Unknown Element name is :  uuid
+2018/03/05 05:31:55 Unknown Element name is :  top
+2018/03/05 05:31:55 Unknown Element name is :  assetPath
+2018/03/05 05:31:55 Unknown Element name is :  detailedAssetPath
+2018/03/05 05:31:55 Unknown Element name is :  lifecycleVersion
+2018/03/05 05:31:55 Unknown Element name is :  removable
+2018/03/05 05:31:55 Unknown Element name is :  applyToSelf
+2018/03/05 05:31:55 Unknown Element name is :  applyChildrenDepth
+2018/03/05 05:31:55 Unknown Element name is :  allowChildrenOverride
+2018/03/05 05:31:55 Unknown Element name is :  policy
+2018/03/05 05:31:55 Unknown Element name is :  name
+2018/03/05 05:31:55 Unknown Element name is :  href
+2018/03/05 05:31:55 Unknown Element name is :  id
+2018/03/05 05:31:55 Unknown Element name is :  rel
+2018/03/05 05:31:55 Unknown Element name is :  type
+2018/03/05 05:31:55 Unknown Element name is :  position
+2018/03/05 05:31:55 Unknown Element name is :  slot
+2018/03/05 05:31:55 Unknown Element name is :  version
+2018/03/05 05:31:55 Unknown Element name is :  latest
+2018/03/05 05:31:55 Unknown Element name is :  slotId
+2018/03/05 05:31:55 Unknown Element name is :  versionStatus
+2018/03/05 05:31:55 Unknown Element name is :  lockType
+2018/03/05 05:31:55 Unknown Element name is :  policyTypeName
+2018/03/05 05:31:55 Unknown Element name is :  itemClass
+2018/03/05 05:31:55 Unknown Element name is :  itemId
+2018/03/05 05:31:55 Unknown Element name is :  itemName
+2018/03/05 05:31:55 Unknown Element name is :  filterMatch
+2018/03/05 05:31:55 Unknown Element name is :  permissioned
+2018/03/05 05:31:55 Unknown Element name is :  inherited
+2018/03/05 05:31:55 Unknown Element name is :  Asset
+2018/03/05 05:31:55 Unknown Element name is :  name
+2018/03/05 05:31:55 Unknown Element name is :  id
+2018/03/05 05:31:55 Unknown Element name is :  uuid
+2018/03/05 05:31:55 Unknown Element name is :  top
+2018/03/05 05:31:55 Unknown Element name is :  assetPath
+2018/03/05 05:31:55 Unknown Element name is :  detailedAssetPath
+2018/03/05 05:31:55 Unknown Element name is :  lifecycleVersion
+2018/03/05 05:31:55 Unknown Element name is :  removable
+2018/03/05 05:31:55 Unknown Element name is :  applyToSelf
+2018/03/05 05:31:55 Unknown Element name is :  applyChildrenDepth
+2018/03/05 05:31:55 Unknown Element name is :  allowChildrenOverride
+2018/03/05 05:31:55 Unknown Element name is :  policy
+2018/03/05 05:31:55 Unknown Element name is :  name
+2018/03/05 05:31:55 Unknown Element name is :  href
+2018/03/05 05:31:55 Unknown Element name is :  id
+2018/03/05 05:31:55 Unknown Element name is :  rel
+2018/03/05 05:31:55 Unknown Element name is :  type
+2018/03/05 05:31:55 Unknown Element name is :  position
+2018/03/05 05:31:55 Unknown Element name is :  slot
+2018/03/05 05:31:55 Unknown Element name is :  version
+2018/03/05 05:31:55 Unknown Element name is :  latest
+2018/03/05 05:31:55 Unknown Element name is :  slotId
+2018/03/05 05:31:55 Unknown Element name is :  versionStatus
+2018/03/05 05:31:55 Unknown Element name is :  lockType
+2018/03/05 05:31:55 Unknown Element name is :  policyTypeName
+2018/03/05 05:31:55 Unknown Element name is :  itemClass
+2018/03/05 05:31:55 Unknown Element name is :  itemId
+2018/03/05 05:31:55 Unknown Element name is :  itemName
+2018/03/05 05:31:55 Unknown Element name is :  filterMatch
+2018/03/05 05:31:55 Unknown Element name is :  permissioned
+2018/03/05 05:31:55 Unknown Element name is :  inherited
+2018/03/05 05:31:55 Unknown Element name is :  Asset
+2018/03/05 05:31:55 Unknown Element name is :  name
+2018/03/05 05:31:55 Unknown Element name is :  id
+2018/03/05 05:31:55 Unknown Element name is :  uuid
+2018/03/05 05:31:55 Unknown Element name is :  top
+2018/03/05 05:31:55 Unknown Element name is :  assetPath
+2018/03/05 05:31:55 Unknown Element name is :  detailedAssetPath
+2018/03/05 05:31:55 Unknown Element name is :  lifecycleVersion
+2018/03/05 05:31:55 Unknown Element name is :  removable
+2018/03/05 05:31:55 Unknown Element name is :  applyToSelf
+2018/03/05 05:31:55 Unknown Element name is :  applyChildrenDepth
+2018/03/05 05:31:55 Unknown Element name is :  allowChildrenOverride
+2018/03/05 05:31:55 Unknown Element name is :  policy
+2018/03/05 05:31:55 Unknown Element name is :  name
+2018/03/05 05:31:55 Unknown Element name is :  href
+2018/03/05 05:31:55 Unknown Element name is :  id
+2018/03/05 05:31:55 Unknown Element name is :  rel
+2018/03/05 05:31:55 Unknown Element name is :  type
+2018/03/05 05:31:55 Unknown Element name is :  position
+2018/03/05 05:31:55 Unknown Element name is :  slot
+2018/03/05 05:31:55 Unknown Element name is :  version
+2018/03/05 05:31:55 Unknown Element name is :  latest
+2018/03/05 05:31:55 Unknown Element name is :  slotId
+2018/03/05 05:31:55 Unknown Element name is :  versionStatus
+2018/03/05 05:31:55 Unknown Element name is :  lockType
+2018/03/05 05:31:55 Unknown Element name is :  policyTypeName
+2018/03/05 05:31:55 Unknown Element name is :  itemClass
+2018/03/05 05:31:55 Unknown Element name is :  itemId
+2018/03/05 05:31:55 Unknown Element name is :  itemName
+2018/03/05 05:31:55 Unknown Element name is :  filterMatch
+2018/03/05 05:31:55 Unknown Element name is :  permissioned
+2018/03/05 05:31:55 Unknown Element name is :  inherited
+2018/03/05 05:31:55 Unknown Element name is :  Asset
+2018/03/05 05:31:55 Unknown Element name is :  name
+2018/03/05 05:31:55 Unknown Element name is :  id
+2018/03/05 05:31:55 Unknown Element name is :  uuid
+2018/03/05 05:31:55 Unknown Element name is :  top
+2018/03/05 05:31:55 Unknown Element name is :  assetPath
+2018/03/05 05:31:55 Unknown Element name is :  detailedAssetPath
+2018/03/05 05:31:55 Unknown Element name is :  lifecycleVersion
+2018/03/05 05:31:55 Unknown Element name is :  removable
+2018/03/05 05:31:55 Unknown Element name is :  applyToSelf
+2018/03/05 05:31:55 Unknown Element name is :  applyChildrenDepth
+2018/03/05 05:31:55 Unknown Element name is :  allowChildrenOverride
+2018/03/05 05:31:55 Unknown Element name is :  policy
+2018/03/05 05:31:55 Unknown Element name is :  name
+2018/03/05 05:31:55 Unknown Element name is :  href
+2018/03/05 05:31:55 Unknown Element name is :  id
+2018/03/05 05:31:55 Unknown Element name is :  rel
+2018/03/05 05:31:55 Unknown Element name is :  type
+2018/03/05 05:31:55 Unknown Element name is :  position
+2018/03/05 05:31:55 Unknown Element name is :  slot
+2018/03/05 05:31:55 Unknown Element name is :  version
+2018/03/05 05:31:55 Unknown Element name is :  latest
+2018/03/05 05:31:55 Unknown Element name is :  slotId
+2018/03/05 05:31:55 Unknown Element name is :  versionStatus
+2018/03/05 05:31:55 Unknown Element name is :  lockType
+2018/03/05 05:31:55 Unknown Element name is :  policyTypeName
+2018/03/05 05:31:55 Unknown Element name is :  itemClass
+2018/03/05 05:31:55 Unknown Element name is :  itemId
+2018/03/05 05:31:55 Unknown Element name is :  itemName
+2018/03/05 05:31:55 Unknown Element name is :  filterMatch
+2018/03/05 05:31:55 Unknown Element name is :  permissioned
+2018/03/05 05:31:55 Unknown Element name is :  inherited
+2018/03/05 05:31:55 error opening file:  there are no policy assignments with this name
+2018/03/05 05:31:55 URL:> https://13.59.206.52/agility/api/current/stack
+2018/03/05 05:31:56 response Status: 200 OK
+2018/03/05 05:31:56 response Headers: map[Date:[Mon, 05 Mar 2018 05:31:56 GMT] Content-Type:[application/xml] Connection:[keep-alive] Expires:[Thu, 01 Jan 1970 00:00:00 GMT] Server:[nginx/1.9.1] Content-Length:[2268] Set-Cookie:[route=9d0a0394aff03a16cf17939d8cc315f5; Path=/; Secure JSESSIONID=1d4l63ndd9po31xege18cr4rng; Path=/agility; Secure]]
+2018/03/05 05:31:56 response Body: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns1:Linklist xmlns:ns1="http://servicemesh.com/agility/api"><ns1:link><ns1:name>Agility Platform Appliance</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/stack/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Stack+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>SOE-RHEL-6.7</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/stack/65</ns1:href><ns1:id>65</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Stack+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>SOE-Win-2012R2</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/stack/51</ns1:href><ns1:id>51</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Stack+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>Unknown</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/stack/5</ns1:href><ns1:id>5</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Stack+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>SOE-RHEL-6.7</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/stack/37</ns1:href><ns1:id>37</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Stack+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>SOE-RHEL-6.5</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/stack/58</ns1:href><ns1:id>58</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Stack+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>SOE-RHEL-6.5</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/stack/28</ns1:href><ns1:id>28</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Stack+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>SOE-Win-2008R2</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/stack/44</ns1:href><ns1:id>44</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Stack+xml</ns1:type><ns1:position>0</ns1:position></ns1:link></ns1:Linklist>
+2018/03/05 05:31:56 Element name is :  Linklist
+2018/03/05 05:31:56 Element name is :  link
+2018/03/05 05:31:56 Element value is : Agility Platform Appliance
+2018/03/05 05:31:56 Unknown Element name is :  link
+2018/03/05 05:31:56 Element name is :  link
+2018/03/05 05:31:56 Element value is : SOE-RHEL-6.7
+2018/03/05 05:31:56 Found the stack :  SOE-RHEL-6.7
+2018/03/05 05:31:56 stack id  65
+2018/03/05 05:31:56 URL:> https://13.59.206.52/agility/api/current/project/2/package
+2018/03/05 05:31:57 response Status: 200 OK
+2018/03/05 05:31:57 response Headers: map[Server:[nginx/1.9.1] Content-Type:[application/xml] Expires:[Thu, 01 Jan 1970 00:00:00 GMT] Date:[Mon, 05 Mar 2018 05:31:57 GMT] Content-Length:[410] Connection:[keep-alive] Set-Cookie:[route=46912ea4a3db13084aa118a713e143d2; Path=/; Secure JSESSIONID=1o5oo8sro2ttd10i14krmdywl4; Path=/agility; Secure]]
+2018/03/05 05:31:57 response Body: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns1:Linklist xmlns:ns1="http://servicemesh.com/agility/api"><ns1:link><ns1:name>AgilityMonitorLinux</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/package/313</ns1:href><ns1:id>313</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Package+xml</ns1:type><ns1:position>0</ns1:position></ns1:link></ns1:Linklist>
+2018/03/05 05:31:57 Element name is :  Linklist
+2018/03/05 05:31:57 Element name is :  link
+2018/03/05 05:31:57 Element value is : AgilityMonitorLinux
+2018/03/05 05:31:57 Found the package :  AgilityMonitorLinux
+2018/03/05 05:31:57 package id  313
+2018/03/05 05:31:57 URL:> https://13.59.206.52/agility/api/current/project/2/policy
+2018/03/05 05:31:58 response Status: 200 OK
+2018/03/05 05:31:58 response Headers: map[Content-Type:[application/xml] Expires:[Thu, 01 Jan 1970 00:00:00 GMT] Server:[nginx/1.9.1] Date:[Mon, 05 Mar 2018 05:31:58 GMT] Content-Length:[408] Connection:[keep-alive] Set-Cookie:[route=9d0a0394aff03a16cf17939d8cc315f5; Path=/; Secure JSESSIONID=jbwg4gkl5f2k19xleho18j8ze; Path=/agility; Secure]]
+2018/03/05 05:31:58 response Body: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns1:Linklist xmlns:ns1="http://servicemesh.com/agility/api"><ns1:link><ns1:name>CollectorFirewall</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/policy/1120</ns1:href><ns1:id>1120</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Policy+xml</ns1:type><ns1:position>0</ns1:position></ns1:link></ns1:Linklist>
+2018/03/05 05:31:58 Element name is :  Linklist
+2018/03/05 05:31:58 Element name is :  link
+2018/03/05 05:31:58 Element value is : CollectorFirewall
+2018/03/05 05:31:58 Found the policy :  CollectorFirewall
+2018/03/05 05:31:58 policy id  1120
+2018/03/05 05:31:58 policy assignment id  
+2018/03/05 05:31:58 URL:> https://13.59.206.52/agility/api/current/project/2/blueprint
+2018/03/05 05:31:58 payload====> <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns1:Blueprint xmlns:ns1="http://servicemesh.com/agility/api"><ns1:name>SOE-RHEL-6.7</ns1:name><ns1:description>SOE-RHEL-6.7</ns1:description><ns1:policyAssignment><ns1:name>CollectorFirewall</ns1:name><ns1:id></ns1:id><ns1:policy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns1:VersionedItemLink"><ns1:id>1120</ns1:id><ns1:type>application/com.servicemesh.agility.api.Policy+xml</ns1:type></ns1:policy></ns1:policyAssignment><ns1:headAllowed>true</ns1:headAllowed><ns1:anyOrderItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns1:Workload"><ns1:name>SOE-RHEL-6.7</ns1:name><ns1:packages xsi:type="ns1:VersionedItemLink"><ns1:id>313</ns1:id></ns1:packages><ns1:baseStack xsi:type="ns1:VersionedItemLink"><ns1:id>65</ns1:id></ns1:baseStack></ns1:anyOrderItem></ns1:Blueprint>
+2018/03/05 05:32:00 response Status: 202 Accepted
+2018/03/05 05:32:00 response Headers: map[Date:[Mon, 05 Mar 2018 05:32:01 GMT] Content-Type:[application/xml] Expires:[Thu, 01 Jan 1970 00:00:00 GMT] Location:[<https://13.59.206.52/agility/api/current/blueprint/285>; rel="self"; type="application/com.servicemesh.agility.api.Blueprint+xml"; name="SOE-RHEL-6.7"] Server:[nginx/1.9.1] Connection:[keep-alive] Set-Cookie:[route=46912ea4a3db13084aa118a713e143d2; Path=/; Secure JSESSIONID=1qf80d5jyoinv1gxti8z6y1xmp; Path=/agility; Secure] Content-Length:[7561]]
+2018/03/05 05:32:00 response Body: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns1:Blueprint xmlns:ns1="http://servicemesh.com/agility/api"><ns1:name>SOE-RHEL-6.7</ns1:name><ns1:id>285</ns1:id><ns1:description>SOE-RHEL-6.7</ns1:description><ns1:uuid>12fce530-c212-414e-bdae-94c62c3a4a7e</ns1:uuid><ns1:assetType><ns1:name>blueprint</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/assettype/71</ns1:href><ns1:id>71</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.AssetType+xml</ns1:type><ns1:position>0</ns1:position></ns1:assetType><ns1:top>false</ns1:top><ns1:assetPath>/Root/Agility Factory</ns1:assetPath><ns1:detailedAssetPath>/Root:#ID#1:#TYPE#VMContainer/Agility Factory:#ID#2:#TYPE#VMProject</ns1:detailedAssetPath><ns1:applicationType>application/com.servicemesh.agility.api.Blueprint+xml</ns1:applicationType><ns1:lifecycleVersion>-1</ns1:lifecycleVersion><ns1:removable>true</ns1:removable><ns1:domain><ns1:name>domain1</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/domain/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Domain+xml</ns1:type><ns1:position>0</ns1:position></ns1:domain><ns1:creator><ns1:name>admin</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/user/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.User+xml</ns1:type><ns1:position>0</ns1:position></ns1:creator><ns1:created>2018-03-04T23:31:59.948-06:00</ns1:created><ns1:lockType>0</ns1:lockType><ns1:lastModified>2018-03-04T23:31:59.952-06:00</ns1:lastModified><ns1:policyAssignment><ns1:name>CollectorFirewall</ns1:name><ns1:id>544</ns1:id><ns1:uuid>df8fa40a-3c7d-449c-ac2e-3962dbaabe8e</ns1:uuid><ns1:top>false</ns1:top><ns1:assetPath>/Root/Agility Factory/SOE-RHEL-6.7</ns1:assetPath><ns1:detailedAssetPath></ns1:detailedAssetPath><ns1:lifecycleVersion>-1</ns1:lifecycleVersion><ns1:removable>true</ns1:removable><ns1:applyToSelf>false</ns1:applyToSelf><ns1:applyChildrenDepth>0</ns1:applyChildrenDepth><ns1:allowChildrenOverride>false</ns1:allowChildrenOverride><ns1:policy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns1:VersionedItemLink"><ns1:name>CollectorFirewall</ns1:name><ns1:href>policy/1120</ns1:href><ns1:id>1120</ns1:id><ns1:rel>down</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Policy+xml</ns1:type><ns1:position>0</ns1:position><ns1:slot>76009098-4bba-4e65-a6ba-1536f3a7dfca</ns1:slot><ns1:version>1</ns1:version><ns1:latest>true</ns1:latest><ns1:slotId>1449</ns1:slotId><ns1:versionStatus>active</ns1:versionStatus><ns1:lockType>0</ns1:lockType></ns1:policy><ns1:policyTypeName>Firewall</ns1:policyTypeName><ns1:itemClass>VMBlueprint</ns1:itemClass><ns1:itemId>285</ns1:itemId><ns1:itemName>SOE-RHEL-6.7</ns1:itemName></ns1:policyAssignment><ns1:parent><ns1:name>Agility Factory</ns1:name><ns1:href>https://13.59.206.52/agility/api/current/project/2</ns1:href><ns1:id>2</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Project+xml</ns1:type><ns1:position>0</ns1:position></ns1:parent><ns1:version>-1</ns1:version><ns1:latest>false</ns1:latest><ns1:publisher><ns1:name>admin</ns1:name><ns1:href>user/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.User+xml</ns1:type><ns1:position>0</ns1:position></ns1:publisher><ns1:versionStatus>inprogress</ns1:versionStatus><ns1:checkoutAllowed>false</ns1:checkoutAllowed><ns1:headAllowed>false</ns1:headAllowed><ns1:path>/Root/Agility Factory</ns1:path><ns1:dirty>false</ns1:dirty><ns1:resourceAffinity>None</ns1:resourceAffinity><ns1:mandatoryAffinity>false</ns1:mandatoryAffinity><ns1:antiAffinity>false</ns1:antiAffinity><ns1:anyOrderItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns1:Workload"><ns1:name>SOE-RHEL-6.7</ns1:name><ns1:id>292</ns1:id><ns1:uuid>b863548e-ac83-4e3d-92c2-31fad66afaee</ns1:uuid><ns1:assetType><ns1:name>designworkload</ns1:name><ns1:href>assettype/92</ns1:href><ns1:id>92</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.AssetType+xml</ns1:type><ns1:position>0</ns1:position></ns1:assetType><ns1:assetProperties><ns1:id>3533</ns1:id><ns1:name>storage-optimized</ns1:name><ns1:description>Determines if the Instance uses Storage Optimization</ns1:description><ns1:encrypted>false</ns1:encrypted><ns1:overridable>true</ns1:overridable><ns1:propertyType><ns1:name>boolean</ns1:name><ns1:href>/propertytype/71</ns1:href><ns1:id>71</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.PropertyType+xml</ns1:type><ns1:position>0</ns1:position></ns1:propertyType><ns1:propertyDefinition xsi:type="ns1:Link"><ns1:name>storage-optimized</ns1:name><ns1:href>/propertydefinition/29</ns1:href><ns1:id>29</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.PropertyDefinition+xml</ns1:type><ns1:position>0</ns1:position></ns1:propertyDefinition><ns1:booleanValue>false</ns1:booleanValue></ns1:assetProperties><ns1:top>false</ns1:top><ns1:assetPath>/Root/Agility Factory</ns1:assetPath><ns1:detailedAssetPath>/Root:#ID#1:#TYPE#VMContainer/Agility Factory:#ID#2:#TYPE#VMProject</ns1:detailedAssetPath><ns1:applicationType>application/com.servicemesh.agility.api.Workload+xml</ns1:applicationType><ns1:lifecycleVersion>-1</ns1:lifecycleVersion><ns1:removable>true</ns1:removable><ns1:domain><ns1:name>domain1</ns1:name><ns1:href>domain/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Domain+xml</ns1:type><ns1:position>0</ns1:position></ns1:domain><ns1:creator><ns1:name>admin</ns1:name><ns1:href>user/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.User+xml</ns1:type><ns1:position>0</ns1:position></ns1:creator><ns1:created>2018-03-04T23:32:00.983-06:00</ns1:created><ns1:lockType>0</ns1:lockType><ns1:lastModified>2018-03-04T23:32:00.994-06:00</ns1:lastModified><ns1:parent><ns1:name>Agility Factory</ns1:name><ns1:href>project/2</ns1:href><ns1:id>2</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Project+xml</ns1:type><ns1:position>0</ns1:position></ns1:parent><ns1:anyOrderPosition>0</ns1:anyOrderPosition><ns1:path>/Root/Agility Factory</ns1:path><ns1:dirty>false</ns1:dirty><ns1:numInstances>0</ns1:numInstances><ns1:packages xsi:type="ns1:VersionedItemLink"><ns1:name>AgilityMonitorLinux</ns1:name><ns1:href>package/313</ns1:href><ns1:id>313</ns1:id><ns1:rel>down</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Package+xml</ns1:type><ns1:position>0</ns1:position><ns1:slot>f2f8d9d7-290e-4e9b-84e6-bc686d04a557</ns1:slot><ns1:version>-1</ns1:version><ns1:latest>false</ns1:latest><ns1:slotId>1401</ns1:slotId><ns1:versionStatus>inprogress</ns1:versionStatus><ns1:lockType>0</ns1:lockType></ns1:packages><ns1:baseStack xsi:type="ns1:VersionedItemLink"><ns1:name>SOE-RHEL-6.7</ns1:name><ns1:href>stack/65</ns1:href><ns1:id>65</ns1:id><ns1:rel>down</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Stack+xml</ns1:type><ns1:position>0</ns1:position><ns1:slot>dc503994-c39f-4a6a-8cec-57c82a8bafaf</ns1:slot><ns1:version>0</ns1:version><ns1:latest>false</ns1:latest><ns1:slotId>1430</ns1:slotId><ns1:versionStatus>active</ns1:versionStatus><ns1:lockType>0</ns1:lockType></ns1:baseStack><ns1:operatingSystem>Linux</ns1:operatingSystem><ns1:releaseDisks>false</ns1:releaseDisks></ns1:anyOrderItem><ns1:deep>true</ns1:deep><ns1:errorLevel>none</ns1:errorLevel></ns1:Blueprint>

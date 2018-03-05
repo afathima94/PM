@@ -1,0 +1,25 @@
+[0m[1magility_checkOut.assetCheckOut: Creating...[0m
+  asset:         "" => "package"
+  assetname:     "" => "AgilityMonitorLinux"
+  containerid:   "" => "<computed>"
+  containername: "" => "Root"
+  projectid:     "" => "<computed>"
+  projectname:   "" => "Agility Factory"[0m
+[0m[1magility_checkOut.assetCheckOut: Creation complete after 7s[0m[0m
+[0m[1magility_blueprint.createblueprintterraform: Creating...[0m
+  blueprintdesc:        "" => "SOE-RHEL-6.7"
+  blueprintname:        "" => "SOE-RHEL-6.7"
+  headversionallowed:   "" => "true"
+  packageid:            "" => "<computed>"
+  packagename:          "" => "AgilityMonitorLinux"
+  policyassignmentname: "" => "CollectorFirewall"
+  policyid:             "" => "<computed>"
+  policyname:           "" => "CollectorFirewall"
+  projectid:            "" => "<computed>"
+  projectname:          "" => "Agility Factory"
+  stackid:              "" => "<computed>"
+  stackname:            "" => "SOE-RHEL-6.7"
+  workloadname:         "" => "SOE-RHEL-6.7"[0m
+[0m[1magility_blueprint.createblueprintterraform: Creation complete after 8s[0m[0m
+[0m[1m[32m
+Apply complete! Resources: 2 added, 0 changed, 0 destroyed.[0m

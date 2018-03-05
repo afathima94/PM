@@ -1,0 +1,24 @@
+[0m[1magility_checkin.checkinterraform: Creating...[0m
+  asset:              "" => "policy"
+  assetname:          "" => "CollectorFirewall"
+  containerid:        "" => "<computed>"
+  containername:      "" => "Root"
+  headversionallowed: "" => "true"
+  projectid:          "" => "<computed>"
+  projectname:        "" => "Agility Factory"
+  scriptid:           "" => "<computed>"[0m
+[0m[1magility_checkin.checkinterraform: Creation complete after 4s[0m[0m
+[0m[1m[32m
+Apply complete! Resources: 1 added, 0 changed, 0 destroyed.[0m
+[0m[1magility_checkin.checkinterraform: Creating...[0m
+  asset:              "" => "blueprint"
+  assetname:          "" => "SOE-RHEL-6.7"
+  containerid:        "" => "<computed>"
+  containername:      "" => "Root"
+  headversionallowed: "" => "true"
+  projectid:          "" => "<computed>"
+  projectname:        "" => "Agility Factory"
+  scriptid:           "" => "<computed>"[0m
+[0m[1magility_checkin.checkinterraform: Creation complete after 4s[0m[0m
+[0m[1m[32m
+Apply complete! Resources: 1 added, 0 changed, 0 destroyed.[0m

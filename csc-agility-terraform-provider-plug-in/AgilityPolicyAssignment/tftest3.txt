@@ -1,0 +1,24 @@
+[0m[1magility_assignpolicy.assignpolicyterraform: Creating...[0m
+  policyid:    "" => "<computed>"
+  policyname:  "" => "CollectorFirewall"
+  projectid:   "" => "<computed>"
+  projectname: "" => "Agility Factory"[0m
+[0m[1magility_assignpolicy.assignpolicyterraform: Creation complete after 4s[0m[0m
+[0m[1m[32m
+Apply complete! Resources: 1 added, 0 changed, 0 destroyed.[0m
+[0m[1magility_assignpolicy.assignpolicyterraform: Creating...[0m
+  policyid:    "" => "<computed>"
+  policyname:  "" => "CollectorFirewall"
+  projectid:   "" => "<computed>"
+  projectname: "" => "Agility Factory"[0m
+[0m[1magility_assignpolicy.assignpolicyterraform: Creation complete after 4s[0m[0m
+[0m[1m[32m
+Apply complete! Resources: 1 added, 0 changed, 0 destroyed.[0m
+[0m[1magility_assignpolicy.assignpolicyterraform: Creating...[0m
+  policyid:    "" => "<computed>"
+  policyname:  "" => "CollectorFirewall"
+  projectid:   "" => "<computed>"
+  projectname: "" => "Agility Factory"[0m
+[0m[1magility_assignpolicy.assignpolicyterraform: Creation complete after 4s[0m[0m
+[0m[1m[32m
+Apply complete! Resources: 1 added, 0 changed, 0 destroyed.[0m

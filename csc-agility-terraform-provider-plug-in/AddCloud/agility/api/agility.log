@@ -1,0 +1,475 @@
+2018/02/23 07:38:45 URL:> https://54.187.235.248/agility/api/v3.2/cloud/
+2018/02/23 07:38:45 Payload=====> <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns1:Cloud xmlns:ns1="http://servicemesh.com/agility/api"><ns1:name>AWS-DEMO-CLOUD</ns1:name><ns1:description>Cloud provider created from terraform</ns1:description><ns1:cloudType><ns1:name>Amazon EC2 Cloud</ns1:name><ns1:type>application/com.servicemesh.agility.api.CloudType+xml</ns1:type></ns1:cloudType><ns1:hostname>ec2.us-east-1.amazonaws.com</ns1:hostname><ns1:enabled>true</ns1:enabled><ns1:cloudId>490396566810</ns1:cloudId><ns1:cloudCredentials><ns1:assetType><ns1:name>credential</ns1:name><ns1:type>application/com.servicemesh.agility.api.AssetType+xml</ns1:type></ns1:assetType><ns1:credentialType>SSH</ns1:credentialType><ns1:publicKey>AKIAJDIHAOQBYQMK72ZQ</ns1:publicKey><ns1:privateKey>Z9mqrWK7ImNAOvD5NApGq3fdrgRaoE4vJU2fLj8H</ns1:privateKey><ns1:encrypted>true</ns1:encrypted></ns1:cloudCredentials><ns1:priceEngine><ns1:top>false</ns1:top><ns1:removable>true</ns1:removable></ns1:priceEngine></ns1:Cloud>
+2018/02/23 07:38:47 response Status: 202 Accepted
+2018/02/23 07:38:47 response Headers: map[Set-Cookie:[route=480a1fdb1112593614348ffe986cf810; Path=/; Secure JSESSIONID=jd6xnsh0eo013ojxffncnvzb; Path=/agility; Secure] Expires:[Thu, 01 Jan 1970 00:00:00 GMT] Location:[<https://54.187.235.248/agility/api/v3.2/cloud/10>; rel="self"; type="application/com.servicemesh.agility.api.Cloud+xml"; name="AWS-DEMO-CLOUD"] Date:[Fri, 23 Feb 2018 07:38:48 GMT] Content-Type:[application/xml] Content-Length:[4143] Connection:[keep-alive] Server:[nginx/1.9.1]]
+2018/02/23 07:38:47 response Body: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns1:Cloud xmlns:ns1="http://servicemesh.com/agility/api"><ns1:name>AWS-DEMO-CLOUD</ns1:name><ns1:id>10</ns1:id><ns1:description>Cloud provider created from terraform</ns1:description><ns1:uuid>3f4695b0-7a7e-4b65-b8c2-a27174845178</ns1:uuid><ns1:assetType><ns1:name>cloud</ns1:name><ns1:href>https://54.187.235.248/agility/api/v3.2/assettype/127</ns1:href><ns1:id>127</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.AssetType+xml</ns1:type><ns1:position>0</ns1:position></ns1:assetType><ns1:top>false</ns1:top><ns1:assetPath>/Root</ns1:assetPath><ns1:detailedAssetPath>/Root:#ID#1:#TYPE#VMContainer</ns1:detailedAssetPath><ns1:lifecycleVersion>-1</ns1:lifecycleVersion><ns1:removable>true</ns1:removable><ns1:domain><ns1:name>domain1</ns1:name><ns1:href>https://54.187.235.248/agility/api/v3.2/domain/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Domain+xml</ns1:type><ns1:position>0</ns1:position></ns1:domain><ns1:creator><ns1:name>admin</ns1:name><ns1:href>https://54.187.235.248/agility/api/v3.2/user/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.User+xml</ns1:type><ns1:position>0</ns1:position></ns1:creator><ns1:created>2018-02-23T01:38:47.648-06:00</ns1:created><ns1:lockType>0</ns1:lockType><ns1:lastModified>2018-02-23T01:38:47.672-06:00</ns1:lastModified><ns1:parent><ns1:name>Root</ns1:name><ns1:href>https://54.187.235.248/agility/api/v3.2/container/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Container+xml</ns1:type><ns1:position>0</ns1:position></ns1:parent><ns1:cloudType><ns1:name>Amazon EC2 Cloud</ns1:name><ns1:href>https://54.187.235.248/agility/api/v3.2/cloudtype/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.CloudType+xml</ns1:type><ns1:position>0</ns1:position></ns1:cloudType><ns1:hostname>ec2.us-east-1.amazonaws.com</ns1:hostname><ns1:cloudCredentials><ns1:id>31</ns1:id><ns1:uuid>94f08c2c-0f52-46a6-9f5e-aae30352ad64</ns1:uuid><ns1:assetType><ns1:name>credential</ns1:name><ns1:href>assettype/302</ns1:href><ns1:id>302</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.AssetType+xml</ns1:type><ns1:position>0</ns1:position></ns1:assetType><ns1:top>false</ns1:top><ns1:assetPath>/Root</ns1:assetPath><ns1:detailedAssetPath>/Root:#ID#1:#TYPE#VMContainer</ns1:detailedAssetPath><ns1:lifecycleVersion>-1</ns1:lifecycleVersion><ns1:removable>true</ns1:removable><ns1:domain><ns1:name>domain1</ns1:name><ns1:href>domain/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Domain+xml</ns1:type><ns1:position>0</ns1:position></ns1:domain><ns1:creator><ns1:name>admin</ns1:name><ns1:href>user/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.User+xml</ns1:type><ns1:position>0</ns1:position></ns1:creator><ns1:created>2018-02-23T01:38:47.678-06:00</ns1:created><ns1:lockType>0</ns1:lockType><ns1:lastModified>2018-02-23T01:38:47.681-06:00</ns1:lastModified><ns1:parent><ns1:name>Root</ns1:name><ns1:href>container/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Container+xml</ns1:type><ns1:position>0</ns1:position></ns1:parent><ns1:credentialType>SSH</ns1:credentialType><ns1:publicKey>50da44990be6f4f4831f1b710fe6bb05b6ed8ac87243ae759ecf5dd417d4d7c0</ns1:publicKey><ns1:privateKey>0f616ec901384aee14d401da56a3271cb14492ce364743a799159e592746b74fdd8b5ad2bd5db170d1bdf19473ce6d99</ns1:privateKey><ns1:encrypted>true</ns1:encrypted></ns1:cloudCredentials><ns1:enabled>true</ns1:enabled><ns1:cloudId>490396566810</ns1:cloudId><ns1:priceEngine><ns1:id>10</ns1:id><ns1:uuid>51e8bff6-4e0f-429c-92de-adb7fad5a728</ns1:uuid><ns1:top>false</ns1:top><ns1:assetPath></ns1:assetPath><ns1:detailedAssetPath></ns1:detailedAssetPath><ns1:lifecycleVersion>-1</ns1:lifecycleVersion><ns1:removable>true</ns1:removable></ns1:priceEngine></ns1:Cloud>
+2018/02/23 07:38:47 the Cloud name is:  AWS-DEMO-CLOUD
+2018/02/23 07:38:47 cloudName is:  AWS-DEMO-CLOUD
+2018/02/23 07:38:47 URL:> https://54.187.235.248/agility/api/v3.2/cloud
+2018/02/23 07:38:47 response Status: 200 OK
+2018/02/23 07:38:47 response Headers: map[Server:[nginx/1.9.1] Date:[Fri, 23 Feb 2018 07:38:48 GMT] Content-Type:[application/xml] Connection:[keep-alive] Content-Length:[398] Set-Cookie:[route=9ae52ef6b649cf17a2c7c46f36a9cb2b; Path=/; Secure JSESSIONID=1d71z2h6hwsddbkqph2aba9a4; Path=/agility; Secure] Expires:[Thu, 01 Jan 1970 00:00:00 GMT]]
+2018/02/23 07:38:47 response Body: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns1:Linklist xmlns:ns1="http://servicemesh.com/agility/api"><ns1:link><ns1:name>AWS-DEMO-CLOUD</ns1:name><ns1:href>https://54.187.235.248/agility/api/v3.2/cloud/10</ns1:href><ns1:id>10</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Cloud+xml</ns1:type><ns1:position>0</ns1:position></ns1:link></ns1:Linklist>
+2018/02/23 07:38:47 Element name is :  Linklist
+2018/02/23 07:38:47 Element name is :  link
+2018/02/23 07:38:47 Element value is : AWS-DEMO-CLOUD
+2018/02/23 07:38:47 Found the Cloud :  AWS-DEMO-CLOUD
+2018/02/23 07:38:47 the cloudid is:  10
+2018/02/23 07:38:47 URL:> https://54.187.235.248/agility/api/v3.2/cloud/10/resync
+2018/02/23 07:38:48 response Status: 403 Not licensed to use Agility API.
+2018/02/23 07:38:48 response Headers: map[Cache-Control:[must-revalidate,no-cache,no-store] Server:[nginx/1.9.1] Date:[Fri, 23 Feb 2018 07:38:49 GMT] Content-Type:[text/html; charset=ISO-8859-1] Content-Length:[362] Connection:[keep-alive] Set-Cookie:[route=ad6c126864d302b6eddd78587dba96f6; Path=/; Secure]]
+2018/02/23 07:38:48 response Body: <html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>Error 403 Not licensed to use Agility API.</title>
+</head>
+<body><h2>HTTP ERROR 403</h2>
+<p>Problem accessing /agility/api/v3.2/cloud/10/resync. Reason:
+<pre>    Not licensed to use Agility API.</pre></p><hr><i><small>Powered by Jetty://</small></i><hr/>
+
+</body>
+</html>
+
+2018/02/23 10:32:33 URL:> https://34.239.180.203/agility/api/v3.2/cloud/
+2018/02/23 10:32:33 Payload=====> <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns1:Cloud xmlns:ns1="http://servicemesh.com/agility/api"><ns1:name>AWS-DEMO-CLOUD</ns1:name><ns1:description>Cloud provider created from terraform</ns1:description><ns1:cloudType><ns1:name>Amazon EC2 Cloud</ns1:name><ns1:type>application/com.servicemesh.agility.api.CloudType+xml</ns1:type></ns1:cloudType><ns1:hostname>ec2.us-east-1.amazonaws.com</ns1:hostname><ns1:enabled>true</ns1:enabled><ns1:cloudId>490396566810</ns1:cloudId><ns1:cloudCredentials><ns1:assetType><ns1:name>credential</ns1:name><ns1:type>application/com.servicemesh.agility.api.AssetType+xml</ns1:type></ns1:assetType><ns1:credentialType>SSH</ns1:credentialType><ns1:publicKey>AKIAIV6CSSJ7BO6FA5HA</ns1:publicKey><ns1:privateKey>5jktNH0VumuA/kkJNNHY6dYoIF/4ESkf3F9fKo2l</ns1:privateKey><ns1:encrypted>true</ns1:encrypted></ns1:cloudCredentials><ns1:priceEngine><ns1:top>false</ns1:top><ns1:removable>true</ns1:removable></ns1:priceEngine></ns1:Cloud>
+2018/02/23 10:32:34 response Status: 401 Unauthorized
+2018/02/23 10:32:34 response Headers: map[Server:[nginx/1.9.1] Date:[Fri, 23 Feb 2018 10:32:35 GMT] Content-Type:[text/html; charset=ISO-8859-1] Content-Length:[313] Connection:[keep-alive] Www-Authenticate:[Basic] Set-Cookie:[route=bbca8791ca7733dafd236601316be6f0; Path=/; Secure] Cache-Control:[must-revalidate,no-cache,no-store]]
+2018/02/23 10:32:34 response Body: <html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>Error 401 Unauthorized</title>
+</head>
+<body><h2>HTTP ERROR 401</h2>
+<p>Problem accessing /agility/api/v3.2/cloud/. Reason:
+<pre>    Unauthorized</pre></p><hr><i><small>Powered by Jetty://</small></i><hr/>
+
+</body>
+</html>
+
+2018/02/23 10:32:34 the Cloud name is:  AWS-DEMO-CLOUD
+2018/02/23 10:32:34 cloudName is:  AWS-DEMO-CLOUD
+2018/02/23 10:32:34 URL:> https://34.239.180.203/agility/api/v3.2/cloud
+2018/02/23 10:32:35 response Status: 401 Unauthorized
+2018/02/23 10:32:35 response Headers: map[Server:[nginx/1.9.1] Content-Type:[text/html; charset=ISO-8859-1] Content-Length:[312] Connection:[keep-alive] Set-Cookie:[route=cf79adec489deff5f9aab60cea486017; Path=/; Secure] Www-Authenticate:[Basic] Cache-Control:[must-revalidate,no-cache,no-store] Date:[Fri, 23 Feb 2018 10:32:36 GMT]]
+2018/02/23 10:32:35 response Body: <html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>Error 401 Unauthorized</title>
+</head>
+<body><h2>HTTP ERROR 401</h2>
+<p>Problem accessing /agility/api/v3.2/cloud. Reason:
+<pre>    Unauthorized</pre></p><hr><i><small>Powered by Jetty://</small></i><hr/>
+
+</body>
+</html>
+
+2018/02/23 10:32:35 Unknown Element name is :  html
+2018/02/23 10:32:35 Unknown Element name is :  head
+2018/02/23 10:32:35 Unknown Element name is :  meta
+2018/02/23 10:32:35 Unknown Element name is :  title
+2018/02/23 10:32:35 Unknown Element name is :  body
+2018/02/23 10:32:35 Unknown Element name is :  h2
+2018/02/23 10:32:35 Unknown Element name is :  p
+2018/02/23 10:32:35 Unknown Element name is :  pre
+2018/02/23 10:32:35 Unknown Element name is :  hr
+2018/02/23 10:32:35 Unknown Element name is :  i
+2018/02/23 10:32:35 Unknown Element name is :  small
+2018/02/23 10:32:35 Unknown Element name is :  hr
+2018/02/23 10:32:35 Error in getting cloudid:  there are no Clouds with this name
+2018/02/23 10:39:09 URL:> https://34.239.180.203/agility/api/v3.2/cloud/
+2018/02/23 10:39:09 Payload=====> <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns1:Cloud xmlns:ns1="http://servicemesh.com/agility/api"><ns1:name>AWS-DEMO-CLOUD</ns1:name><ns1:description>Cloud provider created from terraform</ns1:description><ns1:cloudType><ns1:name>Amazon EC2 Cloud</ns1:name><ns1:type>application/com.servicemesh.agility.api.CloudType+xml</ns1:type></ns1:cloudType><ns1:hostname>ec2.us-east-1.amazonaws.com</ns1:hostname><ns1:enabled>true</ns1:enabled><ns1:cloudId>490396566810</ns1:cloudId><ns1:cloudCredentials><ns1:assetType><ns1:name>credential</ns1:name><ns1:type>application/com.servicemesh.agility.api.AssetType+xml</ns1:type></ns1:assetType><ns1:credentialType>SSH</ns1:credentialType><ns1:publicKey>AKIAIV6CSSJ7BO6FA5HA</ns1:publicKey><ns1:privateKey>5jktNH0VumuA</ns1:privateKey><ns1:encrypted>true</ns1:encrypted></ns1:cloudCredentials><ns1:priceEngine><ns1:top>false</ns1:top><ns1:removable>true</ns1:removable></ns1:priceEngine></ns1:Cloud>
+2018/02/23 10:39:10 response Status: 401 Unauthorized
+2018/02/23 10:39:10 response Headers: map[Content-Length:[313] Connection:[keep-alive] Set-Cookie:[route=bbca8791ca7733dafd236601316be6f0; Path=/; Secure] Www-Authenticate:[Basic] Cache-Control:[must-revalidate,no-cache,no-store] Server:[nginx/1.9.1] Date:[Fri, 23 Feb 2018 10:39:11 GMT] Content-Type:[text/html; charset=ISO-8859-1]]
+2018/02/23 10:39:10 response Body: <html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>Error 401 Unauthorized</title>
+</head>
+<body><h2>HTTP ERROR 401</h2>
+<p>Problem accessing /agility/api/v3.2/cloud/. Reason:
+<pre>    Unauthorized</pre></p><hr><i><small>Powered by Jetty://</small></i><hr/>
+
+</body>
+</html>
+
+2018/02/23 10:39:10 the Cloud name is:  AWS-DEMO-CLOUD
+2018/02/23 10:39:10 cloudName is:  AWS-DEMO-CLOUD
+2018/02/23 10:39:10 URL:> https://34.239.180.203/agility/api/v3.2/cloud
+2018/02/23 10:39:11 response Status: 401 Unauthorized
+2018/02/23 10:39:11 response Headers: map[Server:[nginx/1.9.1] Date:[Fri, 23 Feb 2018 10:39:12 GMT] Content-Type:[text/html; charset=ISO-8859-1] Connection:[keep-alive] Set-Cookie:[route=cf79adec489deff5f9aab60cea486017; Path=/; Secure] Content-Length:[312] Www-Authenticate:[Basic] Cache-Control:[must-revalidate,no-cache,no-store]]
+2018/02/23 10:39:11 response Body: <html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>Error 401 Unauthorized</title>
+</head>
+<body><h2>HTTP ERROR 401</h2>
+<p>Problem accessing /agility/api/v3.2/cloud. Reason:
+<pre>    Unauthorized</pre></p><hr><i><small>Powered by Jetty://</small></i><hr/>
+
+</body>
+</html>
+
+2018/02/23 10:39:11 Unknown Element name is :  html
+2018/02/23 10:39:11 Unknown Element name is :  head
+2018/02/23 10:39:11 Unknown Element name is :  meta
+2018/02/23 10:39:11 Unknown Element name is :  title
+2018/02/23 10:39:11 Unknown Element name is :  body
+2018/02/23 10:39:11 Unknown Element name is :  h2
+2018/02/23 10:39:11 Unknown Element name is :  p
+2018/02/23 10:39:11 Unknown Element name is :  pre
+2018/02/23 10:39:11 Unknown Element name is :  hr
+2018/02/23 10:39:11 Unknown Element name is :  i
+2018/02/23 10:39:11 Unknown Element name is :  small
+2018/02/23 10:39:11 Unknown Element name is :  hr
+2018/02/23 10:39:11 Error in getting cloudid:  there are no Clouds with this name
+2018/02/23 10:42:46 URL:> https://34.239.180.203/agility/api/v3.2/cloud/
+2018/02/23 10:42:46 Payload=====> <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns1:Cloud xmlns:ns1="http://servicemesh.com/agility/api"><ns1:name>AWS-DEMO-CLOUD</ns1:name><ns1:description>Cloud provider created from terraform</ns1:description><ns1:cloudType><ns1:name>Amazon EC2 Cloud</ns1:name><ns1:type>application/com.servicemesh.agility.api.CloudType+xml</ns1:type></ns1:cloudType><ns1:hostname>ec2.us-east-1.amazonaws.com</ns1:hostname><ns1:enabled>true</ns1:enabled><ns1:cloudId>490396566810</ns1:cloudId><ns1:cloudCredentials><ns1:assetType><ns1:name>credential</ns1:name><ns1:type>application/com.servicemesh.agility.api.AssetType+xml</ns1:type></ns1:assetType><ns1:credentialType>SSH</ns1:credentialType><ns1:publicKey>AKIAIV6CSSJ7BO6FA5HA</ns1:publicKey><ns1:privateKey>5jktNH0VumuA</ns1:privateKey><ns1:encrypted>true</ns1:encrypted></ns1:cloudCredentials><ns1:priceEngine><ns1:top>false</ns1:top><ns1:removable>true</ns1:removable></ns1:priceEngine></ns1:Cloud>
+2018/02/23 10:42:47 response Status: 401 Unauthorized
+2018/02/23 10:42:47 response Headers: map[Content-Length:[313] Connection:[keep-alive] Cache-Control:[must-revalidate,no-cache,no-store] Date:[Fri, 23 Feb 2018 10:42:48 GMT] Content-Type:[text/html; charset=ISO-8859-1] Www-Authenticate:[Basic] Server:[nginx/1.9.1] Set-Cookie:[route=bbca8791ca7733dafd236601316be6f0; Path=/; Secure]]
+2018/02/23 10:42:47 response Body: <html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>Error 401 Unauthorized</title>
+</head>
+<body><h2>HTTP ERROR 401</h2>
+<p>Problem accessing /agility/api/v3.2/cloud/. Reason:
+<pre>    Unauthorized</pre></p><hr><i><small>Powered by Jetty://</small></i><hr/>
+
+</body>
+</html>
+
+2018/02/23 10:42:47 the Cloud name is:  AWS-DEMO-CLOUD
+2018/02/23 10:42:47 cloudName is:  AWS-DEMO-CLOUD
+2018/02/23 10:42:47 URL:> https://34.239.180.203/agility/api/v3.2/cloud
+2018/02/23 10:42:48 response Status: 401 Unauthorized
+2018/02/23 10:42:48 response Headers: map[Content-Type:[text/html; charset=ISO-8859-1] Content-Length:[312] Connection:[keep-alive] Set-Cookie:[route=cf79adec489deff5f9aab60cea486017; Path=/; Secure] Www-Authenticate:[Basic] Date:[Fri, 23 Feb 2018 10:42:49 GMT] Cache-Control:[must-revalidate,no-cache,no-store] Server:[nginx/1.9.1]]
+2018/02/23 10:42:48 response Body: <html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>Error 401 Unauthorized</title>
+</head>
+<body><h2>HTTP ERROR 401</h2>
+<p>Problem accessing /agility/api/v3.2/cloud. Reason:
+<pre>    Unauthorized</pre></p><hr><i><small>Powered by Jetty://</small></i><hr/>
+
+</body>
+</html>
+
+2018/02/23 10:42:48 Unknown Element name is :  html
+2018/02/23 10:42:48 Unknown Element name is :  head
+2018/02/23 10:42:48 Unknown Element name is :  meta
+2018/02/23 10:42:48 Unknown Element name is :  title
+2018/02/23 10:42:48 Unknown Element name is :  body
+2018/02/23 10:42:48 Unknown Element name is :  h2
+2018/02/23 10:42:48 Unknown Element name is :  p
+2018/02/23 10:42:48 Unknown Element name is :  pre
+2018/02/23 10:42:48 Unknown Element name is :  hr
+2018/02/23 10:42:48 Unknown Element name is :  i
+2018/02/23 10:42:48 Unknown Element name is :  small
+2018/02/23 10:42:48 Unknown Element name is :  hr
+2018/02/23 10:42:48 Error in getting cloudid:  there are no Clouds with this name
+2018/02/23 10:52:56 URL:> https://34.239.180.203/agility/api/v3.2/cloud/
+2018/02/23 10:52:56 Payload=====> <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns1:Cloud xmlns:ns1="http://servicemesh.com/agility/api"><ns1:name>AWS-DEMO-CLOUD</ns1:name><ns1:description>Cloud provider created from terraform</ns1:description><ns1:cloudType><ns1:name>Amazon EC2 Cloud</ns1:name><ns1:type>application/com.servicemesh.agility.api.CloudType+xml</ns1:type></ns1:cloudType><ns1:hostname>ec2.us-east-1.amazonaws.com</ns1:hostname><ns1:enabled>true</ns1:enabled><ns1:cloudId>490396566810</ns1:cloudId><ns1:cloudCredentials><ns1:assetType><ns1:name>credential</ns1:name><ns1:type>application/com.servicemesh.agility.api.AssetType+xml</ns1:type></ns1:assetType><ns1:credentialType>SSH</ns1:credentialType><ns1:publicKey>AKIAJDIHAOQBYQMK72ZQ</ns1:publicKey><ns1:privateKey>Z9mqrWK7ImNAOvD5NApGq3fdrgRaoE4vJU2fLj8H</ns1:privateKey><ns1:encrypted>true</ns1:encrypted></ns1:cloudCredentials><ns1:priceEngine><ns1:top>false</ns1:top><ns1:removable>true</ns1:removable></ns1:priceEngine></ns1:Cloud>
+2018/02/23 10:52:57 response Status: 401 Unauthorized
+2018/02/23 10:52:57 response Headers: map[Set-Cookie:[route=bbca8791ca7733dafd236601316be6f0; Path=/; Secure] Date:[Fri, 23 Feb 2018 10:52:58 GMT] Content-Length:[313] Connection:[keep-alive] Www-Authenticate:[Basic] Cache-Control:[must-revalidate,no-cache,no-store] Server:[nginx/1.9.1] Content-Type:[text/html; charset=ISO-8859-1]]
+2018/02/23 10:52:57 response Body: <html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>Error 401 Unauthorized</title>
+</head>
+<body><h2>HTTP ERROR 401</h2>
+<p>Problem accessing /agility/api/v3.2/cloud/. Reason:
+<pre>    Unauthorized</pre></p><hr><i><small>Powered by Jetty://</small></i><hr/>
+
+</body>
+</html>
+
+2018/02/23 10:52:57 the Cloud name is:  AWS-DEMO-CLOUD
+2018/02/23 10:52:57 cloudName is:  AWS-DEMO-CLOUD
+2018/02/23 10:52:57 URL:> https://34.239.180.203/agility/api/v3.2/cloud
+2018/02/23 10:52:58 response Status: 401 Unauthorized
+2018/02/23 10:52:58 response Headers: map[Server:[nginx/1.9.1] Content-Type:[text/html; charset=ISO-8859-1] Content-Length:[312] Cache-Control:[must-revalidate,no-cache,no-store] Date:[Fri, 23 Feb 2018 10:52:59 GMT] Connection:[keep-alive] Set-Cookie:[route=cf79adec489deff5f9aab60cea486017; Path=/; Secure] Www-Authenticate:[Basic]]
+2018/02/23 10:52:58 response Body: <html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>Error 401 Unauthorized</title>
+</head>
+<body><h2>HTTP ERROR 401</h2>
+<p>Problem accessing /agility/api/v3.2/cloud. Reason:
+<pre>    Unauthorized</pre></p><hr><i><small>Powered by Jetty://</small></i><hr/>
+
+</body>
+</html>
+
+2018/02/23 10:52:58 Unknown Element name is :  html
+2018/02/23 10:52:58 Unknown Element name is :  head
+2018/02/23 10:52:58 Unknown Element name is :  meta
+2018/02/23 10:52:58 Unknown Element name is :  title
+2018/02/23 10:52:58 Unknown Element name is :  body
+2018/02/23 10:52:58 Unknown Element name is :  h2
+2018/02/23 10:52:58 Unknown Element name is :  p
+2018/02/23 10:52:58 Unknown Element name is :  pre
+2018/02/23 10:52:58 Unknown Element name is :  hr
+2018/02/23 10:52:58 Unknown Element name is :  i
+2018/02/23 10:52:58 Unknown Element name is :  small
+2018/02/23 10:52:58 Unknown Element name is :  hr
+2018/02/23 10:52:58 Error in getting cloudid:  there are no Clouds with this name
+2018/02/23 10:57:02 URL:> https://34.239.180.203/agility/api/v3.2/cloud/
+2018/02/23 10:57:02 Payload=====> <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns1:Cloud xmlns:ns1="http://servicemesh.com/agility/api"><ns1:name>AWS-DEMO-CLOUD</ns1:name><ns1:description>Cloud provider created from terraform</ns1:description><ns1:cloudType><ns1:name>Amazon EC2 Cloud</ns1:name><ns1:type>application/com.servicemesh.agility.api.CloudType+xml</ns1:type></ns1:cloudType><ns1:hostname>ec2.us-east-1.amazonaws.com</ns1:hostname><ns1:enabled>true</ns1:enabled><ns1:cloudId>490396566810</ns1:cloudId><ns1:cloudCredentials><ns1:assetType><ns1:name>credential</ns1:name><ns1:type>application/com.servicemesh.agility.api.AssetType+xml</ns1:type></ns1:assetType><ns1:credentialType>SSH</ns1:credentialType><ns1:publicKey>AKIAJDIHAOQBYQMK72ZQ</ns1:publicKey><ns1:privateKey>Z9mqrWK7ImNAOvD5NApGq3fdrgRaoE4vJU2fLj8H</ns1:privateKey><ns1:encrypted>true</ns1:encrypted></ns1:cloudCredentials><ns1:priceEngine><ns1:top>false</ns1:top><ns1:removable>true</ns1:removable></ns1:priceEngine></ns1:Cloud>
+2018/02/23 10:57:03 response Status: 401 Unauthorized
+2018/02/23 10:57:03 response Headers: map[Date:[Fri, 23 Feb 2018 10:57:05 GMT] Content-Length:[313] Connection:[keep-alive] Www-Authenticate:[Basic] Cache-Control:[must-revalidate,no-cache,no-store] Server:[nginx/1.9.1] Content-Type:[text/html; charset=ISO-8859-1] Set-Cookie:[route=bbca8791ca7733dafd236601316be6f0; Path=/; Secure]]
+2018/02/23 10:57:03 response Body: <html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>Error 401 Unauthorized</title>
+</head>
+<body><h2>HTTP ERROR 401</h2>
+<p>Problem accessing /agility/api/v3.2/cloud/. Reason:
+<pre>    Unauthorized</pre></p><hr><i><small>Powered by Jetty://</small></i><hr/>
+
+</body>
+</html>
+
+2018/02/23 10:57:03 the Cloud name is:  AWS-DEMO-CLOUD
+2018/02/23 10:57:03 cloudName is:  AWS-DEMO-CLOUD
+2018/02/23 10:57:03 URL:> https://34.239.180.203/agility/api/v3.2/cloud
+2018/02/23 10:57:04 response Status: 401 Unauthorized
+2018/02/23 10:57:04 response Headers: map[Set-Cookie:[route=cf79adec489deff5f9aab60cea486017; Path=/; Secure] Www-Authenticate:[Basic] Cache-Control:[must-revalidate,no-cache,no-store] Server:[nginx/1.9.1] Date:[Fri, 23 Feb 2018 10:57:05 GMT] Content-Length:[312] Content-Type:[text/html; charset=ISO-8859-1] Connection:[keep-alive]]
+2018/02/23 10:57:04 response Body: <html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>Error 401 Unauthorized</title>
+</head>
+<body><h2>HTTP ERROR 401</h2>
+<p>Problem accessing /agility/api/v3.2/cloud. Reason:
+<pre>    Unauthorized</pre></p><hr><i><small>Powered by Jetty://</small></i><hr/>
+
+</body>
+</html>
+
+2018/02/23 10:57:04 Unknown Element name is :  html
+2018/02/23 10:57:04 Unknown Element name is :  head
+2018/02/23 10:57:04 Unknown Element name is :  meta
+2018/02/23 10:57:04 Unknown Element name is :  title
+2018/02/23 10:57:04 Unknown Element name is :  body
+2018/02/23 10:57:04 Unknown Element name is :  h2
+2018/02/23 10:57:04 Unknown Element name is :  p
+2018/02/23 10:57:04 Unknown Element name is :  pre
+2018/02/23 10:57:04 Unknown Element name is :  hr
+2018/02/23 10:57:04 Unknown Element name is :  i
+2018/02/23 10:57:04 Unknown Element name is :  small
+2018/02/23 10:57:04 Unknown Element name is :  hr
+2018/02/23 10:57:04 Error in getting cloudid:  there are no Clouds with this name
+2018/02/23 11:17:43 URL:> https://34.239.180.203/agility/api/v3.2/cloud/
+2018/02/23 11:17:43 Payload=====> <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns1:Cloud xmlns:ns1="http://servicemesh.com/agility/api"><ns1:name>AWS-DEMO-CLOUD</ns1:name><ns1:description>Cloud provider created from terraform</ns1:description><ns1:cloudType><ns1:name>Amazon EC2 Cloud</ns1:name><ns1:type>application/com.servicemesh.agility.api.CloudType+xml</ns1:type></ns1:cloudType><ns1:hostname>ec2.us-east-1.amazonaws.com</ns1:hostname><ns1:enabled>true</ns1:enabled><ns1:cloudId>490396566810</ns1:cloudId><ns1:cloudCredentials><ns1:assetType><ns1:name>credential</ns1:name><ns1:type>application/com.servicemesh.agility.api.AssetType+xml</ns1:type></ns1:assetType><ns1:credentialType>SSH</ns1:credentialType><ns1:publicKey>AKIAJDIHAOQBYQMK72ZQ</ns1:publicKey><ns1:privateKey>Z9mqrWK7ImNAOvD5NApGq3fdrgRaoE4vJU2fLj8H</ns1:privateKey><ns1:encrypted>true</ns1:encrypted></ns1:cloudCredentials><ns1:priceEngine><ns1:top>false</ns1:top><ns1:removable>true</ns1:removable></ns1:priceEngine></ns1:Cloud>
+2018/02/23 11:17:44 response Status: 401 Unauthorized
+2018/02/23 11:17:44 response Headers: map[Date:[Fri, 23 Feb 2018 11:17:45 GMT] Connection:[keep-alive] Www-Authenticate:[Basic] Server:[nginx/1.9.1] Content-Type:[text/html; charset=ISO-8859-1] Content-Length:[313] Set-Cookie:[route=cf79adec489deff5f9aab60cea486017; Path=/; Secure] Cache-Control:[must-revalidate,no-cache,no-store]]
+2018/02/23 11:17:44 response Body: <html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>Error 401 Unauthorized</title>
+</head>
+<body><h2>HTTP ERROR 401</h2>
+<p>Problem accessing /agility/api/v3.2/cloud/. Reason:
+<pre>    Unauthorized</pre></p><hr><i><small>Powered by Jetty://</small></i><hr/>
+
+</body>
+</html>
+
+2018/02/23 11:17:44 the Cloud name is:  AWS-DEMO-CLOUD
+2018/02/23 11:17:44 cloudName is:  AWS-DEMO-CLOUD
+2018/02/23 11:17:44 URL:> https://34.239.180.203/agility/api/v3.2/cloud
+2018/02/23 11:17:45 response Status: 401 Unauthorized
+2018/02/23 11:17:45 response Headers: map[Content-Type:[text/html; charset=ISO-8859-1] Content-Length:[312] Set-Cookie:[route=bbca8791ca7733dafd236601316be6f0; Path=/; Secure] Www-Authenticate:[Basic] Cache-Control:[must-revalidate,no-cache,no-store] Server:[nginx/1.9.1] Date:[Fri, 23 Feb 2018 11:17:46 GMT] Connection:[keep-alive]]
+2018/02/23 11:17:45 response Body: <html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>Error 401 Unauthorized</title>
+</head>
+<body><h2>HTTP ERROR 401</h2>
+<p>Problem accessing /agility/api/v3.2/cloud. Reason:
+<pre>    Unauthorized</pre></p><hr><i><small>Powered by Jetty://</small></i><hr/>
+
+</body>
+</html>
+
+2018/02/23 11:17:45 Unknown Element name is :  html
+2018/02/23 11:17:45 Unknown Element name is :  head
+2018/02/23 11:17:45 Unknown Element name is :  meta
+2018/02/23 11:17:45 Unknown Element name is :  title
+2018/02/23 11:17:45 Unknown Element name is :  body
+2018/02/23 11:17:45 Unknown Element name is :  h2
+2018/02/23 11:17:45 Unknown Element name is :  p
+2018/02/23 11:17:45 Unknown Element name is :  pre
+2018/02/23 11:17:45 Unknown Element name is :  hr
+2018/02/23 11:17:45 Unknown Element name is :  i
+2018/02/23 11:17:45 Unknown Element name is :  small
+2018/02/23 11:17:45 Unknown Element name is :  hr
+2018/02/23 11:17:45 Error in getting cloudid:  there are no Clouds with this name
+2018/02/23 11:23:37 URL:> https://34.239.180.203/agility/api/v3.2/cloud/
+2018/02/23 11:23:37 Payload=====> <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns1:Cloud xmlns:ns1="http://servicemesh.com/agility/api"><ns1:name>AWS-DEMO-CLOUD</ns1:name><ns1:description>Cloud provider created from terraform</ns1:description><ns1:cloudType><ns1:name>Amazon EC2 Cloud</ns1:name><ns1:type>application/com.servicemesh.agility.api.CloudType+xml</ns1:type></ns1:cloudType><ns1:hostname>ec2.us-east-1.amazonaws.com</ns1:hostname><ns1:enabled>true</ns1:enabled><ns1:cloudId>490396566810</ns1:cloudId><ns1:cloudCredentials><ns1:assetType><ns1:name>credential</ns1:name><ns1:type>application/com.servicemesh.agility.api.AssetType+xml</ns1:type></ns1:assetType><ns1:credentialType>SSH</ns1:credentialType><ns1:publicKey>AKIAJDIHAOQBYQMK72ZQ</ns1:publicKey><ns1:privateKey>Z9mqrWK7ImNAOvD5NApGq3fdrgRaoE4vJU2fLj8H</ns1:privateKey><ns1:encrypted>true</ns1:encrypted></ns1:cloudCredentials><ns1:priceEngine><ns1:top>false</ns1:top><ns1:removable>true</ns1:removable></ns1:priceEngine></ns1:Cloud>
+2018/02/23 11:23:39 response Status: 202 Accepted
+2018/02/23 11:23:39 response Headers: map[Set-Cookie:[route=cf79adec489deff5f9aab60cea486017; Path=/; Secure JSESSIONID=dm5wfd0wngf71sj26pqo0s4ep; Path=/agility; Secure] Location:[<https://34.239.180.203/agility/api/v3.2/cloud/4>; rel="self"; type="application/com.servicemesh.agility.api.Cloud+xml"; name="AWS-DEMO-CLOUD"] Server:[nginx/1.9.1] Content-Type:[application/xml] Connection:[keep-alive] Date:[Fri, 23 Feb 2018 11:23:40 GMT] Content-Length:[4140] Expires:[Thu, 01 Jan 1970 00:00:00 GMT]]
+2018/02/23 11:23:39 response Body: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns1:Cloud xmlns:ns1="http://servicemesh.com/agility/api"><ns1:name>AWS-DEMO-CLOUD</ns1:name><ns1:id>4</ns1:id><ns1:description>Cloud provider created from terraform</ns1:description><ns1:uuid>9b470a00-f162-4f1c-9a33-e4aff40814c0</ns1:uuid><ns1:assetType><ns1:name>cloud</ns1:name><ns1:href>https://34.239.180.203/agility/api/v3.2/assettype/125</ns1:href><ns1:id>125</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.AssetType+xml</ns1:type><ns1:position>0</ns1:position></ns1:assetType><ns1:top>false</ns1:top><ns1:assetPath>/Root</ns1:assetPath><ns1:detailedAssetPath>/Root:#ID#1:#TYPE#VMContainer</ns1:detailedAssetPath><ns1:lifecycleVersion>-1</ns1:lifecycleVersion><ns1:removable>true</ns1:removable><ns1:domain><ns1:name>domain1</ns1:name><ns1:href>https://34.239.180.203/agility/api/v3.2/domain/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Domain+xml</ns1:type><ns1:position>0</ns1:position></ns1:domain><ns1:creator><ns1:name>admin</ns1:name><ns1:href>https://34.239.180.203/agility/api/v3.2/user/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.User+xml</ns1:type><ns1:position>0</ns1:position></ns1:creator><ns1:created>2018-02-23T05:23:39.685-06:00</ns1:created><ns1:lockType>0</ns1:lockType><ns1:lastModified>2018-02-23T05:23:39.700-06:00</ns1:lastModified><ns1:parent><ns1:name>Root</ns1:name><ns1:href>https://34.239.180.203/agility/api/v3.2/container/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Container+xml</ns1:type><ns1:position>0</ns1:position></ns1:parent><ns1:cloudType><ns1:name>Amazon EC2 Cloud</ns1:name><ns1:href>https://34.239.180.203/agility/api/v3.2/cloudtype/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.CloudType+xml</ns1:type><ns1:position>0</ns1:position></ns1:cloudType><ns1:hostname>ec2.us-east-1.amazonaws.com</ns1:hostname><ns1:cloudCredentials><ns1:id>4</ns1:id><ns1:uuid>dccbe38e-61a8-418f-b261-d2310c4aecf8</ns1:uuid><ns1:assetType><ns1:name>credential</ns1:name><ns1:href>assettype/300</ns1:href><ns1:id>300</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.AssetType+xml</ns1:type><ns1:position>0</ns1:position></ns1:assetType><ns1:top>false</ns1:top><ns1:assetPath>/Root</ns1:assetPath><ns1:detailedAssetPath>/Root:#ID#1:#TYPE#VMContainer</ns1:detailedAssetPath><ns1:lifecycleVersion>-1</ns1:lifecycleVersion><ns1:removable>true</ns1:removable><ns1:domain><ns1:name>domain1</ns1:name><ns1:href>domain/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Domain+xml</ns1:type><ns1:position>0</ns1:position></ns1:domain><ns1:creator><ns1:name>admin</ns1:name><ns1:href>user/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.User+xml</ns1:type><ns1:position>0</ns1:position></ns1:creator><ns1:created>2018-02-23T05:23:39.704-06:00</ns1:created><ns1:lockType>0</ns1:lockType><ns1:lastModified>2018-02-23T05:23:39.706-06:00</ns1:lastModified><ns1:parent><ns1:name>Root</ns1:name><ns1:href>container/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Container+xml</ns1:type><ns1:position>0</ns1:position></ns1:parent><ns1:credentialType>SSH</ns1:credentialType><ns1:publicKey>50da44990be6f4f4831f1b710fe6bb05b6ed8ac87243ae759ecf5dd417d4d7c0</ns1:publicKey><ns1:privateKey>0f616ec901384aee14d401da56a3271cb14492ce364743a799159e592746b74fdd8b5ad2bd5db170d1bdf19473ce6d99</ns1:privateKey><ns1:encrypted>true</ns1:encrypted></ns1:cloudCredentials><ns1:enabled>true</ns1:enabled><ns1:cloudId>490396566810</ns1:cloudId><ns1:priceEngine><ns1:id>4</ns1:id><ns1:uuid>a752ed5d-96d2-4d88-9056-11ed1e034242</ns1:uuid><ns1:top>false</ns1:top><ns1:assetPath></ns1:assetPath><ns1:detailedAssetPath></ns1:detailedAssetPath><ns1:lifecycleVersion>-1</ns1:lifecycleVersion><ns1:removable>true</ns1:removable></ns1:priceEngine></ns1:Cloud>
+2018/02/23 11:23:39 the Cloud name is:  AWS-DEMO-CLOUD
+2018/02/23 11:23:39 cloudName is:  AWS-DEMO-CLOUD
+2018/02/23 11:23:39 URL:> https://34.239.180.203/agility/api/v3.2/cloud
+2018/02/23 11:23:40 response Status: 200 OK
+2018/02/23 11:23:40 response Headers: map[Server:[nginx/1.9.1] Content-Length:[396] Expires:[Thu, 01 Jan 1970 00:00:00 GMT] Date:[Fri, 23 Feb 2018 11:23:41 GMT] Content-Type:[application/xml] Connection:[keep-alive] Set-Cookie:[route=bbca8791ca7733dafd236601316be6f0; Path=/; Secure JSESSIONID=s5lfb9iij80x8ow9xng1otnk; Path=/agility; Secure]]
+2018/02/23 11:23:40 response Body: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns1:Linklist xmlns:ns1="http://servicemesh.com/agility/api"><ns1:link><ns1:name>AWS-DEMO-CLOUD</ns1:name><ns1:href>https://34.239.180.203/agility/api/v3.2/cloud/4</ns1:href><ns1:id>4</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Cloud+xml</ns1:type><ns1:position>0</ns1:position></ns1:link></ns1:Linklist>
+2018/02/23 11:23:40 Element name is :  Linklist
+2018/02/23 11:23:40 Element name is :  link
+2018/02/23 11:23:40 Element value is : AWS-DEMO-CLOUD
+2018/02/23 11:23:40 Found the Cloud :  AWS-DEMO-CLOUD
+2018/02/23 11:23:40 the cloudid is:  4
+2018/02/23 11:23:40 URL:> https://34.239.180.203/agility/api/v3.2/cloud/4/resync
+2018/02/23 11:23:42 response Status: 202 Accepted
+2018/02/23 11:23:42 response Headers: map[Content-Type:[application/xml] Set-Cookie:[route=cf79adec489deff5f9aab60cea486017; Path=/; Secure JSESSIONID=iqn7akwmiuy81imb8x52df8ua; Path=/agility; Secure] Expires:[Thu, 01 Jan 1970 00:00:00 GMT] Location:[<https://34.239.180.203/agility/api/v3.2/task/97>; rel="self"; type="application/com.servicemesh.agility.api.Task+xml"; name="Synchronizing 'AWS-DEMO-CLOUD'"] Server:[nginx/1.9.1] Date:[Fri, 23 Feb 2018 11:23:43 GMT] Content-Length:[565] Connection:[keep-alive]]
+2018/02/23 11:23:42 response Body: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns1:Task xmlns:ns1="http://servicemesh.com/agility/api"><ns1:id>97</ns1:id><ns1:name>Synchronizing 'AWS-DEMO-CLOUD'</ns1:name><ns1:type>VMCloudSync</ns1:type><ns1:status>Pending</ns1:status><ns1:startedTime>2018-02-23T05:23:42.845-06:00</ns1:startedTime><ns1:user>admin</ns1:user><ns1:completed>false</ns1:completed><ns1:cancelled>false</ns1:cancelled><ns1:visible>true</ns1:visible><ns1:progress>-1</ns1:progress><ns1:hasDependency>false</ns1:hasDependency><ns1:cancellable>false</ns1:cancellable></ns1:Task>
+2018/02/23 11:38:48 URL:> https://34.239.180.203/agility/api/v3.2/cloud/
+2018/02/23 11:38:48 Payload=====> <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns1:Cloud xmlns:ns1="http://servicemesh.com/agility/api"><ns1:name>AWS-DEMO-CLOUD</ns1:name><ns1:description>Cloud provider created from terraform</ns1:description><ns1:cloudType><ns1:name>Amazon EC2 Cloud</ns1:name><ns1:type>application/com.servicemesh.agility.api.CloudType+xml</ns1:type></ns1:cloudType><ns1:hostname>ec2.us-east-1.amazonaws.com</ns1:hostname><ns1:enabled>true</ns1:enabled><ns1:cloudId>490396566810</ns1:cloudId><ns1:cloudCredentials><ns1:assetType><ns1:name>credential</ns1:name><ns1:type>application/com.servicemesh.agility.api.AssetType+xml</ns1:type></ns1:assetType><ns1:credentialType>SSH</ns1:credentialType><ns1:publicKey>AKIAIV6CSSJ7BO6FA5HA</ns1:publicKey><ns1:privateKey>5jktNH0VumuA/kkJNNHY6dYoIF/4ESkf3F9fKo2l</ns1:privateKey><ns1:encrypted>true</ns1:encrypted></ns1:cloudCredentials><ns1:priceEngine><ns1:top>false</ns1:top><ns1:removable>true</ns1:removable></ns1:priceEngine></ns1:Cloud>
+2018/02/23 11:38:49 response Status: 202 Accepted
+2018/02/23 11:38:49 response Headers: map[Server:[nginx/1.9.1] Date:[Fri, 23 Feb 2018 11:38:49 GMT] Content-Type:[application/xml] Content-Length:[4143] Connection:[keep-alive] Set-Cookie:[route=cf79adec489deff5f9aab60cea486017; Path=/; Secure JSESSIONID=1d4kaowjzbdw8drqk3vw43os7; Path=/agility; Secure] Expires:[Thu, 01 Jan 1970 00:00:00 GMT] Location:[<https://34.239.180.203/agility/api/v3.2/cloud/11>; rel="self"; type="application/com.servicemesh.agility.api.Cloud+xml"; name="AWS-DEMO-CLOUD"]]
+2018/02/23 11:38:49 response Body: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns1:Cloud xmlns:ns1="http://servicemesh.com/agility/api"><ns1:name>AWS-DEMO-CLOUD</ns1:name><ns1:id>11</ns1:id><ns1:description>Cloud provider created from terraform</ns1:description><ns1:uuid>31ab0471-7fdb-49c5-a5bb-da173f82698d</ns1:uuid><ns1:assetType><ns1:name>cloud</ns1:name><ns1:href>https://34.239.180.203/agility/api/v3.2/assettype/125</ns1:href><ns1:id>125</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.AssetType+xml</ns1:type><ns1:position>0</ns1:position></ns1:assetType><ns1:top>false</ns1:top><ns1:assetPath>/Root</ns1:assetPath><ns1:detailedAssetPath>/Root:#ID#1:#TYPE#VMContainer</ns1:detailedAssetPath><ns1:lifecycleVersion>-1</ns1:lifecycleVersion><ns1:removable>true</ns1:removable><ns1:domain><ns1:name>domain1</ns1:name><ns1:href>https://34.239.180.203/agility/api/v3.2/domain/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Domain+xml</ns1:type><ns1:position>0</ns1:position></ns1:domain><ns1:creator><ns1:name>admin</ns1:name><ns1:href>https://34.239.180.203/agility/api/v3.2/user/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.User+xml</ns1:type><ns1:position>0</ns1:position></ns1:creator><ns1:created>2018-02-23T05:38:49.637-06:00</ns1:created><ns1:lockType>0</ns1:lockType><ns1:lastModified>2018-02-23T05:38:49.644-06:00</ns1:lastModified><ns1:parent><ns1:name>Root</ns1:name><ns1:href>https://34.239.180.203/agility/api/v3.2/container/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Container+xml</ns1:type><ns1:position>0</ns1:position></ns1:parent><ns1:cloudType><ns1:name>Amazon EC2 Cloud</ns1:name><ns1:href>https://34.239.180.203/agility/api/v3.2/cloudtype/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.CloudType+xml</ns1:type><ns1:position>0</ns1:position></ns1:cloudType><ns1:hostname>ec2.us-east-1.amazonaws.com</ns1:hostname><ns1:cloudCredentials><ns1:id>11</ns1:id><ns1:uuid>8c81e702-db91-4d25-bd5c-3b9ccdbde4ab</ns1:uuid><ns1:assetType><ns1:name>credential</ns1:name><ns1:href>assettype/300</ns1:href><ns1:id>300</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.AssetType+xml</ns1:type><ns1:position>0</ns1:position></ns1:assetType><ns1:top>false</ns1:top><ns1:assetPath>/Root</ns1:assetPath><ns1:detailedAssetPath>/Root:#ID#1:#TYPE#VMContainer</ns1:detailedAssetPath><ns1:lifecycleVersion>-1</ns1:lifecycleVersion><ns1:removable>true</ns1:removable><ns1:domain><ns1:name>domain1</ns1:name><ns1:href>domain/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Domain+xml</ns1:type><ns1:position>0</ns1:position></ns1:domain><ns1:creator><ns1:name>admin</ns1:name><ns1:href>user/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.User+xml</ns1:type><ns1:position>0</ns1:position></ns1:creator><ns1:created>2018-02-23T05:38:49.645-06:00</ns1:created><ns1:lockType>0</ns1:lockType><ns1:lastModified>2018-02-23T05:38:49.646-06:00</ns1:lastModified><ns1:parent><ns1:name>Root</ns1:name><ns1:href>container/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Container+xml</ns1:type><ns1:position>0</ns1:position></ns1:parent><ns1:credentialType>SSH</ns1:credentialType><ns1:publicKey>d023a6863b45d2c193b1e183ff733b2d40f29ad1bcf82772272b3e9a9d715303</ns1:publicKey><ns1:privateKey>37f3a755e02e966d8b636532e7c42d6c3c73bcc325e0846d67a52f87e4f18274f614a99d0a6a4e0877e058abc5d6008a</ns1:privateKey><ns1:encrypted>true</ns1:encrypted></ns1:cloudCredentials><ns1:enabled>true</ns1:enabled><ns1:cloudId>490396566810</ns1:cloudId><ns1:priceEngine><ns1:id>11</ns1:id><ns1:uuid>e4191742-9865-4a89-befe-041e15a33a0d</ns1:uuid><ns1:top>false</ns1:top><ns1:assetPath></ns1:assetPath><ns1:detailedAssetPath></ns1:detailedAssetPath><ns1:lifecycleVersion>-1</ns1:lifecycleVersion><ns1:removable>true</ns1:removable></ns1:priceEngine></ns1:Cloud>
+2018/02/23 11:38:49 the Cloud name is:  AWS-DEMO-CLOUD
+2018/02/23 11:38:49 cloudName is:  AWS-DEMO-CLOUD
+2018/02/23 11:38:49 URL:> https://34.239.180.203/agility/api/v3.2/cloud
+2018/02/23 11:38:50 response Status: 200 OK
+2018/02/23 11:38:50 response Headers: map[Content-Type:[application/xml] Content-Length:[398] Connection:[keep-alive] Server:[nginx/1.9.1] Date:[Fri, 23 Feb 2018 11:38:50 GMT] Set-Cookie:[route=bbca8791ca7733dafd236601316be6f0; Path=/; Secure JSESSIONID=fxt4myaa52p710ps68arsl1nr; Path=/agility; Secure] Expires:[Thu, 01 Jan 1970 00:00:00 GMT]]
+2018/02/23 11:38:50 response Body: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns1:Linklist xmlns:ns1="http://servicemesh.com/agility/api"><ns1:link><ns1:name>AWS-DEMO-CLOUD</ns1:name><ns1:href>https://34.239.180.203/agility/api/v3.2/cloud/11</ns1:href><ns1:id>11</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Cloud+xml</ns1:type><ns1:position>0</ns1:position></ns1:link></ns1:Linklist>
+2018/02/23 11:38:50 Element name is :  Linklist
+2018/02/23 11:38:50 Element name is :  link
+2018/02/23 11:38:50 Element value is : AWS-DEMO-CLOUD
+2018/02/23 11:38:50 Found the Cloud :  AWS-DEMO-CLOUD
+2018/02/23 11:38:50 the cloudid is:  11
+2018/02/23 11:38:50 URL:> https://34.239.180.203/agility/api/v3.2/cloud/11/resync
+2018/02/23 11:43:50 response Status: 502 Bad Gateway
+2018/02/23 11:43:50 response Headers: map[Date:[Fri, 23 Feb 2018 11:43:51 GMT] Content-Type:[text/html] Content-Length:[817] Connection:[keep-alive] Set-Cookie:[route=bbca8791ca7733dafd236601316be6f0; Path=/; Secure] Etag:["5a6f36d0-331"] Server:[nginx/1.9.1]]
+2018/02/23 11:43:50 response Body: <!DOCTYPE html>
+<html>
+<head>
+    <title>Agility Platform - Loading...</title>
+    <link rel="stylesheet" type="text/css" href="/agility/x/customErrorPages/custom-errors.css">
+    <meta http-equiv="refresh" content="5">
+</head>
+<body>
+<div class="loading-wrap">
+    <img src="/agility/x/customErrorPages/assets/img/agility-logo.png" alt="Agility Logo">
+    <h4>Loading Agility service. Please wait.</h4>
+    <h4>If this is taking longer than usual, please contact your administrator.</h4>
+    <div class="infinite-loader">
+        <div class="infinite-loader__square"></div>
+        <div class="infinite-loader__square"></div>
+        <div class="infinite-loader__square"></div>
+        <div class="infinite-loader__square"></div>
+        <div class="infinite-loader__square"></div>
+    </div>
+</div>
+</body>
+</html>
+
+2018/02/26 10:21:47 URL:> https://13.59.148.29/agility/api/v3.2/cloud/
+2018/02/26 10:21:47 Payload=====> <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns1:Cloud xmlns:ns1="http://servicemesh.com/agility/api"><ns1:name>AWS-DEMO-1</ns1:name><ns1:description>Cloud provider created from terraform</ns1:description><ns1:cloudType><ns1:name>Amazon EC2 Cloud</ns1:name><ns1:type>application/com.servicemesh.agility.api.CloudType+xml</ns1:type></ns1:cloudType><ns1:hostname>ec2.us-east-1.amazonaws.com</ns1:hostname><ns1:enabled>true</ns1:enabled><ns1:cloudId>490396566810</ns1:cloudId><ns1:cloudCredentials><ns1:assetType><ns1:name>credential</ns1:name><ns1:type>application/com.servicemesh.agility.api.AssetType+xml</ns1:type></ns1:assetType><ns1:credentialType>SSH</ns1:credentialType><ns1:publicKey>AKIAJDIHAOQBYQMK72ZQ</ns1:publicKey><ns1:privateKey>Z9mqrWK7ImNAOvD5NApGq3fdrgRaoE4vJU2fLj8H</ns1:privateKey><ns1:encrypted>true</ns1:encrypted></ns1:cloudCredentials><ns1:priceEngine><ns1:top>false</ns1:top><ns1:removable>true</ns1:removable></ns1:priceEngine></ns1:Cloud>
+2018/02/26 10:21:50 response Status: 202 Accepted
+2018/02/26 10:21:50 response Headers: map[Server:[nginx/1.9.1] Set-Cookie:[route=9d816d1cd0adb76a3639574c1c560c30; Path=/; Secure JSESSIONID=fxtxednbijqm1sfids6p5xjxf; Path=/agility; Secure] Expires:[Thu, 01 Jan 1970 00:00:00 GMT] Location:[<https://13.59.148.29/agility/api/v3.2/cloud/13>; rel="self"; type="application/com.servicemesh.agility.api.Cloud+xml"; name="AWS-DEMO-1"] Date:[Mon, 26 Feb 2018 10:21:50 GMT] Content-Type:[application/xml] Content-Length:[4129] Connection:[keep-alive]]
+2018/02/26 10:21:50 response Body: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns1:Cloud xmlns:ns1="http://servicemesh.com/agility/api"><ns1:name>AWS-DEMO-1</ns1:name><ns1:id>13</ns1:id><ns1:description>Cloud provider created from terraform</ns1:description><ns1:uuid>1f5ef634-a9ef-4d90-a9f1-c24583596b27</ns1:uuid><ns1:assetType><ns1:name>cloud</ns1:name><ns1:href>https://13.59.148.29/agility/api/v3.2/assettype/127</ns1:href><ns1:id>127</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.AssetType+xml</ns1:type><ns1:position>0</ns1:position></ns1:assetType><ns1:top>false</ns1:top><ns1:assetPath>/Root</ns1:assetPath><ns1:detailedAssetPath>/Root:#ID#1:#TYPE#VMContainer</ns1:detailedAssetPath><ns1:lifecycleVersion>-1</ns1:lifecycleVersion><ns1:removable>true</ns1:removable><ns1:domain><ns1:name>domain1</ns1:name><ns1:href>https://13.59.148.29/agility/api/v3.2/domain/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Domain+xml</ns1:type><ns1:position>0</ns1:position></ns1:domain><ns1:creator><ns1:name>admin</ns1:name><ns1:href>https://13.59.148.29/agility/api/v3.2/user/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.User+xml</ns1:type><ns1:position>0</ns1:position></ns1:creator><ns1:created>2018-02-26T04:21:49.584-06:00</ns1:created><ns1:lockType>0</ns1:lockType><ns1:lastModified>2018-02-26T04:21:49.594-06:00</ns1:lastModified><ns1:parent><ns1:name>Root</ns1:name><ns1:href>https://13.59.148.29/agility/api/v3.2/container/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Container+xml</ns1:type><ns1:position>0</ns1:position></ns1:parent><ns1:cloudType><ns1:name>Amazon EC2 Cloud</ns1:name><ns1:href>https://13.59.148.29/agility/api/v3.2/cloudtype/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.CloudType+xml</ns1:type><ns1:position>0</ns1:position></ns1:cloudType><ns1:hostname>ec2.us-east-1.amazonaws.com</ns1:hostname><ns1:cloudCredentials><ns1:id>69</ns1:id><ns1:uuid>e3adcf72-9b5d-4d5d-8dca-d2f3dc326807</ns1:uuid><ns1:assetType><ns1:name>credential</ns1:name><ns1:href>assettype/302</ns1:href><ns1:id>302</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.AssetType+xml</ns1:type><ns1:position>0</ns1:position></ns1:assetType><ns1:top>false</ns1:top><ns1:assetPath>/Root</ns1:assetPath><ns1:detailedAssetPath>/Root:#ID#1:#TYPE#VMContainer</ns1:detailedAssetPath><ns1:lifecycleVersion>-1</ns1:lifecycleVersion><ns1:removable>true</ns1:removable><ns1:domain><ns1:name>domain1</ns1:name><ns1:href>domain/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Domain+xml</ns1:type><ns1:position>0</ns1:position></ns1:domain><ns1:creator><ns1:name>admin</ns1:name><ns1:href>user/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.User+xml</ns1:type><ns1:position>0</ns1:position></ns1:creator><ns1:created>2018-02-26T04:21:49.597-06:00</ns1:created><ns1:lockType>0</ns1:lockType><ns1:lastModified>2018-02-26T04:21:49.600-06:00</ns1:lastModified><ns1:parent><ns1:name>Root</ns1:name><ns1:href>container/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Container+xml</ns1:type><ns1:position>0</ns1:position></ns1:parent><ns1:credentialType>SSH</ns1:credentialType><ns1:publicKey>50da44990be6f4f4831f1b710fe6bb05b6ed8ac87243ae759ecf5dd417d4d7c0</ns1:publicKey><ns1:privateKey>0f616ec901384aee14d401da56a3271cb14492ce364743a799159e592746b74fdd8b5ad2bd5db170d1bdf19473ce6d99</ns1:privateKey><ns1:encrypted>true</ns1:encrypted></ns1:cloudCredentials><ns1:enabled>true</ns1:enabled><ns1:cloudId>490396566810</ns1:cloudId><ns1:priceEngine><ns1:id>13</ns1:id><ns1:uuid>6436f0ea-30b8-49be-9955-467920d37fb8</ns1:uuid><ns1:top>false</ns1:top><ns1:assetPath></ns1:assetPath><ns1:detailedAssetPath></ns1:detailedAssetPath><ns1:lifecycleVersion>-1</ns1:lifecycleVersion><ns1:removable>true</ns1:removable></ns1:priceEngine></ns1:Cloud>
+2018/02/26 10:21:50 the Cloud name is:  AWS-DEMO-1
+2018/02/26 10:21:50 cloudName is:  AWS-DEMO-1
+2018/02/26 10:21:50 URL:> https://13.59.148.29/agility/api/v3.2/cloud
+2018/02/26 10:21:53 response Status: 200 OK
+2018/02/26 10:21:53 response Headers: map[Content-Type:[application/xml] Connection:[keep-alive] Server:[nginx/1.9.1] Date:[Mon, 26 Feb 2018 10:21:52 GMT] Content-Length:[654] Set-Cookie:[route=5125780f4c6970b8f44e19d648cb2d3a; Path=/; Secure JSESSIONID=1xsw5f58ujy689fxrpomhhhkm; Path=/agility; Secure] Expires:[Thu, 01 Jan 1970 00:00:00 GMT]]
+2018/02/26 10:21:53 response Body: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns1:Linklist xmlns:ns1="http://servicemesh.com/agility/api"><ns1:link><ns1:name>AWS_Singapore</ns1:name><ns1:href>https://13.59.148.29/agility/api/v3.2/cloud/5</ns1:href><ns1:id>5</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Cloud+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>AWS-DEMO-1</ns1:name><ns1:href>https://13.59.148.29/agility/api/v3.2/cloud/13</ns1:href><ns1:id>13</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Cloud+xml</ns1:type><ns1:position>0</ns1:position></ns1:link></ns1:Linklist>
+2018/02/26 10:21:53 Element name is :  Linklist
+2018/02/26 10:21:53 Element name is :  link
+2018/02/26 10:21:53 Element value is : AWS_Singapore
+2018/02/26 10:21:53 Unknown Element name is :  link
+2018/02/26 10:21:53 Element name is :  link
+2018/02/26 10:21:53 Element value is : AWS-DEMO-1
+2018/02/26 10:21:53 Found the Cloud :  AWS-DEMO-1
+2018/02/26 10:21:53 the cloudid is:  13
+2018/02/26 10:21:53 URL:> https://13.59.148.29/agility/api/v3.2/cloud/13/resync
+2018/02/26 10:21:55 response Status: 202 Accepted
+2018/02/26 10:21:55 response Headers: map[Server:[nginx/1.9.1] Date:[Mon, 26 Feb 2018 10:21:55 GMT] Content-Length:[563] Connection:[keep-alive] Location:[<https://13.59.148.29/agility/api/v3.2/task/1070>; rel="self"; type="application/com.servicemesh.agility.api.Task+xml"; name="Synchronizing 'AWS-DEMO-1'"] Content-Type:[application/xml] Set-Cookie:[route=3458da5eed700ff895648758a0272a08; Path=/; Secure JSESSIONID=19elghiuafh1wg8070n0w0pth; Path=/agility; Secure] Expires:[Thu, 01 Jan 1970 00:00:00 GMT]]
+2018/02/26 10:21:55 response Body: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns1:Task xmlns:ns1="http://servicemesh.com/agility/api"><ns1:id>1070</ns1:id><ns1:name>Synchronizing 'AWS-DEMO-1'</ns1:name><ns1:type>VMCloudSync</ns1:type><ns1:status>Pending</ns1:status><ns1:startedTime>2018-02-26T04:21:53.831-06:00</ns1:startedTime><ns1:user>admin</ns1:user><ns1:completed>false</ns1:completed><ns1:cancelled>false</ns1:cancelled><ns1:visible>true</ns1:visible><ns1:progress>-1</ns1:progress><ns1:hasDependency>false</ns1:hasDependency><ns1:cancellable>false</ns1:cancellable></ns1:Task>
+2018/02/26 10:21:55 URL:> https://13.59.148.29/agility/api/v3.2/cloud/
+2018/02/26 10:21:55 Payload=====> <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns1:Cloud xmlns:ns1="http://servicemesh.com/agility/api"><ns1:name>AWS-DEMO-2</ns1:name><ns1:description>Cloud provider created from terraform</ns1:description><ns1:cloudType><ns1:name>Amazon EC2 Cloud</ns1:name><ns1:type>application/com.servicemesh.agility.api.CloudType+xml</ns1:type></ns1:cloudType><ns1:hostname>ec2.us-east-1.amazonaws.com</ns1:hostname><ns1:enabled>true</ns1:enabled><ns1:cloudId>490396566810</ns1:cloudId><ns1:cloudCredentials><ns1:assetType><ns1:name>credential</ns1:name><ns1:type>application/com.servicemesh.agility.api.AssetType+xml</ns1:type></ns1:assetType><ns1:credentialType>SSH</ns1:credentialType><ns1:publicKey>AKIAJDIHAOQBYQMK72ZQ</ns1:publicKey><ns1:privateKey>Z9mqrWK7ImNAOvD5NApGq3fdrgRaoE4vJU2fLj8H</ns1:privateKey><ns1:encrypted>true</ns1:encrypted></ns1:cloudCredentials><ns1:priceEngine><ns1:top>false</ns1:top><ns1:removable>true</ns1:removable></ns1:priceEngine></ns1:Cloud>
+2018/02/26 10:21:56 response Status: 202 Accepted
+2018/02/26 10:21:56 response Headers: map[Server:[nginx/1.9.1] Content-Type:[application/xml] Content-Length:[4129] Set-Cookie:[route=9d816d1cd0adb76a3639574c1c560c30; Path=/; Secure JSESSIONID=i6b4dtrm29qjpbl6lc3kud7k; Path=/agility; Secure] Location:[<https://13.59.148.29/agility/api/v3.2/cloud/20>; rel="self"; type="application/com.servicemesh.agility.api.Cloud+xml"; name="AWS-DEMO-2"] Date:[Mon, 26 Feb 2018 10:21:56 GMT] Connection:[keep-alive] Expires:[Thu, 01 Jan 1970 00:00:00 GMT]]
+2018/02/26 10:21:56 response Body: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns1:Cloud xmlns:ns1="http://servicemesh.com/agility/api"><ns1:name>AWS-DEMO-2</ns1:name><ns1:id>20</ns1:id><ns1:description>Cloud provider created from terraform</ns1:description><ns1:uuid>5ca80ad2-9ce5-4d96-81b9-e32cc0b42b0b</ns1:uuid><ns1:assetType><ns1:name>cloud</ns1:name><ns1:href>https://13.59.148.29/agility/api/v3.2/assettype/127</ns1:href><ns1:id>127</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.AssetType+xml</ns1:type><ns1:position>0</ns1:position></ns1:assetType><ns1:top>false</ns1:top><ns1:assetPath>/Root</ns1:assetPath><ns1:detailedAssetPath>/Root:#ID#1:#TYPE#VMContainer</ns1:detailedAssetPath><ns1:lifecycleVersion>-1</ns1:lifecycleVersion><ns1:removable>true</ns1:removable><ns1:domain><ns1:name>domain1</ns1:name><ns1:href>https://13.59.148.29/agility/api/v3.2/domain/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Domain+xml</ns1:type><ns1:position>0</ns1:position></ns1:domain><ns1:creator><ns1:name>admin</ns1:name><ns1:href>https://13.59.148.29/agility/api/v3.2/user/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.User+xml</ns1:type><ns1:position>0</ns1:position></ns1:creator><ns1:created>2018-02-26T04:21:56.489-06:00</ns1:created><ns1:lockType>0</ns1:lockType><ns1:lastModified>2018-02-26T04:21:56.499-06:00</ns1:lastModified><ns1:parent><ns1:name>Root</ns1:name><ns1:href>https://13.59.148.29/agility/api/v3.2/container/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Container+xml</ns1:type><ns1:position>0</ns1:position></ns1:parent><ns1:cloudType><ns1:name>Amazon EC2 Cloud</ns1:name><ns1:href>https://13.59.148.29/agility/api/v3.2/cloudtype/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.CloudType+xml</ns1:type><ns1:position>0</ns1:position></ns1:cloudType><ns1:hostname>ec2.us-east-1.amazonaws.com</ns1:hostname><ns1:cloudCredentials><ns1:id>76</ns1:id><ns1:uuid>8e6c75d3-003a-4d74-bb94-822247df2bb5</ns1:uuid><ns1:assetType><ns1:name>credential</ns1:name><ns1:href>assettype/302</ns1:href><ns1:id>302</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.AssetType+xml</ns1:type><ns1:position>0</ns1:position></ns1:assetType><ns1:top>false</ns1:top><ns1:assetPath>/Root</ns1:assetPath><ns1:detailedAssetPath>/Root:#ID#1:#TYPE#VMContainer</ns1:detailedAssetPath><ns1:lifecycleVersion>-1</ns1:lifecycleVersion><ns1:removable>true</ns1:removable><ns1:domain><ns1:name>domain1</ns1:name><ns1:href>domain/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Domain+xml</ns1:type><ns1:position>0</ns1:position></ns1:domain><ns1:creator><ns1:name>admin</ns1:name><ns1:href>user/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.User+xml</ns1:type><ns1:position>0</ns1:position></ns1:creator><ns1:created>2018-02-26T04:21:56.500-06:00</ns1:created><ns1:lockType>0</ns1:lockType><ns1:lastModified>2018-02-26T04:21:56.503-06:00</ns1:lastModified><ns1:parent><ns1:name>Root</ns1:name><ns1:href>container/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Container+xml</ns1:type><ns1:position>0</ns1:position></ns1:parent><ns1:credentialType>SSH</ns1:credentialType><ns1:publicKey>50da44990be6f4f4831f1b710fe6bb05b6ed8ac87243ae759ecf5dd417d4d7c0</ns1:publicKey><ns1:privateKey>0f616ec901384aee14d401da56a3271cb14492ce364743a799159e592746b74fdd8b5ad2bd5db170d1bdf19473ce6d99</ns1:privateKey><ns1:encrypted>true</ns1:encrypted></ns1:cloudCredentials><ns1:enabled>true</ns1:enabled><ns1:cloudId>490396566810</ns1:cloudId><ns1:priceEngine><ns1:id>20</ns1:id><ns1:uuid>b1859af5-4d09-4bf9-90fd-79a2b1d012fe</ns1:uuid><ns1:top>false</ns1:top><ns1:assetPath></ns1:assetPath><ns1:detailedAssetPath></ns1:detailedAssetPath><ns1:lifecycleVersion>-1</ns1:lifecycleVersion><ns1:removable>true</ns1:removable></ns1:priceEngine></ns1:Cloud>
+2018/02/26 10:21:56 the Cloud name is:  AWS-DEMO-2
+2018/02/26 10:21:56 cloudName is:  AWS-DEMO-2
+2018/02/26 10:21:56 URL:> https://13.59.148.29/agility/api/v3.2/cloud
+2018/02/26 10:21:57 response Status: 200 OK
+2018/02/26 10:21:57 response Headers: map[Server:[nginx/1.9.1] Date:[Mon, 26 Feb 2018 10:21:57 GMT] Content-Length:[915] Connection:[keep-alive] Set-Cookie:[route=5125780f4c6970b8f44e19d648cb2d3a; Path=/; Secure JSESSIONID=91bgokit2tkz1d67erhytqc09; Path=/agility; Secure] Expires:[Thu, 01 Jan 1970 00:00:00 GMT] Content-Type:[application/xml]]
+2018/02/26 10:21:57 response Body: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns1:Linklist xmlns:ns1="http://servicemesh.com/agility/api"><ns1:link><ns1:name>AWS-DEMO-2</ns1:name><ns1:href>https://13.59.148.29/agility/api/v3.2/cloud/20</ns1:href><ns1:id>20</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Cloud+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>AWS_Singapore</ns1:name><ns1:href>https://13.59.148.29/agility/api/v3.2/cloud/5</ns1:href><ns1:id>5</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Cloud+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>AWS-DEMO-1</ns1:name><ns1:href>https://13.59.148.29/agility/api/v3.2/cloud/13</ns1:href><ns1:id>13</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Cloud+xml</ns1:type><ns1:position>0</ns1:position></ns1:link></ns1:Linklist>
+2018/02/26 10:21:57 Element name is :  Linklist
+2018/02/26 10:21:57 Element name is :  link
+2018/02/26 10:21:57 Element value is : AWS-DEMO-2
+2018/02/26 10:21:57 Found the Cloud :  AWS-DEMO-2
+2018/02/26 10:21:57 the cloudid is:  20
+2018/02/26 10:21:57 URL:> https://13.59.148.29/agility/api/v3.2/cloud/20/resync
+2018/02/26 10:21:58 response Status: 202 Accepted
+2018/02/26 10:21:58 response Headers: map[Content-Length:[563] Connection:[keep-alive] Set-Cookie:[route=3458da5eed700ff895648758a0272a08; Path=/; Secure JSESSIONID=1qdlodqt6ahc0dph8q4xrnk0n; Path=/agility; Secure] Date:[Mon, 26 Feb 2018 10:21:58 GMT] Content-Type:[application/xml] Expires:[Thu, 01 Jan 1970 00:00:00 GMT] Location:[<https://13.59.148.29/agility/api/v3.2/task/1077>; rel="self"; type="application/com.servicemesh.agility.api.Task+xml"; name="Synchronizing 'AWS-DEMO-2'"] Server:[nginx/1.9.1]]
+2018/02/26 10:21:58 response Body: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns1:Task xmlns:ns1="http://servicemesh.com/agility/api"><ns1:id>1077</ns1:id><ns1:name>Synchronizing 'AWS-DEMO-2'</ns1:name><ns1:type>VMCloudSync</ns1:type><ns1:status>Pending</ns1:status><ns1:startedTime>2018-02-26T04:21:58.552-06:00</ns1:startedTime><ns1:user>admin</ns1:user><ns1:completed>false</ns1:completed><ns1:cancelled>false</ns1:cancelled><ns1:visible>true</ns1:visible><ns1:progress>-1</ns1:progress><ns1:hasDependency>false</ns1:hasDependency><ns1:cancellable>false</ns1:cancellable></ns1:Task>
+2018/02/26 10:34:48 URL:> https://13.59.148.29/agility/api/v3.2/cloud/
+2018/02/26 10:34:48 Payload=====> <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns1:Cloud xmlns:ns1="http://servicemesh.com/agility/api"><ns1:name>AWS-DEMO-CLOUD</ns1:name><ns1:description>Cloud provider created from terraform</ns1:description><ns1:cloudType><ns1:name>Amazon EC2 Cloud</ns1:name><ns1:type>application/com.servicemesh.agility.api.CloudType+xml</ns1:type></ns1:cloudType><ns1:hostname>ec2.us-east-1.amazonaws.com</ns1:hostname><ns1:enabled>true</ns1:enabled><ns1:cloudId>490396566810</ns1:cloudId><ns1:cloudCredentials><ns1:assetType><ns1:name>credential</ns1:name><ns1:type>application/com.servicemesh.agility.api.AssetType+xml</ns1:type></ns1:assetType><ns1:credentialType>SSH</ns1:credentialType><ns1:publicKey>AKIAJDIHAOQBYQMK72ZQ</ns1:publicKey><ns1:privateKey>Z9mqrWK7ImNAOvD5NApGq3fdrgRaoE4vJU2fLj8H</ns1:privateKey><ns1:encrypted>true</ns1:encrypted></ns1:cloudCredentials><ns1:priceEngine><ns1:top>false</ns1:top><ns1:removable>true</ns1:removable></ns1:priceEngine></ns1:Cloud>
+2018/02/26 10:34:49 response Status: 202 Accepted
+2018/02/26 10:34:49 response Headers: map[Server:[nginx/1.9.1] Date:[Mon, 26 Feb 2018 10:34:49 GMT] Content-Length:[4133] Connection:[keep-alive] Set-Cookie:[route=9d816d1cd0adb76a3639574c1c560c30; Path=/; Secure JSESSIONID=dx4l012n654mfd5dm9i08irc; Path=/agility; Secure] Expires:[Thu, 01 Jan 1970 00:00:00 GMT] Location:[<https://13.59.148.29/agility/api/v3.2/cloud/27>; rel="self"; type="application/com.servicemesh.agility.api.Cloud+xml"; name="AWS-DEMO-CLOUD"] Content-Type:[application/xml]]
+2018/02/26 10:34:49 response Body: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns1:Cloud xmlns:ns1="http://servicemesh.com/agility/api"><ns1:name>AWS-DEMO-CLOUD</ns1:name><ns1:id>27</ns1:id><ns1:description>Cloud provider created from terraform</ns1:description><ns1:uuid>292aebd2-6eb5-4d54-b124-383d5a48b5f0</ns1:uuid><ns1:assetType><ns1:name>cloud</ns1:name><ns1:href>https://13.59.148.29/agility/api/v3.2/assettype/127</ns1:href><ns1:id>127</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.AssetType+xml</ns1:type><ns1:position>0</ns1:position></ns1:assetType><ns1:top>false</ns1:top><ns1:assetPath>/Root</ns1:assetPath><ns1:detailedAssetPath>/Root:#ID#1:#TYPE#VMContainer</ns1:detailedAssetPath><ns1:lifecycleVersion>-1</ns1:lifecycleVersion><ns1:removable>true</ns1:removable><ns1:domain><ns1:name>domain1</ns1:name><ns1:href>https://13.59.148.29/agility/api/v3.2/domain/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Domain+xml</ns1:type><ns1:position>0</ns1:position></ns1:domain><ns1:creator><ns1:name>admin</ns1:name><ns1:href>https://13.59.148.29/agility/api/v3.2/user/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.User+xml</ns1:type><ns1:position>0</ns1:position></ns1:creator><ns1:created>2018-02-26T04:34:49.384-06:00</ns1:created><ns1:lockType>0</ns1:lockType><ns1:lastModified>2018-02-26T04:34:49.395-06:00</ns1:lastModified><ns1:parent><ns1:name>Root</ns1:name><ns1:href>https://13.59.148.29/agility/api/v3.2/container/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Container+xml</ns1:type><ns1:position>0</ns1:position></ns1:parent><ns1:cloudType><ns1:name>Amazon EC2 Cloud</ns1:name><ns1:href>https://13.59.148.29/agility/api/v3.2/cloudtype/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.CloudType+xml</ns1:type><ns1:position>0</ns1:position></ns1:cloudType><ns1:hostname>ec2.us-east-1.amazonaws.com</ns1:hostname><ns1:cloudCredentials><ns1:id>83</ns1:id><ns1:uuid>143686fe-7d4f-4a0b-96d2-773e766ffb82</ns1:uuid><ns1:assetType><ns1:name>credential</ns1:name><ns1:href>assettype/302</ns1:href><ns1:id>302</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.AssetType+xml</ns1:type><ns1:position>0</ns1:position></ns1:assetType><ns1:top>false</ns1:top><ns1:assetPath>/Root</ns1:assetPath><ns1:detailedAssetPath>/Root:#ID#1:#TYPE#VMContainer</ns1:detailedAssetPath><ns1:lifecycleVersion>-1</ns1:lifecycleVersion><ns1:removable>true</ns1:removable><ns1:domain><ns1:name>domain1</ns1:name><ns1:href>domain/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Domain+xml</ns1:type><ns1:position>0</ns1:position></ns1:domain><ns1:creator><ns1:name>admin</ns1:name><ns1:href>user/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.User+xml</ns1:type><ns1:position>0</ns1:position></ns1:creator><ns1:created>2018-02-26T04:34:49.396-06:00</ns1:created><ns1:lockType>0</ns1:lockType><ns1:lastModified>2018-02-26T04:34:49.399-06:00</ns1:lastModified><ns1:parent><ns1:name>Root</ns1:name><ns1:href>container/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Container+xml</ns1:type><ns1:position>0</ns1:position></ns1:parent><ns1:credentialType>SSH</ns1:credentialType><ns1:publicKey>50da44990be6f4f4831f1b710fe6bb05b6ed8ac87243ae759ecf5dd417d4d7c0</ns1:publicKey><ns1:privateKey>0f616ec901384aee14d401da56a3271cb14492ce364743a799159e592746b74fdd8b5ad2bd5db170d1bdf19473ce6d99</ns1:privateKey><ns1:encrypted>true</ns1:encrypted></ns1:cloudCredentials><ns1:enabled>true</ns1:enabled><ns1:cloudId>490396566810</ns1:cloudId><ns1:priceEngine><ns1:id>27</ns1:id><ns1:uuid>93dc4c47-0ca1-46d7-8242-a645eb4c47e5</ns1:uuid><ns1:top>false</ns1:top><ns1:assetPath></ns1:assetPath><ns1:detailedAssetPath></ns1:detailedAssetPath><ns1:lifecycleVersion>-1</ns1:lifecycleVersion><ns1:removable>true</ns1:removable></ns1:priceEngine></ns1:Cloud>
+2018/02/26 10:34:49 the Cloud name is:  AWS-DEMO-CLOUD
+2018/02/26 10:34:49 cloudName is:  AWS-DEMO-CLOUD
+2018/02/26 10:34:49 URL:> https://13.59.148.29/agility/api/v3.2/cloud
+2018/02/26 10:34:51 response Status: 200 OK
+2018/02/26 10:34:51 response Headers: map[Content-Type:[application/xml] Content-Length:[658] Connection:[keep-alive] Date:[Mon, 26 Feb 2018 10:34:50 GMT] Set-Cookie:[route=5125780f4c6970b8f44e19d648cb2d3a; Path=/; Secure JSESSIONID=1v1rjcrfxy3zy189xp1snstu8c; Path=/agility; Secure] Expires:[Thu, 01 Jan 1970 00:00:00 GMT] Server:[nginx/1.9.1]]
+2018/02/26 10:34:51 response Body: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns1:Linklist xmlns:ns1="http://servicemesh.com/agility/api"><ns1:link><ns1:name>AWS_Singapore</ns1:name><ns1:href>https://13.59.148.29/agility/api/v3.2/cloud/5</ns1:href><ns1:id>5</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Cloud+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>AWS-DEMO-CLOUD</ns1:name><ns1:href>https://13.59.148.29/agility/api/v3.2/cloud/27</ns1:href><ns1:id>27</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Cloud+xml</ns1:type><ns1:position>0</ns1:position></ns1:link></ns1:Linklist>
+2018/02/26 10:34:51 Element name is :  Linklist
+2018/02/26 10:34:51 Element name is :  link
+2018/02/26 10:34:51 Element value is : AWS_Singapore
+2018/02/26 10:34:51 Unknown Element name is :  link
+2018/02/26 10:34:51 Element name is :  link
+2018/02/26 10:34:51 Element value is : AWS-DEMO-CLOUD
+2018/02/26 10:34:51 Found the Cloud :  AWS-DEMO-CLOUD
+2018/02/26 10:34:51 the cloudid is:  27
+2018/02/26 10:34:51 URL:> https://13.59.148.29/agility/api/v3.2/cloud/27/resync
+2018/02/26 10:34:51 response Status: 202 Accepted
+2018/02/26 10:34:51 response Headers: map[Expires:[Thu, 01 Jan 1970 00:00:00 GMT] Server:[nginx/1.9.1] Date:[Mon, 26 Feb 2018 10:34:51 GMT] Content-Type:[application/xml] Connection:[keep-alive] Set-Cookie:[route=3458da5eed700ff895648758a0272a08; Path=/; Secure JSESSIONID=iow73gn6x6yur8lpho6s57wp; Path=/agility; Secure] Content-Length:[567] Location:[<https://13.59.148.29/agility/api/v3.2/task/1098>; rel="self"; type="application/com.servicemesh.agility.api.Task+xml"; name="Synchronizing 'AWS-DEMO-CLOUD'"]]
+2018/02/26 10:34:51 response Body: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns1:Task xmlns:ns1="http://servicemesh.com/agility/api"><ns1:id>1098</ns1:id><ns1:name>Synchronizing 'AWS-DEMO-CLOUD'</ns1:name><ns1:type>VMCloudSync</ns1:type><ns1:status>Pending</ns1:status><ns1:startedTime>2018-02-26T04:34:51.744-06:00</ns1:startedTime><ns1:user>admin</ns1:user><ns1:completed>false</ns1:completed><ns1:cancelled>false</ns1:cancelled><ns1:visible>true</ns1:visible><ns1:progress>-1</ns1:progress><ns1:hasDependency>false</ns1:hasDependency><ns1:cancellable>false</ns1:cancellable></ns1:Task>
+2018/02/26 10:35:41 URL:> https://13.59.148.29/agility/api/v3.2/cloud/
+2018/02/26 10:35:41 Payload=====> <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns1:Cloud xmlns:ns1="http://servicemesh.com/agility/api"><ns1:name>AWS-DEMO-CLOUD</ns1:name><ns1:description>Cloud provider created from terraform</ns1:description><ns1:cloudType><ns1:name>Amazon EC2 Cloud</ns1:name><ns1:type>application/com.servicemesh.agility.api.CloudType+xml</ns1:type></ns1:cloudType><ns1:hostname>ec2.us-east-1.amazonaws.com</ns1:hostname><ns1:enabled>true</ns1:enabled><ns1:cloudId>490396566810</ns1:cloudId><ns1:cloudCredentials><ns1:assetType><ns1:name>credential</ns1:name><ns1:type>application/com.servicemesh.agility.api.AssetType+xml</ns1:type></ns1:assetType><ns1:credentialType>SSH</ns1:credentialType><ns1:publicKey>AKIAJDIHAOQBYQMK72ZQ</ns1:publicKey><ns1:privateKey>Z9mqrWK7ImNAOvD5NApGq3fdrgRaoE4vJU2fLj8H</ns1:privateKey><ns1:encrypted>true</ns1:encrypted></ns1:cloudCredentials><ns1:priceEngine><ns1:top>false</ns1:top><ns1:removable>true</ns1:removable></ns1:priceEngine></ns1:Cloud>
+2018/02/26 10:35:42 response Status: 202 Accepted
+2018/02/26 10:35:42 response Headers: map[Server:[nginx/1.9.1] Content-Type:[application/xml] Location:[<https://13.59.148.29/agility/api/v3.2/cloud/34>; rel="self"; type="application/com.servicemesh.agility.api.Cloud+xml"; name="AWS-DEMO-CLOUD"] Set-Cookie:[route=9d816d1cd0adb76a3639574c1c560c30; Path=/; Secure JSESSIONID=19lt5zv3a8tm51ouyh01aqf6mt; Path=/agility; Secure] Expires:[Thu, 01 Jan 1970 00:00:00 GMT] Date:[Mon, 26 Feb 2018 10:35:42 GMT] Content-Length:[4133] Connection:[keep-alive]]
+2018/02/26 10:35:42 response Body: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns1:Cloud xmlns:ns1="http://servicemesh.com/agility/api"><ns1:name>AWS-DEMO-CLOUD</ns1:name><ns1:id>34</ns1:id><ns1:description>Cloud provider created from terraform</ns1:description><ns1:uuid>d1b84bbe-3ed3-40f0-b16b-adfb243b94ed</ns1:uuid><ns1:assetType><ns1:name>cloud</ns1:name><ns1:href>https://13.59.148.29/agility/api/v3.2/assettype/127</ns1:href><ns1:id>127</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.AssetType+xml</ns1:type><ns1:position>0</ns1:position></ns1:assetType><ns1:top>false</ns1:top><ns1:assetPath>/Root</ns1:assetPath><ns1:detailedAssetPath>/Root:#ID#1:#TYPE#VMContainer</ns1:detailedAssetPath><ns1:lifecycleVersion>-1</ns1:lifecycleVersion><ns1:removable>true</ns1:removable><ns1:domain><ns1:name>domain1</ns1:name><ns1:href>https://13.59.148.29/agility/api/v3.2/domain/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Domain+xml</ns1:type><ns1:position>0</ns1:position></ns1:domain><ns1:creator><ns1:name>admin</ns1:name><ns1:href>https://13.59.148.29/agility/api/v3.2/user/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.User+xml</ns1:type><ns1:position>0</ns1:position></ns1:creator><ns1:created>2018-02-26T04:35:42.226-06:00</ns1:created><ns1:lockType>0</ns1:lockType><ns1:lastModified>2018-02-26T04:35:42.237-06:00</ns1:lastModified><ns1:parent><ns1:name>Root</ns1:name><ns1:href>https://13.59.148.29/agility/api/v3.2/container/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Container+xml</ns1:type><ns1:position>0</ns1:position></ns1:parent><ns1:cloudType><ns1:name>Amazon EC2 Cloud</ns1:name><ns1:href>https://13.59.148.29/agility/api/v3.2/cloudtype/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.CloudType+xml</ns1:type><ns1:position>0</ns1:position></ns1:cloudType><ns1:hostname>ec2.us-east-1.amazonaws.com</ns1:hostname><ns1:cloudCredentials><ns1:id>90</ns1:id><ns1:uuid>56f650c0-e7c6-441d-bb7c-a4d30363f7bc</ns1:uuid><ns1:assetType><ns1:name>credential</ns1:name><ns1:href>assettype/302</ns1:href><ns1:id>302</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.AssetType+xml</ns1:type><ns1:position>0</ns1:position></ns1:assetType><ns1:top>false</ns1:top><ns1:assetPath>/Root</ns1:assetPath><ns1:detailedAssetPath>/Root:#ID#1:#TYPE#VMContainer</ns1:detailedAssetPath><ns1:lifecycleVersion>-1</ns1:lifecycleVersion><ns1:removable>true</ns1:removable><ns1:domain><ns1:name>domain1</ns1:name><ns1:href>domain/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Domain+xml</ns1:type><ns1:position>0</ns1:position></ns1:domain><ns1:creator><ns1:name>admin</ns1:name><ns1:href>user/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.User+xml</ns1:type><ns1:position>0</ns1:position></ns1:creator><ns1:created>2018-02-26T04:35:42.238-06:00</ns1:created><ns1:lockType>0</ns1:lockType><ns1:lastModified>2018-02-26T04:35:42.240-06:00</ns1:lastModified><ns1:parent><ns1:name>Root</ns1:name><ns1:href>container/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Container+xml</ns1:type><ns1:position>0</ns1:position></ns1:parent><ns1:credentialType>SSH</ns1:credentialType><ns1:publicKey>50da44990be6f4f4831f1b710fe6bb05b6ed8ac87243ae759ecf5dd417d4d7c0</ns1:publicKey><ns1:privateKey>0f616ec901384aee14d401da56a3271cb14492ce364743a799159e592746b74fdd8b5ad2bd5db170d1bdf19473ce6d99</ns1:privateKey><ns1:encrypted>true</ns1:encrypted></ns1:cloudCredentials><ns1:enabled>true</ns1:enabled><ns1:cloudId>490396566810</ns1:cloudId><ns1:priceEngine><ns1:id>34</ns1:id><ns1:uuid>f52364ef-0227-47f4-8a63-29856c9a043a</ns1:uuid><ns1:top>false</ns1:top><ns1:assetPath></ns1:assetPath><ns1:detailedAssetPath></ns1:detailedAssetPath><ns1:lifecycleVersion>-1</ns1:lifecycleVersion><ns1:removable>true</ns1:removable></ns1:priceEngine></ns1:Cloud>
+2018/02/26 10:35:42 the Cloud name is:  AWS-DEMO-CLOUD
+2018/02/26 10:35:42 cloudName is:  AWS-DEMO-CLOUD
+2018/02/26 10:35:42 URL:> https://13.59.148.29/agility/api/v3.2/cloud
+2018/02/26 10:35:43 response Status: 200 OK
+2018/02/26 10:35:43 response Headers: map[Server:[nginx/1.9.1] Content-Length:[658] Set-Cookie:[route=5125780f4c6970b8f44e19d648cb2d3a; Path=/; Secure JSESSIONID=1odpieieqjr8p1w4v6ddmdwrko; Path=/agility; Secure] Date:[Mon, 26 Feb 2018 10:35:43 GMT] Content-Type:[application/xml] Connection:[keep-alive] Expires:[Thu, 01 Jan 1970 00:00:00 GMT]]
+2018/02/26 10:35:43 response Body: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns1:Linklist xmlns:ns1="http://servicemesh.com/agility/api"><ns1:link><ns1:name>AWS-DEMO-CLOUD</ns1:name><ns1:href>https://13.59.148.29/agility/api/v3.2/cloud/34</ns1:href><ns1:id>34</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Cloud+xml</ns1:type><ns1:position>0</ns1:position></ns1:link><ns1:link><ns1:name>AWS_Singapore</ns1:name><ns1:href>https://13.59.148.29/agility/api/v3.2/cloud/5</ns1:href><ns1:id>5</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Cloud+xml</ns1:type><ns1:position>0</ns1:position></ns1:link></ns1:Linklist>
+2018/02/26 10:35:43 Element name is :  Linklist
+2018/02/26 10:35:43 Element name is :  link
+2018/02/26 10:35:43 Element value is : AWS-DEMO-CLOUD
+2018/02/26 10:35:43 Found the Cloud :  AWS-DEMO-CLOUD
+2018/02/26 10:35:43 the cloudid is:  34
+2018/02/26 10:35:43 URL:> https://13.59.148.29/agility/api/v3.2/cloud/34/resync
+2018/02/26 10:35:44 response Status: 202 Accepted
+2018/02/26 10:35:44 response Headers: map[Server:[nginx/1.9.1] Date:[Mon, 26 Feb 2018 10:35:44 GMT] Content-Type:[application/xml] Content-Length:[567] Connection:[keep-alive] Set-Cookie:[route=3458da5eed700ff895648758a0272a08; Path=/; Secure JSESSIONID=1u5wxvcjj2gn51arjd10duvq0h; Path=/agility; Secure] Expires:[Thu, 01 Jan 1970 00:00:00 GMT] Location:[<https://13.59.148.29/agility/api/v3.2/task/1112>; rel="self"; type="application/com.servicemesh.agility.api.Task+xml"; name="Synchronizing 'AWS-DEMO-CLOUD'"]]
+2018/02/26 10:35:44 response Body: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns1:Task xmlns:ns1="http://servicemesh.com/agility/api"><ns1:id>1112</ns1:id><ns1:name>Synchronizing 'AWS-DEMO-CLOUD'</ns1:name><ns1:type>VMCloudSync</ns1:type><ns1:status>Pending</ns1:status><ns1:startedTime>2018-02-26T04:35:44.167-06:00</ns1:startedTime><ns1:user>admin</ns1:user><ns1:completed>false</ns1:completed><ns1:cancelled>false</ns1:cancelled><ns1:visible>true</ns1:visible><ns1:progress>-1</ns1:progress><ns1:hasDependency>false</ns1:hasDependency><ns1:cancellable>false</ns1:cancellable></ns1:Task>
+2018/03/01 07:16:04 URL:> https://34.207.253.49/agility/api/v3.2/cloud/
+2018/03/01 07:16:04 Payload=====> <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns1:Cloud xmlns:ns1="http://servicemesh.com/agility/api"><ns1:name>Demo</ns1:name><ns1:description>Cloud provider created from terraform</ns1:description><ns1:cloudType><ns1:name>Amazon EC2 Cloud</ns1:name><ns1:type>application/com.servicemesh.agility.api.CloudType+xml</ns1:type></ns1:cloudType><ns1:hostname>ec2.us-east-1.amazonaws.com</ns1:hostname><ns1:enabled>true</ns1:enabled><ns1:cloudId>490396566810</ns1:cloudId><ns1:cloudCredentials><ns1:assetType><ns1:name>credential</ns1:name><ns1:type>application/com.servicemesh.agility.api.AssetType+xml</ns1:type></ns1:assetType><ns1:credentialType>SSH</ns1:credentialType><ns1:publicKey>AKIAIV6CSSJ7BO6FA5HA</ns1:publicKey><ns1:privateKey>5jktNH0VumuA/kkJNNHY6dYoIF/4ESkf3F9fKo2l</ns1:privateKey><ns1:encrypted>true</ns1:encrypted></ns1:cloudCredentials><ns1:priceEngine><ns1:top>false</ns1:top><ns1:removable>true</ns1:removable></ns1:priceEngine></ns1:Cloud>
+2018/03/01 07:16:07 response Status: 202 Accepted
+2018/03/01 07:16:07 response Headers: map[Server:[nginx/1.9.1] Date:[Thu, 01 Mar 2018 07:16:07 GMT] Content-Length:[4126] Expires:[Thu, 01 Jan 1970 00:00:00 GMT] Set-Cookie:[JSESSIONID=1heqw76cwrwix17ta8awxu6bxd; Path=/agility; Secure] Content-Type:[application/xml] Connection:[keep-alive] Location:[<https://34.207.253.49/agility/api/v3.2/cloud/3>; rel="self"; type="application/com.servicemesh.agility.api.Cloud+xml"; name="Demo"]]
+2018/03/01 07:16:07 response Body: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns1:Cloud xmlns:ns1="http://servicemesh.com/agility/api"><ns1:name>Demo</ns1:name><ns1:id>3</ns1:id><ns1:description>Cloud provider created from terraform</ns1:description><ns1:uuid>7de3a938-ae01-4bf9-8457-c873926e8fed</ns1:uuid><ns1:assetType><ns1:name>cloud</ns1:name><ns1:href>https://34.207.253.49/agility/api/v3.2/assettype/125</ns1:href><ns1:id>125</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.AssetType+xml</ns1:type><ns1:position>0</ns1:position></ns1:assetType><ns1:top>false</ns1:top><ns1:assetPath>/Root</ns1:assetPath><ns1:detailedAssetPath>/Root:#ID#1:#TYPE#VMContainer</ns1:detailedAssetPath><ns1:lifecycleVersion>-1</ns1:lifecycleVersion><ns1:removable>true</ns1:removable><ns1:domain><ns1:name>domain1</ns1:name><ns1:href>https://34.207.253.49/agility/api/v3.2/domain/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Domain+xml</ns1:type><ns1:position>0</ns1:position></ns1:domain><ns1:creator><ns1:name>admin</ns1:name><ns1:href>https://34.207.253.49/agility/api/v3.2/user/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.User+xml</ns1:type><ns1:position>0</ns1:position></ns1:creator><ns1:created>2018-03-01T01:16:05.492-06:00</ns1:created><ns1:lockType>0</ns1:lockType><ns1:lastModified>2018-03-01T01:16:05.500-06:00</ns1:lastModified><ns1:parent><ns1:name>Root</ns1:name><ns1:href>https://34.207.253.49/agility/api/v3.2/container/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Container+xml</ns1:type><ns1:position>0</ns1:position></ns1:parent><ns1:cloudType><ns1:name>Amazon EC2 Cloud</ns1:name><ns1:href>https://34.207.253.49/agility/api/v3.2/cloudtype/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.CloudType+xml</ns1:type><ns1:position>0</ns1:position></ns1:cloudType><ns1:hostname>ec2.us-east-1.amazonaws.com</ns1:hostname><ns1:cloudCredentials><ns1:id>12</ns1:id><ns1:uuid>f98a91e2-7152-4eae-b9f1-15bfeba72418</ns1:uuid><ns1:assetType><ns1:name>credential</ns1:name><ns1:href>assettype/300</ns1:href><ns1:id>300</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.AssetType+xml</ns1:type><ns1:position>0</ns1:position></ns1:assetType><ns1:top>false</ns1:top><ns1:assetPath>/Root</ns1:assetPath><ns1:detailedAssetPath>/Root:#ID#1:#TYPE#VMContainer</ns1:detailedAssetPath><ns1:lifecycleVersion>-1</ns1:lifecycleVersion><ns1:removable>true</ns1:removable><ns1:domain><ns1:name>domain1</ns1:name><ns1:href>domain/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Domain+xml</ns1:type><ns1:position>0</ns1:position></ns1:domain><ns1:creator><ns1:name>admin</ns1:name><ns1:href>user/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.User+xml</ns1:type><ns1:position>0</ns1:position></ns1:creator><ns1:created>2018-03-01T01:16:05.504-06:00</ns1:created><ns1:lockType>0</ns1:lockType><ns1:lastModified>2018-03-01T01:16:05.506-06:00</ns1:lastModified><ns1:parent><ns1:name>Root</ns1:name><ns1:href>container/1</ns1:href><ns1:id>1</ns1:id><ns1:rel>up</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Container+xml</ns1:type><ns1:position>0</ns1:position></ns1:parent><ns1:credentialType>SSH</ns1:credentialType><ns1:publicKey>d023a6863b45d2c193b1e183ff733b2d40f29ad1bcf82772272b3e9a9d715303</ns1:publicKey><ns1:privateKey>37f3a755e02e966d8b636532e7c42d6c3c73bcc325e0846d67a52f87e4f18274f614a99d0a6a4e0877e058abc5d6008a</ns1:privateKey><ns1:encrypted>true</ns1:encrypted></ns1:cloudCredentials><ns1:enabled>true</ns1:enabled><ns1:cloudId>490396566810</ns1:cloudId><ns1:priceEngine><ns1:id>3</ns1:id><ns1:uuid>e60af9a6-8e9a-49dd-9f09-67746c350d07</ns1:uuid><ns1:top>false</ns1:top><ns1:assetPath></ns1:assetPath><ns1:detailedAssetPath></ns1:detailedAssetPath><ns1:lifecycleVersion>-1</ns1:lifecycleVersion><ns1:removable>true</ns1:removable></ns1:priceEngine></ns1:Cloud>
+2018/03/01 07:16:07 the Cloud name is:  Demo
+2018/03/01 07:16:07 cloudName is:  Demo
+2018/03/01 07:16:07 URL:> https://34.207.253.49/agility/api/v3.2/cloud
+2018/03/01 07:16:08 response Status: 200 OK
+2018/03/01 07:16:08 response Headers: map[Server:[nginx/1.9.1] Date:[Thu, 01 Mar 2018 07:16:08 GMT] Content-Type:[application/xml] Content-Length:[385] Connection:[keep-alive] Expires:[Thu, 01 Jan 1970 00:00:00 GMT] Set-Cookie:[JSESSIONID=lxs78pblzubx1p1auaomosqjo; Path=/agility; Secure]]
+2018/03/01 07:16:08 response Body: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns1:Linklist xmlns:ns1="http://servicemesh.com/agility/api"><ns1:link><ns1:name>Demo</ns1:name><ns1:href>https://34.207.253.49/agility/api/v3.2/cloud/3</ns1:href><ns1:id>3</ns1:id><ns1:rel>self</ns1:rel><ns1:type>application/com.servicemesh.agility.api.Cloud+xml</ns1:type><ns1:position>0</ns1:position></ns1:link></ns1:Linklist>
+2018/03/01 07:16:08 Element name is :  Linklist
+2018/03/01 07:16:08 Element name is :  link
+2018/03/01 07:16:08 Element value is : Demo
+2018/03/01 07:16:08 Found the Cloud :  Demo
+2018/03/01 07:16:08 the cloudid is:  3
+2018/03/01 07:16:08 URL:> https://34.207.253.49/agility/api/v3.2/cloud/3/resync
+2018/03/01 07:16:10 response Status: 202 Accepted
+2018/03/01 07:16:10 response Headers: map[Server:[nginx/1.9.1] Date:[Thu, 01 Mar 2018 07:16:10 GMT] Expires:[Thu, 01 Jan 1970 00:00:00 GMT] Set-Cookie:[JSESSIONID=17hijmbwdmgfj1fqv0witipc36; Path=/agility; Secure] Location:[<https://34.207.253.49/agility/api/v3.2/task/19>; rel="self"; type="application/com.servicemesh.agility.api.Task+xml"; name="Synchronizing 'Demo'"] Content-Type:[application/xml] Content-Length:[555] Connection:[keep-alive]]
+2018/03/01 07:16:10 response Body: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns1:Task xmlns:ns1="http://servicemesh.com/agility/api"><ns1:id>19</ns1:id><ns1:name>Synchronizing 'Demo'</ns1:name><ns1:type>VMCloudSync</ns1:type><ns1:status>Pending</ns1:status><ns1:startedTime>2018-03-01T01:16:09.788-06:00</ns1:startedTime><ns1:user>admin</ns1:user><ns1:completed>false</ns1:completed><ns1:cancelled>false</ns1:cancelled><ns1:visible>true</ns1:visible><ns1:progress>-1</ns1:progress><ns1:hasDependency>false</ns1:hasDependency><ns1:cancellable>false</ns1:cancellable></ns1:Task>
